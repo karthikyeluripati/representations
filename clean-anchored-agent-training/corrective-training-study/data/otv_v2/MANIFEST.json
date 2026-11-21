@@ -1,0 +1,40 @@
+{
+ "version": "otv_v2",
+ "train_classes": [
+  "TravelAPI",
+  "TradingBot",
+  "TwitterAPI",
+  "TicketAPI"
+ ],
+ "train_msgs": [
+  "explicit",
+  "train1",
+  "train2"
+ ],
+ "pairs_plain.jsonl": {
+  "n_pairs": 544,
+  "counts": {
+   "otv_a:retry": 102,
+   "otv_a:skip": 102,
+   "otv_a:escalate": 102,
+   "otv_b:post_ACa": 102,
+   "otv_b:post_ACl": 102,
+   "otv_s1:escalate": 34
+  },
+  "evidence": false,
+  "sha256": "650baca155af093b531aaf25bba82070b1e106782cfcb8fb9ffae9d69d4d1d43"
+ },
+ "pairs_evidence.jsonl": {
+  "n_pairs": 544,
+  "counts": {
+   "otv_a:retry": 102,
+   "otv_a:skip": 102,
+   "otv_a:escalate": 102,
+   "otv_b:post_ACa": 102,
+   "otv_b:post_ACl": 102,
+   "otv_s1:escalate": 34
+  },
+  "evidence": true,
+  "sha256": "d98aebe8c2e3e2bc3fab4dd5f98bb17189fe443e6d50d4b55a8dbae15ca5608d"
+ }
+}

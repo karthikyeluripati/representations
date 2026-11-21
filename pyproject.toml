@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dare"
+version = "0.0.1"
+description = "Decision-Aware Representations for Exploration (research harness)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pyyaml",
+    "scipy",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+# ALFWorld/TextWorld have no native-Windows wheels; run under Linux/WSL.
+env = ["alfworld==0.4.2"]
+lm = ["torch", "transformers>=4.45,<5"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,25 @@
+model:
+  # Smallest practical model for this machine (CPU only, ~3 GB RAM in WSL).
+  # 1.5B fp32 (~6 GB) does not fit; see docs/experiment_log.md.
+  id: Qwen/Qwen2.5-0.5B-Instruct
+  dtype: float32           # use bfloat16 on GPU
+  device: auto              # cuda if available
+  num_threads: 6            # physical cores; 12 logical threads oversubscribe
+  max_batch: 16             # bounds the [B, L, vocab] logits tensor in RAM
+
+policy:
+  score_type: mean         # mean | sum  token log-prob of (action + end-of-turn)
+  temperature: 0.0         # 0 = greedy argmax
+  max_history: 8           # turns of (action, observation) kept in the prompt
+  few_shot: false          # true: one train-split expert demo per task family
+  novelty_lambda: 1.0      # cosine_novelty weight
+  novelty_beta: 1.0        # elliptical_novelty weight
+  novelty_reg: 1.0         # elliptical_novelty Sigma = reg*I + sum h h^T
+
+run:
+  policies: [random, frozen_lm]
+  split: valid_seen
+  n_games: 5
+  seeds: [0]
+  token_budget: null       # per-episode cap on LM tokens processed (null = none)
+  out_dir: results/smoke

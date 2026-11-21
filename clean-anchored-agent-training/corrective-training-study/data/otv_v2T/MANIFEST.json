@@ -1,0 +1,40 @@
+{
+ "version": "otv_v2T",
+ "train_classes": [
+  "MessageAPI",
+  "TradingBot",
+  "TwitterAPI",
+  "TicketAPI"
+ ],
+ "train_msgs": [
+  "explicit",
+  "train1",
+  "train2"
+ ],
+ "pairs_plain.jsonl": {
+  "n_pairs": 352,
+  "counts": {
+   "otv_a:retry": 66,
+   "otv_a:skip": 66,
+   "otv_a:escalate": 66,
+   "otv_b:post_ACa": 66,
+   "otv_b:post_ACl": 66,
+   "otv_s1:escalate": 22
+  },
+  "evidence": false,
+  "sha256": "6ef86f754707337b4f65416bd22daea85c3b6e3d334e28af2ea112c31d342dda"
+ },
+ "pairs_evidence.jsonl": {
+  "n_pairs": 352,
+  "counts": {
+   "otv_a:retry": 66,
+   "otv_a:skip": 66,
+   "otv_a:escalate": 66,
+   "otv_b:post_ACa": 66,
+   "otv_b:post_ACl": 66,
+   "otv_s1:escalate": 22
+  },
+  "evidence": true,
+  "sha256": "d5bb8e8639c1b0fd9f72b34122ee5cff673f99be58328b9feaf19a04dae5b6be"
+ }
+}

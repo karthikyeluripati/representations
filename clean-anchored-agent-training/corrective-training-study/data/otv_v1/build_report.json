@@ -1,0 +1,1137 @@
+{
+ "n_train_tasks": 28,
+ "dropped": {},
+ "per_task": {
+  "multi_turn_base_100#t1|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_100#t1|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_100#t1|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_117#t5|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_117#t5|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_117#t5|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_121#t3|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_121#t3|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_121#t3|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_142#t4|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_142#t4|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_142#t4|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_154#t3|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_154#t3|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_154#t3|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_155#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_155#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_155#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_160#t1|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_160#t1|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_160#t1|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_162#t4|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_162#t4|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_162#t4|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_163#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_163#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_163#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_167#t2|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_167#t2|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_167#t2|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_168#t1|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_168#t1|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_168#t1|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_170#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_170#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_170#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_172#t1|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_172#t1|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_172#t1|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_173#t2|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_173#t2|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_173#t2|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_175#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_175#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_175#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_176#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_176#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_176#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_177#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_177#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_177#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_178#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_178#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_178#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_179#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_179#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_179#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_181#t2|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_181#t2|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_181#t2|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_183#t1|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_183#t1|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_183#t1|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_186#t1|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_186#t1|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_186#t1|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_188#t2|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_188#t2|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_188#t2|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_191#t3|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_191#t3|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_191#t3|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_192#t3|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_192#t3|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_192#t3|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_194#t1|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_194#t1|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_194#t1|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_195#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_195#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_195#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_197#t0|explicit": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_197#t0|train1": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  },
+  "multi_turn_base_197#t0|train2": {
+   "n": 5,
+   "outcomes": {
+    "verify|ACa": true,
+    "verify|ACl": true,
+    "retry|ACa": false,
+    "retry|ACl": true,
+    "skip|ACa": true,
+    "skip|ACl": false,
+    "escalate|ACa": false,
+    "escalate|ACl": false
+   }
+  }
+ },
+ "counts": {
+  "otv_a:retry": 84,
+  "otv_a:skip": 84,
+  "otv_a:escalate": 84,
+  "otv_b:post_ACa": 84,
+  "otv_b:post_ACl": 84,
+  "otv_s1:escalate": 28
+ },
+ "n_pairs": 448,
+ "train_task_ids": [
+  "multi_turn_base_100#t1",
+  "multi_turn_base_117#t5",
+  "multi_turn_base_121#t3",
+  "multi_turn_base_142#t4",
+  "multi_turn_base_154#t3",
+  "multi_turn_base_155#t0",
+  "multi_turn_base_160#t1",
+  "multi_turn_base_162#t4",
+  "multi_turn_base_163#t0",
+  "multi_turn_base_167#t2",
+  "multi_turn_base_168#t1",
+  "multi_turn_base_170#t0",
+  "multi_turn_base_172#t1",
+  "multi_turn_base_173#t2",
+  "multi_turn_base_175#t0",
+  "multi_turn_base_176#t0",
+  "multi_turn_base_177#t0",
+  "multi_turn_base_178#t0",
+  "multi_turn_base_179#t0",
+  "multi_turn_base_181#t2",
+  "multi_turn_base_183#t1",
+  "multi_turn_base_186#t1",
+  "multi_turn_base_188#t2",
+  "multi_turn_base_191#t3",
+  "multi_turn_base_192#t3",
+  "multi_turn_base_194#t1",
+  "multi_turn_base_195#t0",
+  "multi_turn_base_197#t0"
+ ]
+}

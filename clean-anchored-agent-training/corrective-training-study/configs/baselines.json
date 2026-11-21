@@ -1,0 +1,19 @@
+{
+  "version": "cts_baselines_v1 (pre-registered 2026-11-19, before any baseline training)",
+  "model": {"id": "Qwen/Qwen3-4B-Instruct-2507", "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"},
+  "start_policy": "pi0 = STAGE0 of the parent project (base + LoRA r32 SFT on 187 S0 + 561 S1/S2/S3 train reference trajectories, lr 1e-4, 1 epoch, seed 0, merged)",
+  "data": {"dpo": "data/cts_v1/dpo.jsonl (567 pi0-verified pairs, 252 states)",
+           "sft": "data/cts_v1/sft_balanced.jsonl (189 repair + 189 injected-outage + 189 fault-free decisions)"},
+  "common": {"init": "pi0", "lora": {"r": 8, "alpha": 16, "dropout": 0.0, "targets": "all-linear"}, "epochs": 3, "per_device_batch": 4,
+             "grad_accum": 1, "scheduler": "cosine", "warmup_ratio": 0.1, "bf16": true, "max_length": 12288, "seed": 0},
+  "baseline_B_dpo": {"framework": "trl 0.24.0 DPOTrainer", "loss": "sigmoid", "beta": 0.1, "reference": "frozen pi0 (adapter disabled)",
+                     "lr_grid_dev": [5e-6, 5e-5], "cso_public_default_lr": 5e-6},
+  "baseline_A_sft": {"framework": "trl 0.24.0 SFTTrainer", "loss": "completion-only NLL", "lr_grid_dev": [1e-5, 1e-4]},
+  "model_selection": "dev split only: highest dev `overall` (macro success over suites); tie (|diff| < 0.005) -> lower dev false_outage_rate",
+  "final_evaluation": "test and heldout, once per selected frozen adapter, greedy, identical suites and graders",
+  "primary_outcome": "heldout overall success (paired cluster bootstrap by BFCL base task vs pi0 and A vs B)",
+  "secondary": ["genuine_repair (RP/RA, by type)", "false_outage_rate", "fault_free retention vs pi0", "correct_escalation (S3)",
+                "premature_abstention", "unneeded retries (taxonomy F)", "unseen-error-type outage responses", "probe recognition accuracy",
+                "observation/action-shift suites", "tokens, GPU-hours"],
+  "budget": {"max_h100_hours": 5, "abort_rule": "after the 3-step benchmark, abort if projected total > 5 h; then drop the second lr of each grid (keep CSO default 5e-6 for DPO and 1e-4 for SFT) before cutting anything else"}
+}

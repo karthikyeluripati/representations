@@ -1,0 +1,73 @@
+{
+ "repos": {
+  "PAFT/OpenAgent": {
+   "repo": "LAMDA-NeSy/OpenAgent",
+   "sha": "769692c14719d28c491fae992a3f814f1bb46f52",
+   "commit_date": "2026-06-03T15:03:27Z",
+   "license": "MIT",
+   "pushed_at": "2026-06-03T15:04:58Z",
+   "archived": false
+  },
+  "Fission-GRPO": {
+   "repo": "zxzadm/Fission-GRPO",
+   "sha": "ebcf55355fc1ceb12161f0878ad426269e6c46fd",
+   "commit_date": "2026-10-19T04:25:24Z",
+   "license": null,
+   "pushed_at": "2026-10-19T04:25:34Z",
+   "archived": false
+  },
+  "Agent-STAR": {
+   "repo": "WxxShirley/Agent-STAR",
+   "sha": "14aa665d5d0c7256e8de4168c8ab3889d2e6658e",
+   "commit_date": "2026-08-23T07:06:10Z",
+   "license": null,
+   "pushed_at": "2026-08-23T07:06:23Z",
+   "archived": false
+  },
+  "CSO": {
+   "repo": "kiaia/CSO",
+   "sha": "55e10b4b758f847dea5406823f5f08b5a7e7628a",
+   "commit_date": "2026-02-04T02:25:26Z",
+   "license": null,
+   "pushed_at": "2026-02-04T02:25:26Z",
+   "archived": false
+  },
+  "RFT-vs-SFT (Lai et al.)": {
+   "repo": "zhhvvv/rft_vs_sft",
+   "sha": "c97d5639a931324e9e4ff8ec1e1c4fb3a46c83d4",
+   "commit_date": "2025-08-04T03:26:17Z",
+   "license": null,
+   "pushed_at": "2025-08-04T03:26:23Z",
+   "archived": false
+  },
+  "BFCL (gorilla)": {
+   "repo": "ShishirPatil/gorilla",
+   "sha": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+   "commit_date": "2026-03-23T11:40:47Z",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-17T06:06:24Z",
+   "archived": false
+  }
+ },
+ "papers": {
+  "PAFT": "arXiv 2607.01084 (ICML 2026)",
+  "Fission-GRPO": "ACL 2026 long 1880 / arXiv 2601.15625",
+  "Agent Error Dataset": "arXiv 2609.40111 v2",
+  "DART": "EMNLP 2026 main 1036",
+  "Agent-STAR": "arXiv 2603.21972 (EMNLP 2026)",
+  "CSO": "Findings ACL 2026 1974",
+  "RFT mitigates forgetting": "PMLR v306 lai26h (ICML 2026)"
+ },
+ "local": {
+  "bfcl-eval": "2026.3.23",
+  "torch": "2.9.0",
+  "transformers": "4.57.1",
+  "peft": "0.17.1",
+  "accelerate": "1.10.1",
+  "numpy": "2.5.2"
+ },
+ "model": {
+  "id": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+ }
+}

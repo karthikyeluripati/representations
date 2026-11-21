@@ -1,0 +1,60 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[TOD({\natexlab{a}})]{TODO_apibank}
+Verify: Api-bank, {\natexlab{a}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{b}})]{TODO_appworld}
+Verify: Appworld, {\natexlab{b}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{c}})]{TODO_bfcl}
+Verify: Berkeley function calling leaderboard (bfcl), incl. multi-turn v4, {\natexlab{c}}.
+\newblock verify authors, venue, year.
+
+\bibitem[TOD({\natexlab{d}})]{TODO_cso}
+Verify: Cso (critical step optimization; code kiaia/cso), {\natexlab{d}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{e}})]{TODO_datasheets}
+Verify: Datasheets for datasets (gebru et al.), {\natexlab{e}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{f}})]{TODO_idempotency}
+Verify: idempotency keys / exactly-once semantics reference, {\natexlab{f}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{g}})]{TODO_mcp}
+Verify: Model context protocol specification (tool annotations revision), {\natexlab{g}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{h}})]{TODO_skillcdpo}
+Verify: Skill-cdpo, findings of emnlp 2026, {\natexlab{h}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{i}})]{TODO_synthetic}
+Verify: representative synthetic tool-environment works, {\natexlab{i}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{j}})]{TODO_tau2}
+Verify: tau2-bench (sierra-research/tau2-bench), {\natexlab{j}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{k}})]{TODO_taubench}
+Verify: tau-bench, {\natexlab{k}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{l}})]{TODO_toolllm}
+Verify: Toolllm / toolbench, {\natexlab{l}}.
+\newblock verify.
+
+\bibitem[TOD({\natexlab{m}})]{TODO_toolsandbox}
+Verify: Toolsandbox, {\natexlab{m}}.
+\newblock verify.
+
+\end{thebibliography}

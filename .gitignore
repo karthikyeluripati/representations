@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+# large experiment outputs; small smoke-test logs are committed deliberately
+results/**/emb/
+results/**/*.npz
+
+# secrets: never commit
+.env
+.env.*
+
+# large local artefacts (kept out of git; checksums listed in corrective-training-study/RELEASE.md)
+/results/
+/pod_backups/
+/pspo_backup.tgz
+/pspo_restored/
+
+# LaTeX build by-products (main.pdf is kept)
+*.aux
+*.fdb_latexmk
+*.fls
+*.blg
+*.out
+*.synctex.gz
+**/paper/build.log
+**/paper/main.log

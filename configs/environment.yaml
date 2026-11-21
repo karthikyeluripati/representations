@@ -1,0 +1,6 @@
+# ALFWorld text environment (TextWorld PDDL backend). Requires Linux/WSL.
+env:
+  data_root: ~/.cache/alfworld/json_2.1.1
+  max_steps: 50            # per-episode environment-action budget (ALFWorld/ReAct convention)
+  max_candidates: null     # null = all admissible commands (matched across policies)
+  task_families: null      # null = all 6 families

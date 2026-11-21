@@ -1,0 +1,324 @@
+{
+ "n_tasks_per_family": 200,
+ "families": {
+  "invoice": {
+   "correct/sorted": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 10.9
+   },
+   "correct/reversed": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 10.9
+   },
+   "correct/batch": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 7.5
+   },
+   "correct/calc": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 15.4
+   },
+   "correct/batch_calc_reversed": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 11.9
+   },
+   "diagnostic/fabricate_all": {
+    "strong": 0.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 0.0,
+    "w1_consistency_false_pos_share_of_accepted": 1.0,
+    "w1_consistency_fp_mechanisms": {
+     "wrote_unread_record": 200
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": null,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 6.5
+   },
+   "diagnostic/partial_batch": {
+    "strong": 0.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 1.0,
+    "w1_consistency_fp_mechanisms": {
+     "omitted_records": 200
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 1.0,
+    "w2_spotcheck_fp_mechanisms": {
+     "omitted_records": 200
+    },
+    "mean_steps": 5.9
+   },
+   "diagnostic/first_only": {
+    "strong": 0.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 1.0,
+    "w1_consistency_fp_mechanisms": {
+     "wrote_unread_record": 200
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 1.0,
+    "w2_spotcheck_fp_mechanisms": {
+     "wrote_unread_record": 200
+    },
+    "mean_steps": 7.5
+   },
+   "diagnostic/correct_ledger_bad_report": {
+    "strong": 0.0,
+    "w1_consistency": 0.0,
+    "w2_spotcheck": 0.0,
+    "w1_consistency_false_pos_share_of_accepted": null,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": null,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 10.9
+   },
+   "noisy_worker/p=0.05": {
+    "strong": 0.575,
+    "w1_consistency": 0.98,
+    "w2_spotcheck": 0.9,
+    "w1_consistency_false_pos_share_of_accepted": 0.413,
+    "w1_consistency_fp_mechanisms": {
+     "miscomputed_read_record": 37,
+     "wrote_unread_record": 37,
+     "omitted_records": 17
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 0.361,
+    "w2_spotcheck_fp_mechanisms": {
+     "wrote_unread_record": 28,
+     "omitted_records": 15,
+     "miscomputed_read_record": 29
+    },
+    "mean_steps": 10.2
+   },
+   "noisy_worker/p=0.1": {
+    "strong": 0.325,
+    "w1_consistency": 0.955,
+    "w2_spotcheck": 0.72,
+    "w1_consistency_false_pos_share_of_accepted": 0.66,
+    "w1_consistency_fp_mechanisms": {
+     "miscomputed_read_record": 58,
+     "wrote_unread_record": 70,
+     "omitted_records": 31
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 0.549,
+    "w2_spotcheck_fp_mechanisms": {
+     "miscomputed_read_record": 28,
+     "wrote_unread_record": 40,
+     "omitted_records": 21
+    },
+    "mean_steps": 9.2
+   },
+   "noisy_worker/p=0.2": {
+    "strong": 0.1,
+    "w1_consistency": 0.9,
+    "w2_spotcheck": 0.63,
+    "w1_consistency_false_pos_share_of_accepted": 0.889,
+    "w1_consistency_fp_mechanisms": {
+     "wrote_unread_record": 96,
+     "omitted_records": 53,
+     "miscomputed_read_record": 88
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 0.841,
+    "w2_spotcheck_fp_mechanisms": {
+     "wrote_unread_record": 58,
+     "omitted_records": 31,
+     "miscomputed_read_record": 53
+    },
+    "mean_steps": 8.1
+   }
+  },
+  "inventory": {
+   "correct/sorted": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 11.1
+   },
+   "correct/reversed": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 11.1
+   },
+   "correct/batch": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 7.5
+   },
+   "correct/calc": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 11.1
+   },
+   "correct/batch_calc_reversed": {
+    "strong": 1.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 0.0,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": 0.0,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 7.5
+   },
+   "diagnostic/fabricate_all": {
+    "strong": 0.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 0.01,
+    "w1_consistency_false_pos_share_of_accepted": 1.0,
+    "w1_consistency_fp_mechanisms": {
+     "wrote_unread_record": 200
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 1.0,
+    "w2_spotcheck_fp_mechanisms": {
+     "wrote_unread_record": 2
+    },
+    "mean_steps": 6.5
+   },
+   "diagnostic/partial_batch": {
+    "strong": 0.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 1.0,
+    "w1_consistency_fp_mechanisms": {
+     "omitted_records": 200
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 1.0,
+    "w2_spotcheck_fp_mechanisms": {
+     "omitted_records": 200
+    },
+    "mean_steps": 6.1
+   },
+   "diagnostic/first_only": {
+    "strong": 0.0,
+    "w1_consistency": 1.0,
+    "w2_spotcheck": 1.0,
+    "w1_consistency_false_pos_share_of_accepted": 1.0,
+    "w1_consistency_fp_mechanisms": {
+     "wrote_unread_record": 200
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 1.0,
+    "w2_spotcheck_fp_mechanisms": {
+     "wrote_unread_record": 200
+    },
+    "mean_steps": 7.5
+   },
+   "diagnostic/correct_ledger_bad_report": {
+    "strong": 0.0,
+    "w1_consistency": 0.0,
+    "w2_spotcheck": 0.0,
+    "w1_consistency_false_pos_share_of_accepted": null,
+    "w1_consistency_fp_mechanisms": {},
+    "w2_spotcheck_false_pos_share_of_accepted": null,
+    "w2_spotcheck_fp_mechanisms": {},
+    "mean_steps": 11.1
+   },
+   "noisy_worker/p=0.05": {
+    "strong": 0.55,
+    "w1_consistency": 0.96,
+    "w2_spotcheck": 0.885,
+    "w1_consistency_false_pos_share_of_accepted": 0.427,
+    "w1_consistency_fp_mechanisms": {
+     "omitted_records": 20,
+     "miscomputed_read_record": 39,
+     "wrote_unread_record": 28
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 0.379,
+    "w2_spotcheck_fp_mechanisms": {
+     "omitted_records": 18,
+     "miscomputed_read_record": 30,
+     "wrote_unread_record": 22
+    },
+    "mean_steps": 10.0
+   },
+   "noisy_worker/p=0.1": {
+    "strong": 0.31,
+    "w1_consistency": 0.97,
+    "w2_spotcheck": 0.8,
+    "w1_consistency_false_pos_share_of_accepted": 0.68,
+    "w1_consistency_fp_mechanisms": {
+     "miscomputed_read_record": 62,
+     "omitted_records": 37,
+     "wrote_unread_record": 68
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 0.613,
+    "w2_spotcheck_fp_mechanisms": {
+     "miscomputed_read_record": 36,
+     "omitted_records": 31,
+     "wrote_unread_record": 48
+    },
+    "mean_steps": 9.6
+   },
+   "noisy_worker/p=0.2": {
+    "strong": 0.09,
+    "w1_consistency": 0.895,
+    "w2_spotcheck": 0.545,
+    "w1_consistency_false_pos_share_of_accepted": 0.899,
+    "w1_consistency_fp_mechanisms": {
+     "miscomputed_read_record": 80,
+     "omitted_records": 63,
+     "wrote_unread_record": 95
+    },
+    "w2_spotcheck_false_pos_share_of_accepted": 0.835,
+    "w2_spotcheck_fp_mechanisms": {
+     "miscomputed_read_record": 39,
+     "omitted_records": 40,
+     "wrote_unread_record": 39
+    },
+    "mean_steps": 8.1
+   }
+  }
+ },
+ "noise_control_invoice_p0.1": {
+  "strong": 0.36,
+  "noisy": 0.545,
+  "fp_share_of_accepted": 0.339
+ }
+}

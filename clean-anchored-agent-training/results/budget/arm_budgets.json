@@ -1,0 +1,317 @@
+{
+ "tokenizer": "C:/Users/karth/AppData/Local/Temp/claude/1e3b56d780d1b6f3/f08a23f0-c1be-4126-9732-91c6b4b73984/scratchpad/qwen_tok",
+ "max_len": 12288,
+ "arms": {
+  "STAGE0": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 3626,
+    "total_tokens": 106792,
+    "max_len": 5406,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 3195217,
+    "mean_tokens_per_seq": 4272,
+    "dropped_by_length": 0
+   },
+   "anchor": null,
+   "n_all": [
+    748,
+    0
+   ]
+  },
+  "B1": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 1669,
+    "total_tokens": 105557,
+    "max_len": 5909,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 789566,
+    "mean_tokens_per_seq": 4222,
+    "dropped_by_length": 0
+   },
+   "anchor": null,
+   "n_all": [
+    187,
+    0
+   ]
+  },
+  "B2": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 1839,
+    "total_tokens": 108569,
+    "max_len": 5906,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 1949899,
+    "mean_tokens_per_seq": 4343,
+    "dropped_by_length": 0
+   },
+   "anchor": null,
+   "n_all": [
+    449,
+    0
+   ]
+  },
+  "B3": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 3128,
+    "total_tokens": 115581,
+    "max_len": 5997,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 2593638,
+    "mean_tokens_per_seq": 4623,
+    "dropped_by_length": 0
+   },
+   "anchor": null,
+   "n_all": [
+    561,
+    0
+   ]
+  },
+  "B4": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 2261,
+    "total_tokens": 104891,
+    "max_len": 5523,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 1120236,
+    "mean_tokens_per_seq": 4196,
+    "dropped_by_length": 0
+   },
+   "anchor": null,
+   "n_all": [
+    267,
+    0
+   ]
+  },
+  "EXP1": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 1051,
+    "total_tokens": 110226,
+    "max_len": 5541,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 3465505,
+    "mean_tokens_per_seq": 4409,
+    "dropped_by_length": 0
+   },
+   "anchor": null,
+   "n_all": [
+    786,
+    0
+   ]
+  },
+  "B5": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 1493,
+    "total_tokens": 112057,
+    "max_len": 5369,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 1174357,
+    "mean_tokens_per_seq": 4482,
+    "dropped_by_length": 0
+   },
+   "anchor": null,
+   "n_all": [
+    262,
+    0
+   ]
+  },
+  "EXP2": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 2614,
+    "total_tokens": 215860,
+    "max_len": 5785,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 6121790,
+    "mean_tokens_per_seq": 4317,
+    "dropped_by_length": 0
+   },
+   "anchor": null,
+   "n_all": [
+    709,
+    0
+   ]
+  },
+  "B7_kl": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 2614,
+    "total_tokens": 215860,
+    "max_len": 5785,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 6121790,
+    "mean_tokens_per_seq": 4317,
+    "dropped_by_length": 0
+   },
+   "anchor": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 435,
+    "total_tokens": 98474,
+    "max_len": 5492,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 1937968,
+    "mean_tokens_per_seq": 3939
+   },
+   "n_all": [
+    709,
+    492
+   ]
+  },
+  "B7_replay": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 2614,
+    "total_tokens": 215860,
+    "max_len": 5785,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 6121790,
+    "mean_tokens_per_seq": 4317,
+    "dropped_by_length": 0
+   },
+   "anchor": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 435,
+    "total_tokens": 98474,
+    "max_len": 5492,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 1937968,
+    "mean_tokens_per_seq": 3939
+   },
+   "n_all": [
+    709,
+    492
+   ]
+  },
+  "B8_pcgrad": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 2614,
+    "total_tokens": 215860,
+    "max_len": 5785,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 6121790,
+    "mean_tokens_per_seq": 4317,
+    "dropped_by_length": 0
+   },
+   "anchor": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 435,
+    "total_tokens": 98474,
+    "max_len": 5492,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 1937968,
+    "mean_tokens_per_seq": 3939
+   },
+   "n_all": [
+    709,
+    492
+   ]
+  },
+  "EXP3": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 2614,
+    "total_tokens": 215860,
+    "max_len": 5785,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 6121790,
+    "mean_tokens_per_seq": 4317,
+    "dropped_by_length": 0
+   },
+   "anchor": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 753,
+    "total_tokens": 118875,
+    "max_len": 5850,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 2491620,
+    "mean_tokens_per_seq": 4755
+   },
+   "n_all": [
+    709,
+    524
+   ]
+  },
+  "EXP3_agem": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 2614,
+    "total_tokens": 215860,
+    "max_len": 5785,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 6121790,
+    "mean_tokens_per_seq": 4317,
+    "dropped_by_length": 0
+   },
+   "anchor": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 753,
+    "total_tokens": 118875,
+    "max_len": 5850,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 2491620,
+    "mean_tokens_per_seq": 4755
+   },
+   "n_all": [
+    709,
+    524
+   ]
+  },
+  "EXP3_unverified": {
+   "primary": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 2795,
+    "total_tokens": 221953,
+    "max_len": 5466,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 7164643,
+    "mean_tokens_per_seq": 4439,
+    "dropped_by_length": 0
+   },
+   "anchor": {
+    "n": 25,
+    "n_encoded": 25,
+    "target_tokens": 695,
+    "total_tokens": 119500,
+    "max_len": 5850,
+    "prefix_failures": 0,
+    "extrapolated_total_tokens": 2504720,
+    "mean_tokens_per_seq": 4780
+   },
+   "n_all": [
+    807,
+    524
+   ]
+  }
+ },
+ "dev_val_sets": {
+  "dev_corrective": 83,
+  "dev_twin_out": 83,
+  "dev_twin_clean": 83
+ }
+}

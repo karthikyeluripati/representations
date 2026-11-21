@@ -1,0 +1,143 @@
+{
+ "version": "cacrt_tasks_v1",
+ "n_tasks": 400,
+ "dropped": {
+  "no_state_changing_call_or_unresolvable": 334
+ },
+ "split_counts": {
+  "train": 187,
+  "dev": 54,
+  "test": 43,
+  "unassigned": 2,
+  "heldout": 114
+ },
+ "split_base_counts": {
+  "unassigned": 2,
+  "test": 22,
+  "dev": 29,
+  "heldout": 49,
+  "train": 89
+ },
+ "V1_positional": {
+  "dev:end_state_same": 2,
+  "heldout:end_state_differs": 7,
+  "heldout:end_state_same": 24,
+  "train:end_state_differs": 2,
+  "train:end_state_same": 1,
+  "unassigned:end_state_differs": 1,
+  "unassigned:end_state_same": 1
+ },
+ "V2_solvability": {
+  "dev:S0": {
+   "ok": 54
+  },
+  "dev:S1": {
+   "ok": 162
+  },
+  "dev:S2": {
+   "ok": 162
+  },
+  "dev:S3": {
+   "ok": 162
+  },
+  "heldout:S0": {
+   "ok": 114
+  },
+  "heldout:S1": {
+   "ok": 342
+  },
+  "heldout:S2": {
+   "ok": 342
+  },
+  "heldout:S3": {
+   "ok": 342
+  },
+  "test:S0": {
+   "ok": 43
+  },
+  "test:S1": {
+   "ok": 129
+  },
+  "test:S2": {
+   "ok": 129
+  },
+  "test:S3": {
+   "ok": 129
+  },
+  "train:S0": {
+   "ok": 187
+  },
+  "train:S1": {
+   "ok": 561
+  },
+  "train:S2": {
+   "ok": 561
+  },
+  "train:S3": {
+   "ok": 561
+  },
+  "unassigned:S0": {
+   "ok": 2
+  },
+  "unassigned:S1": {
+   "ok": 6
+  },
+  "unassigned:S2": {
+   "ok": 6
+  },
+  "unassigned:S3": {
+   "ok": 6
+  }
+ },
+ "V2_unsolvable_task_ids": [],
+ "V3_budget": {
+  "S0": {
+   "max_calls": 7,
+   "mean": 1.81,
+   "budget": 20,
+   "n_at_budget": 0
+  },
+  "S1": {
+   "max_calls": 9,
+   "mean": 3.31,
+   "budget": 20,
+   "n_at_budget": 0
+  },
+  "S2": {
+   "max_calls": 16,
+   "mean": 4.87,
+   "budget": 20,
+   "n_at_budget": 0
+  },
+  "S3": {
+   "max_calls": 9,
+   "mean": 5.5,
+   "budget": 20,
+   "n_at_budget": 0
+  }
+ },
+ "V4_leakage": {
+  "user_text_shared_across_splits": 0,
+  "gt_sequence_shared_across_splits": 8,
+  "base_tasks_in_multiple_splits": 0
+ },
+ "V5_determinism_failures_first60": 0,
+ "V6_pools_disjoint": true,
+ "V6_pool_equals_real_error": [],
+ "n_distinct_real_errors_in_S0_reference_runs": 0,
+ "tasks_file": "data\\tasks_v1.json",
+ "tasks_sha256": "1f9125342baf4def99711fc9f466cb81150232df7fc085ed0be22102ca95601e",
+ "usable_split_counts": {
+  "train": 187,
+  "dev": 54,
+  "test": 43,
+  "heldout": 114
+ },
+ "usable_split_base_counts": {
+  "train": 89,
+  "dev": 29,
+  "test": 22,
+  "heldout": 49
+ },
+ "v2_tasks_sha256": "93831d5a25afdd89bb6173841b969713ee2ff1a33cb16f9309ea689bdaa0ccba"
+}

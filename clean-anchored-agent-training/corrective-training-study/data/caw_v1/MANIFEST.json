@@ -1,0 +1,19 @@
+{
+ "version": "caw_v1",
+ "n_classes": 64,
+ "n_synthetic": 832,
+ "n_bfcl": 517,
+ "n_bfcl_unique": 352,
+ "n": 1349,
+ "counts": {
+  "ac_twin": 363,
+  "ac_twin_timeout": 132,
+  "rejection_retry": 22,
+  "caw_check": 192,
+  "caw_post": 384,
+  "caw_reject_retry": 192,
+  "caw_read_retry": 64
+ },
+ "dropped": {},
+ "caw.jsonl": "dd4914f2ccf8e0a2d0201731388867f0d9bbcbebce14caee1f8b6590b5f5b17f"
+}

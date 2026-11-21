@@ -1,0 +1,238 @@
+[
+ {
+  "policy": "Qwen3-4B-Instruct-2507 (base)",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.8103448275862069,
+  "S1|S0": 0.9680851063829787,
+  "explicit": 0.48936170212765956,
+  "para": 0.49468085106382975,
+  "implicit": 0.49468085106382975
+ },
+ {
+  "policy": "Qwen3-4B-Instruct-2507 (base) + check prompt",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.8275862068965517,
+  "S1|S0": 0.9791666666666666,
+  "explicit": 0.5,
+  "para": 0.5052083333333334,
+  "implicit": 0.49479166666666663
+ },
+ {
+  "policy": "Qwen3-8B (no thinking)",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.7586206896551724,
+  "S1|S0": 0.9431818181818182,
+  "explicit": 0.47159090909090906,
+  "para": 0.48863636363636365,
+  "implicit": 0.4772727272727273
+ },
+ {
+  "policy": "Qwen3-8B (no thinking) + check prompt",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.7586206896551724,
+  "S1|S0": 0.9431818181818182,
+  "explicit": 0.4886363636363636,
+  "para": 0.4943181818181818,
+  "implicit": 0.4943181818181818
+ },
+ {
+  "policy": "Qwen3-30B-A3B-Instruct-2507 (FP8)",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.8879310344827587,
+  "S1|S0": 1.0,
+  "explicit": 0.5,
+  "para": 0.5,
+  "implicit": 0.5
+ },
+ {
+  "policy": "Qwen3-30B-A3B-Instruct-2507 (FP8) + check prompt",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.896551724137931,
+  "S1|S0": 1.0,
+  "explicit": 0.5336538461538461,
+  "para": 0.6490384615384616,
+  "implicit": 0.5
+ },
+ {
+  "policy": "\u03c0\u2080 (corrective SFT)",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.8448275862068966,
+  "S1|S0": 1.0,
+  "explicit": 0.5,
+  "para": 0.5,
+  "implicit": 0.5
+ },
+ {
+  "policy": "\u03c0\u2080 (corrective SFT) + check prompt",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.8448275862068966,
+  "S1|S0": 1.0,
+  "explicit": 0.5,
+  "para": 0.5,
+  "implicit": 0.5
+ },
+ {
+  "policy": "B: CSO-style verified DPO",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.8879310344827587,
+  "S1|S0": 1.0,
+  "explicit": 0.5097087378640777,
+  "para": 0.5097087378640777,
+  "implicit": 0.5097087378640777
+ },
+ {
+  "policy": "B: CSO-style verified DPO + check prompt",
+  "group": "untrained / standard training",
+  "seeds": 1,
+  "S0": 0.8879310344827587,
+  "S1|S0": 0.9805825242718447,
+  "explicit": 0.5048543689320388,
+  "para": 0.5048543689320388,
+  "implicit": 0.5048543689320388
+ },
+ {
+  "policy": "SYN-old (synthetic APIs, retry convention)",
+  "group": "this work: controls",
+  "seeds": 3,
+  "S0": 0.8620689655172414,
+  "S1|S0": 0.986924258768919,
+  "explicit": 0.6562424322479802,
+  "para": 0.6737927788551922,
+  "implicit": 0.6311516859367068,
+  "per_seed": {
+   "S0": [
+    0.853,
+    0.888,
+    0.845
+   ],
+   "S1|S0": [
+    0.99,
+    0.971,
+    1.0
+   ],
+   "explicit": [
+    0.667,
+    0.68,
+    0.622
+   ],
+   "para": [
+    0.677,
+    0.646,
+    0.699
+   ],
+   "implicit": [
+    0.616,
+    0.665,
+    0.612
+   ]
+  },
+  "tau2_check": 0.0
+ },
+ {
+  "policy": "SYN-32 (32 synthetic classes, IAR)",
+  "group": "this work",
+  "seeds": 3,
+  "S0": 0.8591954022988505,
+  "S1|S0": 0.9966666666666667,
+  "explicit": 0.6940152892840304,
+  "para": 0.7776698996430255,
+  "implicit": 0.675526368963427,
+  "per_seed": {
+   "S0": [
+    0.862,
+    0.845,
+    0.871
+   ],
+   "S1|S0": [
+    0.99,
+    1.0,
+    1.0
+   ],
+   "explicit": [
+    0.705,
+    0.694,
+    0.683
+   ],
+   "para": [
+    0.685,
+    0.816,
+    0.832
+   ],
+   "implicit": [
+    0.71,
+    0.658,
+    0.658
+   ]
+  },
+  "tau2_check": 0.0
+ },
+ {
+  "policy": "SYN-64 (64 synthetic classes, IAR)",
+  "group": "this work",
+  "seeds": 3,
+  "S0": 0.8563333333333333,
+  "S1|S0": 1.0,
+  "explicit": 0.7293333333333333,
+  "para": 0.8053333333333333,
+  "implicit": 0.6963333333333331,
+  "per_seed": {
+   "S0": [
+    0.845,
+    0.853,
+    0.871
+   ],
+   "S1|S0": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "explicit": [
+    0.699,
+    0.722,
+    0.767
+   ],
+   "para": [
+    0.76,
+    0.859,
+    0.797
+   ],
+   "implicit": [
+    0.699,
+    0.702,
+    0.688
+   ]
+  },
+  "tau2_check": 0.026
+ },
+ {
+  "policy": "scripted verify-then-decide (reference)",
+  "group": "reference",
+  "seeds": "-",
+  "S0": 1.0,
+  "S1|S0": 1.0,
+  "explicit": 1.0,
+  "para": 1.0,
+  "implicit": 1.0,
+  "tau2_check": 1.0
+ },
+ {
+  "policy": "scripted blind retry (reference)",
+  "group": "reference",
+  "seeds": "-",
+  "S0": 1.0,
+  "S1|S0": 1.0,
+  "explicit": 0.5,
+  "para": 0.5,
+  "implicit": 0.5,
+  "tau2_check": 0.0
+ }
+]

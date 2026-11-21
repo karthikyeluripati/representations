@@ -1,0 +1,137 @@
+{
+ "version": "cacrt_pairs_v1",
+ "tasks_file_sha256": "1f9125342baf4def99711fc9f466cb81150232df7fc085ed0be22102ca95601e",
+ "splits": {
+  "train": {
+   "tasks": 187,
+   "base_tasks": 89,
+   "states": {
+    "RA:any_retained_pair": 223,
+    "RA:naive_fails": 223,
+    "RA:neg_alternative_fails_under_repairer": 0,
+    "RA:neg_escalate_fails_under_repairer": 260,
+    "RA:neg_retry_fails_under_repairer": 0,
+    "RA:pair_alternative": 177,
+    "RA:pair_escalate": 223,
+    "RA:pair_retry": 223,
+    "RA:pos_ok_surrogate": 260,
+    "RA:total": 260,
+    "RP:any_retained_pair": 39,
+    "RP:naive_fails": 48,
+    "RP:neg_alternative_fails_under_repairer": 2,
+    "RP:neg_escalate_fails_under_repairer": 50,
+    "RP:neg_retry_fails_under_repairer": 9,
+    "RP:pair_alternative": 8,
+    "RP:pair_escalate": 39,
+    "RP:pair_retry": 39,
+    "RP:pos_ok_surrogate": 41,
+    "RP:total": 50
+   },
+   "base_tasks_with_state": 72,
+   "twin_anchors": {
+    "T-out": 262,
+    "T-clean": 262
+   },
+   "generic_anchors": 492,
+   "tasks_with_twin": 115
+  },
+  "dev": {
+   "tasks": 54,
+   "base_tasks": 29,
+   "states": {
+    "RA:any_retained_pair": 69,
+    "RA:naive_fails": 69,
+    "RA:neg_alternative_fails_under_repairer": 0,
+    "RA:neg_escalate_fails_under_repairer": 84,
+    "RA:neg_retry_fails_under_repairer": 0,
+    "RA:pair_alternative": 55,
+    "RA:pair_escalate": 69,
+    "RA:pair_retry": 69,
+    "RA:pos_ok_surrogate": 84,
+    "RA:total": 84,
+    "RP:any_retained_pair": 14,
+    "RP:naive_fails": 15,
+    "RP:neg_alternative_fails_under_repairer": 0,
+    "RP:neg_escalate_fails_under_repairer": 15,
+    "RP:neg_retry_fails_under_repairer": 1,
+    "RP:pair_alternative": 3,
+    "RP:pair_escalate": 14,
+    "RP:pair_retry": 14,
+    "RP:pos_ok_surrogate": 14,
+    "RP:total": 15
+   },
+   "base_tasks_with_state": 25,
+   "twin_anchors": {
+    "T-out": 83,
+    "T-clean": 83
+   }
+  },
+  "test": {
+   "tasks": 43,
+   "base_tasks": 22,
+   "states": {
+    "RA:any_retained_pair": 53,
+    "RA:naive_fails": 53,
+    "RA:neg_alternative_fails_under_repairer": 0,
+    "RA:neg_escalate_fails_under_repairer": 67,
+    "RA:neg_retry_fails_under_repairer": 0,
+    "RA:pair_alternative": 46,
+    "RA:pair_escalate": 53,
+    "RA:pair_retry": 53,
+    "RA:pos_ok_surrogate": 67,
+    "RA:total": 67,
+    "RP:any_retained_pair": 7,
+    "RP:naive_fails": 9,
+    "RP:neg_alternative_fails_under_repairer": 0,
+    "RP:neg_escalate_fails_under_repairer": 9,
+    "RP:neg_retry_fails_under_repairer": 2,
+    "RP:pair_alternative": 2,
+    "RP:pair_escalate": 7,
+    "RP:pair_retry": 7,
+    "RP:pos_ok_surrogate": 7,
+    "RP:total": 9
+   },
+   "base_tasks_with_state": 15
+  },
+  "heldout": {
+   "tasks": 114,
+   "base_tasks": 49,
+   "states": {
+    "RA:any_retained_pair": 19,
+    "RA:naive_fails": 19,
+    "RA:neg_alternative_fails_under_repairer": 0,
+    "RA:neg_escalate_fails_under_repairer": 27,
+    "RA:neg_retry_fails_under_repairer": 0,
+    "RA:pair_alternative": 2,
+    "RA:pair_escalate": 19,
+    "RA:pair_retry": 19,
+    "RA:pos_ok_surrogate": 27,
+    "RA:total": 27,
+    "RP:any_retained_pair": 81,
+    "RP:naive_fails": 81,
+    "RP:neg_escalate_fails_under_repairer": 81,
+    "RP:neg_retry_fails_under_repairer": 0,
+    "RP:pair_escalate": 81,
+    "RP:pair_retry": 81,
+    "RP:pos_ok_surrogate": 81,
+    "RP:total": 81
+   },
+   "base_tasks_with_state": 44
+  }
+ },
+ "env_executions": {
+  "train": 8632,
+  "dev": 2526,
+  "test": 1677,
+  "heldout": 2424
+ },
+ "files": {
+  "dev_anchors_twin.jsonl": "3e5cde9ae4d48c53312f557808d60a3257d6f4b37d992a75cd002c2320b90483",
+  "eval_states_dev.jsonl": "14f7e0e75f8c41ade66e74c9ebb59340eb11828af88a915e9b00bcb5a285bc15",
+  "eval_states_heldout.jsonl": "9f931f1de0f02640684fc35fc6d56c0d61fd89435e34d2f23b454f842fb1e7a4",
+  "eval_states_test.jsonl": "5302a5ba06e4fb0a8dd3b2593126f377e2f06a48543d918e731218f6ae1f4e0d",
+  "train_anchors_generic.jsonl": "b9c456ed7fb224a308176cb233d8cfa4a268b0162f2bf11521222ceb487cb0bf",
+  "train_anchors_twin.jsonl": "af83ab2d0f53338cb2ddebe976297187a71bb4fa2413345ebbbadae37aeea368",
+  "train_states.jsonl": "a44d6ff7a32c9b4744cec425362d7a17fe64fd5c269b53df715e2a1293fa77b4"
+ }
+}

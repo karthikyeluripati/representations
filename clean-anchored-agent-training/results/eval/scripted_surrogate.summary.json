@@ -1,0 +1,144 @@
+{
+ "heldout": {
+  "n": 1582,
+  "success": {
+   "RA": 0.0,
+   "RP": 0.0,
+   "S0": 1.0,
+   "S1": 1.0,
+   "S1_obs": 1.0,
+   "S2": 1.0,
+   "S2_act": 1.0,
+   "S2_obs": 1.0,
+   "S3": 1.0
+  },
+  "n_by_suite": {
+   "RA": 19,
+   "RP": 81,
+   "S0": 114,
+   "S1": 342,
+   "S1_obs": 114,
+   "S2": 342,
+   "S2_act": 114,
+   "S2_obs": 114,
+   "S3": 342
+  },
+  "fault_free": 1.0,
+  "conditional_recovery": 1.0,
+  "genuine_repair": 0.0,
+  "injected_recovery": 1.0,
+  "correct_escalation": 1.0,
+  "premature_abstention": 0.08064516129032258,
+  "false_outage_rate": 1.0,
+  "n_real_error_events": 304,
+  "overall": 0.7777777777777778,
+  "model_calls": 8353,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "ci": {
+   "fault_free": [
+    1.0,
+    1.0
+   ],
+   "genuine_repair": [
+    0.0,
+    0.0
+   ],
+   "injected_recovery": [
+    1.0,
+    1.0
+   ],
+   "conditional_recovery": [
+    1.0,
+    1.0
+   ],
+   "correct_escalation": [
+    1.0,
+    1.0
+   ],
+   "premature_abstention": [
+    0.06956479536110718,
+    0.092511804821671
+   ],
+   "false_outage_rate": [
+    1.0,
+    1.0
+   ],
+   "overall": [
+    0.7777777777777778,
+    0.7777777777777778
+   ]
+  }
+ },
+ "test": {
+  "n": 619,
+  "success": {
+   "RA": 0.0,
+   "RP": 0.0,
+   "S0": 1.0,
+   "S1": 1.0,
+   "S1_obs": 1.0,
+   "S2": 1.0,
+   "S2_act": 1.0,
+   "S2_obs": 1.0,
+   "S3": 1.0
+  },
+  "n_by_suite": {
+   "RA": 53,
+   "RP": 7,
+   "S0": 43,
+   "S1": 129,
+   "S1_obs": 43,
+   "S2": 129,
+   "S2_act": 43,
+   "S2_obs": 43,
+   "S3": 129
+  },
+  "fault_free": 1.0,
+  "conditional_recovery": 1.0,
+  "genuine_repair": 0.0,
+  "injected_recovery": 1.0,
+  "correct_escalation": 1.0,
+  "premature_abstention": 0.12244897959183673,
+  "false_outage_rate": 1.0,
+  "n_real_error_events": 276,
+  "overall": 0.7777777777777778,
+  "model_calls": 2968,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "ci": {
+   "fault_free": [
+    1.0,
+    1.0
+   ],
+   "genuine_repair": [
+    0.0,
+    0.0
+   ],
+   "injected_recovery": [
+    1.0,
+    1.0
+   ],
+   "conditional_recovery": [
+    1.0,
+    1.0
+   ],
+   "correct_escalation": [
+    1.0,
+    1.0
+   ],
+   "premature_abstention": [
+    0.08510290641079127,
+    0.16155725359097756
+   ],
+   "false_outage_rate": [
+    1.0,
+    1.0
+   ],
+   "overall": [
+    0.7777777777777778,
+    0.7777777777777778
+   ]
+  }
+ }
+}

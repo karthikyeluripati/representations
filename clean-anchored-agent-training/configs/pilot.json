@@ -1,0 +1,22 @@
+{
+  "version": "cacrt_pilot_v1",
+  "model": {"id": "Qwen/Qwen3-4B-Instruct-2507", "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"},
+  "data": {"tasks": "data/tasks_v1.json", "tasks_sha256": "15ac3b2b3c1ef719a04a495905cc50a06a08ef1497561ebdc1c71a2b307dc056",
+           "pairs_dir": "data/cacrt_pairs_v1"},
+  "stage0": {"arm": "STAGE0", "init": "base", "lora_r": 32, "lora_alpha": 64, "lr": 1e-4, "epochs": 1, "batch_size": 8,
+             "micro_batch": 1, "max_len": 12288, "seed": 0, "merge_to": "/workspace/pi0"},
+  "pilot_arms": ["EXP1", "EXP2", "EXP3", "B7_replay"],
+  "optional_arms": ["B5", "EXP3_agem", "B8_pcgrad", "B7_kl", "EXP3_unverified", "B1", "B2", "B3", "B4"],
+  "pilot_common": {"init": "pi0", "lora_r": 32, "lora_alpha": 64, "lr": 2e-5, "beta": 0.1, "lambda": 1.0, "steps": 180,
+                   "batch_size": 8, "anchor_batch_size": 8, "micro_batch": 1, "max_len": 12288, "eval_every": 30,
+                   "probe_every": 10, "seeds": [0, 1, 2], "checkpoint": "final (no checkpoint selection on test/heldout)"},
+  "pair_source_rule": "use policy-verified pairs (data/cacrt_pairs_v1_policy) if >=100 corrective states retain >=1 pair; otherwise surrogate-verified pairs, reported as such",
+  "eval": {"splits": ["test", "heldout"], "decoding": "greedy, temperature 0, max_tokens 512", "max_steps": 20, "max_tool_calls": 20},
+  "go_criteria": {
+    "primary": "heldout genuine_repair(EXP3) - max over {EXP1, EXP2, B7_replay} >= 0.05, paired cluster-bootstrap 95% CI > 0, pooled over 3 seeds",
+    "fault_free_guard": "heldout and test fault_free(EXP3) >= fault_free(pi0) - 0.02",
+    "error_types": "improvement present on RP (precondition) and RA (argument) separately, not driven by one",
+    "twin_specific": "EXP3 > B7_replay on heldout genuine_repair or false_outage_rate with CI excluding 0",
+    "premise_gate": "before arms: mean cos(g_DPO, g_twin) < mean cos(g_DPO, g_generic) on pi0 (analyze_interference --mode premise)"
+  }
+}

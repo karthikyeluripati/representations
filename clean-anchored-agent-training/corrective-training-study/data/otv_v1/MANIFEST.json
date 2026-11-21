@@ -1,0 +1,22 @@
+{
+ "version": "otv_v1",
+ "train_classes": [
+  "TravelAPI",
+  "TradingBot"
+ ],
+ "train_msgs": [
+  "explicit",
+  "train1",
+  "train2"
+ ],
+ "n_pairs": 448,
+ "counts": {
+  "otv_a:retry": 84,
+  "otv_a:skip": 84,
+  "otv_a:escalate": 84,
+  "otv_b:post_ACa": 84,
+  "otv_b:post_ACl": 84,
+  "otv_s1:escalate": 28
+ },
+ "pairs_abstract.jsonl": "2334ed60da2d6e12337990b390fc018f3019914ab1ed17f199d7844d6cc2896e"
+}

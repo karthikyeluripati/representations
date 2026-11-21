@@ -1,0 +1,26 @@
+# GPU pod configuration (verified on 1x NVIDIA A40 48 GB).
+model:
+  id: Qwen/Qwen2.5-3B-Instruct
+  dtype: bfloat16          # cached-vs-naive scoring equality is unit-tested in fp32; bf16 used for speed
+  device: auto
+  num_threads: 8
+  max_batch: 16             # candidate chunk; bounds the per-chunk copy of the prompt KV cache (GQA-expanded)
+  reuse_prefix: true        # reuse KV cache of the shared prompt prefix across calls (exact; unit-tested)
+
+policy:
+  score_type: mean
+  temperature: 0.0
+  max_history: 8
+  few_shot: true           # one expert demo per task family, from TRAIN games (src/dare/agents/demos.py)
+  demo_cache: results/demos/demos_v1.json
+  novelty_lambda: 1.0
+  novelty_beta: 1.0
+  novelty_reg: 1.0
+
+run:
+  policies: [random, frozen_lm, cosine_novelty, elliptical_novelty]
+  split: valid_seen
+  n_games: 12
+  seeds: [0]
+  token_budget: null
+  out_dir: results/pod_fewshot

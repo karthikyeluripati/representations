@@ -1,0 +1,165 @@
+{
+ "archive": "C:\\Users\\karth\\OneDrive\\Desktop\\projects\\representations\\pod_backups\\pod_backup_20261119.tgz",
+ "archive_sha256_ok": true,
+ "manifest_ok:data/cacrt_pairs_v1/MANIFEST.json": true,
+ "manifest_ok:data/cacrt_pairs_v1_policy/MANIFEST.json": true,
+ "tasks_sha256": "1f9125342baf4def99711fc9f466cb81150232df7fc085ed0be22102ca95601e",
+ "local_tasks_match_archive": true,
+ "summaries": {
+  "base:test": {
+   "fault_free": 0.7674418604651163,
+   "genuine_repair": 0.5833333333333334,
+   "injected_recovery": 0.7015503875968992,
+   "conditional_recovery": 0.9090909090909091,
+   "correct_escalation": 0.08527131782945736,
+   "premature_abstention": 0.024489795918367346,
+   "false_outage_rate": 0.055865921787709494,
+   "overall": 0.6306302541493414,
+   "n": 619,
+   "n_by_suite": {
+    "RA": 53,
+    "RP": 7,
+    "S0": 43,
+    "S1": 129,
+    "S1_obs": 43,
+    "S2": 129,
+    "S2_act": 43,
+    "S2_obs": 43,
+    "S3": 129
+   },
+   "correct_by_suite": {
+    "RA": 30,
+    "RP": 5,
+    "S0": 33,
+    "S1": 91,
+    "S1_obs": 30,
+    "S2": 90,
+    "S2_act": 32,
+    "S2_obs": 30,
+    "S3": 11
+   }
+  },
+  "base:heldout": {
+   "fault_free": 0.43859649122807015,
+   "genuine_repair": 0.36,
+   "injected_recovery": 0.4269005847953216,
+   "conditional_recovery": 0.9266666666666666,
+   "correct_escalation": 0.023391812865497075,
+   "premature_abstention": 0.0,
+   "false_outage_rate": 0.008571428571428572,
+   "overall": 0.37639881596996605,
+   "n": 1582,
+   "n_by_suite": {
+    "RA": 19,
+    "RP": 81,
+    "S0": 114,
+    "S1": 342,
+    "S1_obs": 114,
+    "S2": 342,
+    "S2_act": 114,
+    "S2_obs": 114,
+    "S3": 342
+   },
+   "correct_by_suite": {
+    "RA": 11,
+    "RP": 25,
+    "S0": 50,
+    "S1": 147,
+    "S1_obs": 45,
+    "S2": 145,
+    "S2_act": 47,
+    "S2_obs": 43,
+    "S3": 8
+   }
+  },
+  "pi0:test": {
+   "fault_free": 0.8372093023255814,
+   "genuine_repair": 0.6,
+   "injected_recovery": 0.813953488372093,
+   "conditional_recovery": 0.9722222222222222,
+   "correct_escalation": 1.0,
+   "premature_abstention": 0.09183673469387756,
+   "false_outage_rate": 0.5833333333333334,
+   "overall": 0.8084372845232871,
+   "n": 619,
+   "n_by_suite": {
+    "RA": 53,
+    "RP": 7,
+    "S0": 43,
+    "S1": 129,
+    "S1_obs": 43,
+    "S2": 129,
+    "S2_act": 43,
+    "S2_obs": 43,
+    "S3": 129
+   },
+   "correct_by_suite": {
+    "RA": 31,
+    "RP": 5,
+    "S0": 36,
+    "S1": 106,
+    "S1_obs": 36,
+    "S2": 104,
+    "S2_act": 36,
+    "S2_obs": 36,
+    "S3": 129
+   }
+  },
+  "pi0:heldout": {
+   "fault_free": 0.6491228070175439,
+   "genuine_repair": 0.88,
+   "injected_recovery": 0.6652046783625731,
+   "conditional_recovery": 0.9797297297297297,
+   "correct_escalation": 0.9912280701754386,
+   "premature_abstention": 0.14919354838709678,
+   "false_outage_rate": 0.35509904622157007,
+   "overall": 0.739766081871345,
+   "n": 1582,
+   "n_by_suite": {
+    "RA": 19,
+    "RP": 81,
+    "S0": 114,
+    "S1": 342,
+    "S1_obs": 114,
+    "S2": 342,
+    "S2_act": 114,
+    "S2_obs": 114,
+    "S3": 342
+   },
+   "correct_by_suite": {
+    "RA": 16,
+    "RP": 72,
+    "S0": 74,
+    "S1": 232,
+    "S1_obs": 81,
+    "S2": 223,
+    "S2_act": 70,
+    "S2_obs": 72,
+    "S3": 339
+   }
+  }
+ },
+ "summary_recomputed_matches:base": true,
+ "summary_recomputed_matches:pi0": true,
+ "pairs": {
+  "n": 567,
+  "distinct_states": 252,
+  "by_negative": {
+   "cpu_retry": 123,
+   "cpu_escalate": 252,
+   "sampled": 48,
+   "cpu_alternative": 144
+  },
+  "all_train_tasks": true,
+  "all_pass_verify_rule": true,
+  "rollouts_per_branch": [
+   4
+  ],
+  "chosen_success_total": 2266,
+  "rejected_success_total": 0,
+  "official_cso_rule_would_keep": 567
+ },
+ "recovered": {
+  "data/policy_pairs_v1.jsonl": "762953f84f9c1ffc11ccb6186e39a3570557ef4671008af4733c50933cc849e0"
+ }
+}

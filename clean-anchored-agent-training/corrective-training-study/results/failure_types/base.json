@@ -1,0 +1,49 @@
+{
+ "name": "base",
+ "traces": "../pod_backups/pod_backup_20261119.tgz::clean-anchored-agent-training/results/eval/base.jsonl",
+ "labels": {
+  "test": {
+   "C": 77,
+   "X": 118,
+   "A_correct_recovery": 321,
+   "B": 10,
+   "E": 1,
+   "G": 61,
+   "ok_no_error": 31
+  },
+  "heldout": {
+   "ok_no_error": 41,
+   "G": 265,
+   "X": 334,
+   "A_correct_recovery": 480,
+   "D": 286,
+   "C": 170,
+   "B": 6
+  }
+ },
+ "n_labels_per_failure": {
+  "test": {
+   "1": 173,
+   "2": 33,
+   "0": 61
+  },
+  "heldout": {
+   "0": 265,
+   "1": 673,
+   "2": 123
+  }
+ },
+ "real_error_events_by_type_novelty": {
+  "test": {
+   "unseen:other": 28,
+   "seen:other": 112,
+   "seen:outage_resp": 9,
+   "unseen:outage_resp": 1
+  },
+  "heldout": {
+   "seen:other": 12,
+   "unseen:other": 383,
+   "unseen:outage_resp": 6
+  }
+ }
+}

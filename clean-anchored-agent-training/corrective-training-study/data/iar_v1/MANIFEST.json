@@ -1,0 +1,26 @@
+{
+ "version": "iar_v1",
+ "classes": [
+  "MessageAPI",
+  "TradingBot",
+  "TwitterAPI",
+  "TicketAPI"
+ ],
+ "n_decisive_tasks": 22,
+ "n_idempotent_tasks": 55,
+ "counts": {
+  "ac_twin": 198,
+  "ac_twin_timeout": 132,
+  "rejection_retry": 22,
+  "idem_retry": 165
+ },
+ "n": 517,
+ "dropped": {},
+ "baseline_counts_before_cycling": {
+  "ac_twin": 198,
+  "write_retry": 66,
+  "idem_retry": 165
+ },
+ "iar.jsonl": "7b76a478cb7bc369b86186fc0a8c7a43ac37e90676a75167b99e38eb2050b2ee",
+ "aac_matched.jsonl": "be3c68d46caf7a7b739d4bcf4dd9b047d63dfe1bb17e12542d804ebe05f416f7"
+}

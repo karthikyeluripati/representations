@@ -1,0 +1,12 @@
+# Phase 2/3 settings (decision dataset + representation analysis). Not yet used for training.
+decisions:
+  split: train             # decision states are collected from TRAIN tasks only
+  n_games: 3
+  states_per_episode: 2    # decision states sampled per source trajectory
+  candidates_per_state: 4  # includes the policy's own choice; rest sampled uniformly from admissible
+  n_rollouts: 4
+  rollout_policy: frozen_lm
+  rollout_temperature: 0.5 # stochastic rollouts so repeated rollouts are informative
+  dev_fraction: 0.2
+  holdout_families: [pick_two_obj_and_place]
+  out_dir: results/decisions_smoke

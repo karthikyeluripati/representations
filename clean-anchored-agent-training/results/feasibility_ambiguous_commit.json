@@ -1,0 +1,5525 @@
+[
+ {
+  "task_id": "multi_turn_base_0#t0",
+  "split": "train",
+  "fault_fn": "mkdir",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_0#t3",
+  "split": "train",
+  "fault_fn": "mv",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_1#t1",
+  "split": "train",
+  "fault_fn": "mv",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_2#t0",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_2#t1",
+  "split": "train",
+  "fault_fn": "echo",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_2#t3",
+  "split": "train",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_3#t1",
+  "split": "dev",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_4#t2",
+  "split": "dev",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_5#t0",
+  "split": "train",
+  "fault_fn": "mv",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_5#t2",
+  "split": "train",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_5#t3",
+  "split": "train",
+  "fault_fn": "comment",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_tweet_comments"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_tweet_comments"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_6#t0",
+  "split": "dev",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_6#t1",
+  "split": "dev",
+  "fault_fn": "echo",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_6#t4",
+  "split": "dev",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_7#t0",
+  "split": "dev",
+  "fault_fn": "mkdir",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_8#t2",
+  "split": "train",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_8#t3",
+  "split": "train",
+  "fault_fn": "comment",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_tweet_comments"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_tweet_comments"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_9#t1",
+  "split": "train",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_10#t0",
+  "split": "train",
+  "fault_fn": "mkdir",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_10#t1",
+  "split": "train",
+  "fault_fn": "mv",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_10#t2",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_10#t3",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_11#t1",
+  "split": "test",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_12#t0",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_12#t1",
+  "split": "train",
+  "fault_fn": "echo",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_14#t3",
+  "split": "train",
+  "fault_fn": "message_login",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_15#t0",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_15#t1",
+  "split": "train",
+  "fault_fn": "echo",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_16#t0",
+  "split": "test",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_17#t2",
+  "split": "train",
+  "fault_fn": "add_contact",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "list_users"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "list_users"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_18#t0",
+  "split": "train",
+  "fault_fn": "mkdir",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_18#t2",
+  "split": "train",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_19#t1",
+  "split": "test",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_20#t1",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_21#t0",
+  "split": "dev",
+  "fault_fn": "echo",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "sort",
+   "tail"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_21#t2",
+  "split": "dev",
+  "fault_fn": "authenticate_twitter",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "list_all_following"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_22#t1",
+  "split": "train",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_22#t3",
+  "split": "train",
+  "fault_fn": "authenticate_twitter",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "list_all_following"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_23#t0",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_23#t2",
+  "split": "train",
+  "fault_fn": "resolve_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_24#t1",
+  "split": "train",
+  "fault_fn": "mv",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_24#t3",
+  "split": "train",
+  "fault_fn": "resolve_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_ticket"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_25#t1",
+  "split": "train",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_26#t2",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_27#t0",
+  "split": "train",
+  "fault_fn": "mv",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_27#t1",
+  "split": "train",
+  "fault_fn": "ticket_login",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_27#t2",
+  "split": "train",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_28#t2",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_29#t1",
+  "split": "dev",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_29#t2",
+  "split": "dev",
+  "fault_fn": "echo",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_30#t1",
+  "split": "test",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_31#t0",
+  "split": "dev",
+  "fault_fn": "mkdir",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_33#t3",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_34#t1",
+  "split": "dev",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_35#t2",
+  "split": "test",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_36#t0",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_36#t1",
+  "split": "train",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_37#t2",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_38#t0",
+  "split": "train",
+  "fault_fn": "rm",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_39#t0",
+  "split": "train",
+  "fault_fn": "mkdir",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_39#t1",
+  "split": "train",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_40#t1",
+  "split": "dev",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_40#t3",
+  "split": "dev",
+  "fault_fn": "message_login",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_41#t0",
+  "split": "train",
+  "fault_fn": "message_login",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_41#t1",
+  "split": "train",
+  "fault_fn": "delete_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_42#t0",
+  "split": "dev",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_42#t1",
+  "split": "dev",
+  "fault_fn": "echo",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_43#t3",
+  "split": "train",
+  "fault_fn": "message_login",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_44#t0",
+  "split": "test",
+  "fault_fn": "echo",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_44#t2",
+  "split": "test",
+  "fault_fn": "touch",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_45#t1",
+  "split": "train",
+  "fault_fn": "cp",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "du",
+   "find",
+   "ls"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "find",
+   "ls"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_46#t0",
+  "split": "dev",
+  "fault_fn": "rm",
+  "fault_class": "GorillaFileSystem",
+  "non_idempotent": false,
+  "verifiers": [
+   "cat",
+   "du",
+   "find",
+   "ls",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "cat",
+   "sort",
+   "tail",
+   "wc"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_48#t2",
+  "split": "train",
+  "fault_fn": "edit_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_50#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_51#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_51#t1",
+  "split": "heldout",
+  "fault_fn": "pressBrakePedal",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_51#t3",
+  "split": "heldout",
+  "fault_fn": "message_login",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_52#t0",
+  "split": "heldout",
+  "fault_fn": "pressBrakePedal",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_52#t2",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_52#t3",
+  "split": "heldout",
+  "fault_fn": "comment",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_tweet_comments"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_tweet_comments"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_53#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_53#t3",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_54#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_54#t1",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_54#t2",
+  "split": "heldout",
+  "fault_fn": "retweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_55#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_55#t2",
+  "split": "heldout",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_55#t4",
+  "split": "heldout",
+  "fault_fn": "resolve_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_ticket"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_56#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_56#t2",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_58#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_58#t2",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_58#t3",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_59#t2",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_59#t3",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_60#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_60#t2",
+  "split": "heldout",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_60#t4",
+  "split": "heldout",
+  "fault_fn": "close_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_61#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_61#t2",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_62#t0",
+  "split": "heldout",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_62#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_62#t2",
+  "split": "heldout",
+  "fault_fn": "pressBrakePedal",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_63#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_64#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_65#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_65#t1",
+  "split": "heldout",
+  "fault_fn": "retweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_66#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_66#t2",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_66#t3",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_67#t2",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_67#t3",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_68#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_68#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_68#t3",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_68#t4",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_69#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_69#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_70#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_70#t1",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_71#t2",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_71#t3",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_71#t4",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_72#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_72#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_72#t3",
+  "split": "heldout",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_73#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_73#t1",
+  "split": "heldout",
+  "fault_fn": "activateParkingBrake",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_73#t2",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_74#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_74#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_75#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_75#t1",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_75#t2",
+  "split": "heldout",
+  "fault_fn": "retweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_75#t3",
+  "split": "heldout",
+  "fault_fn": "comment",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_tweet_comments"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_tweet_comments"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_76#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_76#t1",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_77#t1",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_77#t2",
+  "split": "heldout",
+  "fault_fn": "retweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_78#t1",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_79#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_79#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_79#t2",
+  "split": "heldout",
+  "fault_fn": "setCruiseControl",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_80#t2",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_80#t3",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_81#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_81#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_82#t0",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_82#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_82#t2",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_83#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_83#t1",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_84#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_84#t1",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_85#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_86#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_86#t1",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_86#t2",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_87#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_87#t2",
+  "split": "heldout",
+  "fault_fn": "activateParkingBrake",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_88#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_88#t2",
+  "split": "heldout",
+  "fault_fn": "pressBrakePedal",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_89#t2",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_89#t3",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_90#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_90#t2",
+  "split": "heldout",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_90#t3",
+  "split": "heldout",
+  "fault_fn": "mention",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_tweet"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_91#t0",
+  "split": "heldout",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_92#t2",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_92#t3",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_92#t4",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_93#t1",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_93#t2",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_94#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_94#t1",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_94#t2",
+  "split": "heldout",
+  "fault_fn": "pressBrakePedal",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_95#t0",
+  "split": "heldout",
+  "fault_fn": "pressBrakePedal",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_95#t3",
+  "split": "heldout",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_96#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_97#t2",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_97#t3",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_97#t4",
+  "split": "heldout",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_98#t0",
+  "split": "heldout",
+  "fault_fn": "lockDoors",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_98#t1",
+  "split": "heldout",
+  "fault_fn": "pressBrakePedal",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_99#t0",
+  "split": "heldout",
+  "fault_fn": "fillFuelTank",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_99#t1",
+  "split": "heldout",
+  "fault_fn": "pressBrakePedal",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_99#t3",
+  "split": "heldout",
+  "fault_fn": "set_navigation",
+  "fault_class": "VehicleControlAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_100#t1",
+  "split": "train",
+  "fault_fn": "fund_account",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_account_info",
+   "get_transaction_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_account_info",
+   "get_transaction_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_101#t1",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_102#t0",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_102#t2",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_102#t4",
+  "split": "train",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_user_tickets"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_103#t2",
+  "split": "dev",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_103#t4",
+  "split": "dev",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_104#t1",
+  "split": "train",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_106#t0",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_106#t3",
+  "split": "train",
+  "fault_fn": "resolve_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_107#t1",
+  "split": "test",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_107#t3",
+  "split": "test",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_108#t1",
+  "split": "test",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_108#t3",
+  "split": "test",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_109#t2",
+  "split": "dev",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_109#t4",
+  "split": "dev",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_109#t6",
+  "split": "dev",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_110#t1",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_110#t3",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_110#t5",
+  "split": "train",
+  "fault_fn": "ticket_login",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_111#t2",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_112#t2",
+  "split": "dev",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_113#t0",
+  "split": "dev",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_114#t1",
+  "split": "train",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_114#t3",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_115#t1",
+  "split": "test",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_116#t1",
+  "split": "dev",
+  "fault_fn": "remove_stock_from_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_116#t4",
+  "split": "dev",
+  "fault_fn": "fund_account",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_account_info",
+   "get_transaction_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_transaction_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_116#t5",
+  "split": "dev",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_117#t0",
+  "split": "train",
+  "fault_fn": "remove_stock_from_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_117#t4",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_117#t5",
+  "split": "train",
+  "fault_fn": "fund_account",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_account_info",
+   "get_transaction_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_transaction_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_118#t1",
+  "split": "train",
+  "fault_fn": "remove_stock_from_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_118#t2",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_118#t4",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_119#t2",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_119#t3",
+  "split": "train",
+  "fault_fn": "close_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_120#t0",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_120#t2",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_121#t1",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_121#t3",
+  "split": "train",
+  "fault_fn": "withdraw_funds",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_account_info",
+   "get_transaction_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_transaction_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_122#t0",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_122#t2",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_122#t3",
+  "split": "train",
+  "fault_fn": "trading_logout",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_account_info",
+   "get_order_history",
+   "get_transaction_history",
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_123#t0",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_123#t2",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_123#t3",
+  "split": "train",
+  "fault_fn": "trading_logout",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_account_info",
+   "get_order_history",
+   "get_transaction_history",
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_124#t0",
+  "split": "test",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_124#t2",
+  "split": "test",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_125#t1",
+  "split": "test",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_125#t4",
+  "split": "test",
+  "fault_fn": "resolve_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_126#t1",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_126#t3",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_127#t1",
+  "split": "train",
+  "fault_fn": "remove_stock_from_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_127#t2",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_128#t1",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_128#t3",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_129#t0",
+  "split": "test",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_129#t3",
+  "split": "test",
+  "fault_fn": "resolve_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_130#t0",
+  "split": "dev",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_130#t2",
+  "split": "dev",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_130#t4",
+  "split": "dev",
+  "fault_fn": "fund_account",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_account_info",
+   "get_transaction_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_transaction_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_131#t3",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_131#t5",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_131#t6",
+  "split": "train",
+  "fault_fn": "delete_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_132#t0",
+  "split": "train",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_133#t0",
+  "split": "train",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_134#t0",
+  "split": "train",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_134#t1",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_135#t2",
+  "split": "dev",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_136#t0",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_136#t2",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_137#t3",
+  "split": "test",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_138#t1",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_138#t3",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_138#t4",
+  "split": "train",
+  "fault_fn": "delete_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_140#t0",
+  "split": "train",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_140#t2",
+  "split": "train",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_user_tickets"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_140#t3",
+  "split": "train",
+  "fault_fn": "resolve_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_141#t0",
+  "split": "train",
+  "fault_fn": "remove_stock_from_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_141#t2",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_141#t4",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_142#t3",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_142#t4",
+  "split": "train",
+  "fault_fn": "fund_account",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_account_info",
+   "get_transaction_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_account_info",
+   "get_transaction_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_143#t2",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_143#t3",
+  "split": "train",
+  "fault_fn": "message_login",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_145#t1",
+  "split": "train",
+  "fault_fn": "add_to_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_watchlist"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_145#t3",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_146#t1",
+  "split": "test",
+  "fault_fn": "remove_stock_from_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_146#t2",
+  "split": "test",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_147#t0",
+  "split": "dev",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_147#t1",
+  "split": "dev",
+  "fault_fn": "mention",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_tweet"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_148#t0",
+  "split": "train",
+  "fault_fn": "place_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_order_history"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_148#t2",
+  "split": "train",
+  "fault_fn": "cancel_order",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_order_details"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_148#t4",
+  "split": "train",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_user_tickets"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_149#t0",
+  "split": "train",
+  "fault_fn": "remove_stock_from_watchlist",
+  "fault_class": "TradingBot",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_watchlist"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_149#t2",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_149#t4",
+  "split": "train",
+  "fault_fn": "delete_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_150#t1",
+  "split": "dev",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_151#t0",
+  "split": "test",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_151#t1",
+  "split": "test",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_151#t2",
+  "split": "test",
+  "fault_fn": "authenticate_twitter",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "list_all_following"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_152#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_152#t1",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_152#t2",
+  "split": "train",
+  "fault_fn": "ticket_login",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_153#t3",
+  "split": "dev",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_154#t3",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_155#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_155#t1",
+  "split": "train",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_156#t0",
+  "split": "test",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_156#t3",
+  "split": "test",
+  "fault_fn": "ticket_login",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_156#t4",
+  "split": "test",
+  "fault_fn": "edit_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket",
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_158#t1",
+  "split": "test",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_158#t2",
+  "split": "test",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_159#t1",
+  "split": "test",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_159#t2",
+  "split": "test",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_160#t0",
+  "split": "train",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_160#t1",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_160#t2",
+  "split": "train",
+  "fault_fn": "close_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_161#t0",
+  "split": "train",
+  "fault_fn": "authenticate_travel",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_162#t3",
+  "split": "train",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_162#t4",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_162#t5",
+  "split": "train",
+  "fault_fn": "close_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_163#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_163#t1",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_164#t1",
+  "split": "dev",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_164#t2",
+  "split": "dev",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_165#t2",
+  "split": "dev",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_166#t2",
+  "split": "test",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_167#t1",
+  "split": "train",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_167#t2",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_167#t3",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_168#t1",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_168#t4",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_169#t0",
+  "split": "dev",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_170#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_170#t3",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_170#t4",
+  "split": "train",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_170#t5",
+  "split": "train",
+  "fault_fn": "retweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_171#t0",
+  "split": "train",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_171#t1",
+  "split": "train",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_171#t2",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_172#t0",
+  "split": "train",
+  "fault_fn": "authenticate_travel",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_172#t1",
+  "split": "train",
+  "fault_fn": "register_credit_card",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_all_credit_cards"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_172#t2",
+  "split": "train",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_173#t2",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_173#t3",
+  "split": "train",
+  "fault_fn": "close_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_174#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_174#t1",
+  "split": "train",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_174#t3",
+  "split": "train",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_174#t4",
+  "split": "train",
+  "fault_fn": "comment",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_tweet_comments"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_tweet_comments"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_175#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_175#t1",
+  "split": "train",
+  "fault_fn": "authenticate_twitter",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "list_all_following"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_176#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_176#t1",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_177#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_178#t0",
+  "split": "train",
+  "fault_fn": "register_credit_card",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_all_credit_cards"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_178#t3",
+  "split": "train",
+  "fault_fn": "ticket_login",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_178#t4",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_179#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_179#t1",
+  "split": "train",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_180#t0",
+  "split": "dev",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_180#t1",
+  "split": "dev",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_180#t2",
+  "split": "dev",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_180#t5",
+  "split": "dev",
+  "fault_fn": "ticket_login",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_181#t2",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_181#t3",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_181#t4",
+  "split": "train",
+  "fault_fn": "ticket_login",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_183#t1",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_183#t4",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_183#t5",
+  "split": "train",
+  "fault_fn": "authenticate_twitter",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "list_all_following"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_184#t0",
+  "split": "dev",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_184#t2",
+  "split": "dev",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_184#t3",
+  "split": "dev",
+  "fault_fn": "send_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "view_messages_sent"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_184#t5",
+  "split": "dev",
+  "fault_fn": "delete_message",
+  "fault_class": "MessageAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_185#t1",
+  "split": "dev",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_186#t1",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_186#t4",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_186#t5",
+  "split": "train",
+  "fault_fn": "authenticate_twitter",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "list_all_following"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_187#t0",
+  "split": "dev",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_187#t3",
+  "split": "dev",
+  "fault_fn": "ticket_login",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_188#t2",
+  "split": "train",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_188#t4",
+  "split": "train",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_188#t5",
+  "split": "train",
+  "fault_fn": "retweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_189#t0",
+  "split": "test",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_189#t1",
+  "split": "test",
+  "fault_fn": "authenticate_twitter",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "list_all_following"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_189#t2",
+  "split": "test",
+  "fault_fn": "retweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_190#t0",
+  "split": "test",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_190#t1",
+  "split": "test",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_190#t4",
+  "split": "test",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_191#t3",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_191#t4",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_192#t3",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_193#t0",
+  "split": "dev",
+  "fault_fn": "authenticate_travel",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_193#t1",
+  "split": "dev",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_193#t2",
+  "split": "dev",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_193#t3",
+  "split": "dev",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_user_tickets"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_user_tickets"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_194#t1",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_194#t2",
+  "split": "train",
+  "fault_fn": "purchase_insurance",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_194#t5",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_195#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_195#t1",
+  "split": "train",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_195#t2",
+  "split": "train",
+  "fault_fn": "post_tweet",
+  "fault_class": "TwitterAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_196#t0",
+  "split": "test",
+  "fault_fn": "set_budget_limit",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_196#t1",
+  "split": "test",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_196#t2",
+  "split": "test",
+  "fault_fn": "cancel_booking",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_196#t3",
+  "split": "test",
+  "fault_fn": "create_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": true,
+  "verifiers": [],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_196#t4",
+  "split": "test",
+  "fault_fn": "resolve_ticket",
+  "fault_class": "TicketAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_ticket"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_197#t0",
+  "split": "train",
+  "fault_fn": "register_credit_card",
+  "fault_class": "TravelAPI",
+  "non_idempotent": true,
+  "verifiers": [
+   "get_all_credit_cards"
+  ],
+  "diagnostic": true,
+  "decisive_verifiers": [
+   "get_all_credit_cards"
+  ],
+  "decisive": true
+ },
+ {
+  "task_id": "multi_turn_base_199#t0",
+  "split": "train",
+  "fault_fn": "book_flight",
+  "fault_class": "TravelAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_all_credit_cards",
+   "get_booking_history",
+   "get_credit_card_balance"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [
+   "get_booking_history"
+  ],
+  "decisive": false
+ },
+ {
+  "task_id": "multi_turn_base_199#t3",
+  "split": "train",
+  "fault_fn": "message_login",
+  "fault_class": "MessageAPI",
+  "non_idempotent": false,
+  "verifiers": [
+   "get_message_stats",
+   "view_messages_sent"
+  ],
+  "diagnostic": false,
+  "decisive_verifiers": [],
+  "decisive": false
+ }
+]

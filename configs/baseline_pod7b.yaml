@@ -1,0 +1,26 @@
+# 7B contingency arm (1x L40S 48 GB). Identical to baseline_pod.yaml except model id and run size.
+model:
+  id: Qwen/Qwen2.5-7B-Instruct
+  dtype: bfloat16
+  device: auto
+  num_threads: 8
+  max_batch: 16
+  reuse_prefix: true
+
+policy:
+  score_type: mean
+  temperature: 0.0
+  max_history: 8
+  few_shot: true
+  demo_cache: results/demos/demos_v1.json
+  novelty_lambda: 1.0
+  novelty_beta: 1.0
+  novelty_reg: 1.0
+
+run:
+  policies: [frozen_lm]
+  split: valid_seen
+  n_games: 30
+  seeds: [0]
+  token_budget: null
+  out_dir: results/pod7b_fewshot

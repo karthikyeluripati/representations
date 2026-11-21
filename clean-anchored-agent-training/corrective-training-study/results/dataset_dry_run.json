@@ -1,0 +1,34 @@
+{
+ "dpo": {
+  "n": 567,
+  "states": 252,
+  "by_negative": {
+   "cpu_retry": 123,
+   "cpu_escalate": 252,
+   "sampled": 48,
+   "cpu_alternative": 144
+  },
+  "prompt_tokens": 2489032,
+  "chosen_tokens": 32016,
+  "rejected_tokens": 25350,
+  "max_prompt": 5843
+ },
+ "sft": {
+  "n": 567,
+  "by_category": {
+   "repair": 189,
+   "outage": 189,
+   "fault_free": 189
+  },
+  "available_by_category": {
+   "repair": 252,
+   "outage": 1686,
+   "fault_free": 492
+  },
+  "prompt_tokens": 2452818,
+  "completion_tokens": 22724,
+  "max_prompt": 5941,
+  "distinct_tasks": 179
+ },
+ "split_tokenization_failures": 0
+}

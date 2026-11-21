@@ -1,0 +1,212 @@
+{
+ "invoice/p=0.05": {
+  "strong_rate": 0.603,
+  "w1": {
+   "accept_rate": 0.98,
+   "fp_share_of_accepted": 0.385,
+   "fp_mechanisms": {
+    "wrote_unread_record": 81,
+    "miscomputed_read_record": 63,
+    "omitted_records": 26
+   }
+  },
+  "w1+proc": {
+   "accept_rate": 0.725,
+   "fp_share_of_accepted": 0.169,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 49
+   }
+  },
+  "w2": {
+   "accept_rate": 0.873,
+   "fp_share_of_accepted": 0.309,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 42,
+    "wrote_unread_record": 53,
+    "omitted_records": 22
+   }
+  },
+  "w2+proc": {
+   "accept_rate": 0.69,
+   "fp_share_of_accepted": 0.127,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 35
+   }
+  }
+ },
+ "invoice/p=0.1": {
+  "strong_rate": 0.343,
+  "w1": {
+   "accept_rate": 0.958,
+   "fp_share_of_accepted": 0.642,
+   "fp_mechanisms": {
+    "wrote_unread_record": 152,
+    "miscomputed_read_record": 115,
+    "omitted_records": 62
+   }
+  },
+  "w1+proc": {
+   "accept_rate": 0.477,
+   "fp_share_of_accepted": 0.283,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 54
+   }
+  },
+  "w2": {
+   "accept_rate": 0.78,
+   "fp_share_of_accepted": 0.561,
+   "fp_mechanisms": {
+    "wrote_unread_record": 97,
+    "miscomputed_read_record": 75,
+    "omitted_records": 42
+   }
+  },
+  "w2+proc": {
+   "accept_rate": 0.453,
+   "fp_share_of_accepted": 0.243,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 44
+   }
+  }
+ },
+ "invoice/p=0.2": {
+  "strong_rate": 0.095,
+  "w1": {
+   "accept_rate": 0.865,
+   "fp_share_of_accepted": 0.89,
+   "fp_mechanisms": {
+    "wrote_unread_record": 185,
+    "miscomputed_read_record": 160,
+    "omitted_records": 102
+   }
+  },
+  "w1+proc": {
+   "accept_rate": 0.24,
+   "fp_share_of_accepted": 0.604,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 58
+   }
+  },
+  "w2": {
+   "accept_rate": 0.525,
+   "fp_share_of_accepted": 0.819,
+   "fp_mechanisms": {
+    "wrote_unread_record": 82,
+    "miscomputed_read_record": 74,
+    "omitted_records": 58
+   }
+  },
+  "w2+proc": {
+   "accept_rate": 0.195,
+   "fp_share_of_accepted": 0.513,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 40
+   }
+  }
+ },
+ "inventory/p=0.05": {
+  "strong_rate": 0.605,
+  "w1": {
+   "accept_rate": 0.978,
+   "fp_share_of_accepted": 0.381,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 57,
+    "wrote_unread_record": 77,
+    "omitted_records": 30
+   }
+  },
+  "w1+proc": {
+   "accept_rate": 0.723,
+   "fp_share_of_accepted": 0.163,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 47
+   }
+  },
+  "w2": {
+   "accept_rate": 0.885,
+   "fp_share_of_accepted": 0.316,
+   "fp_mechanisms": {
+    "wrote_unread_record": 53,
+    "miscomputed_read_record": 42,
+    "omitted_records": 27
+   }
+  },
+  "w2+proc": {
+   "accept_rate": 0.69,
+   "fp_share_of_accepted": 0.123,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 34
+   }
+  }
+ },
+ "inventory/p=0.1": {
+  "strong_rate": 0.315,
+  "w1": {
+   "accept_rate": 0.96,
+   "fp_share_of_accepted": 0.672,
+   "fp_mechanisms": {
+    "omitted_records": 74,
+    "wrote_unread_record": 128,
+    "miscomputed_read_record": 119
+   }
+  },
+  "w1+proc": {
+   "accept_rate": 0.48,
+   "fp_share_of_accepted": 0.359,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 69
+   }
+  },
+  "w2": {
+   "accept_rate": 0.787,
+   "fp_share_of_accepted": 0.6,
+   "fp_mechanisms": {
+    "omitted_records": 61,
+    "wrote_unread_record": 84,
+    "miscomputed_read_record": 70
+   }
+  },
+  "w2+proc": {
+   "accept_rate": 0.432,
+   "fp_share_of_accepted": 0.289,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 50
+   }
+  }
+ },
+ "inventory/p=0.2": {
+  "strong_rate": 0.13,
+  "w1": {
+   "accept_rate": 0.895,
+   "fp_share_of_accepted": 0.855,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 174,
+    "wrote_unread_record": 191,
+    "omitted_records": 104
+   }
+  },
+  "w1+proc": {
+   "accept_rate": 0.265,
+   "fp_share_of_accepted": 0.519,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 55
+   }
+  },
+  "w2": {
+   "accept_rate": 0.562,
+   "fp_share_of_accepted": 0.769,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 83,
+    "wrote_unread_record": 94,
+    "omitted_records": 65
+   }
+  },
+  "w2+proc": {
+   "accept_rate": 0.21,
+   "fp_share_of_accepted": 0.393,
+   "fp_mechanisms": {
+    "miscomputed_read_record": 33
+   }
+  }
+ }
+}

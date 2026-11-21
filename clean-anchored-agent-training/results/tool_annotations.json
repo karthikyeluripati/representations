@@ -1,0 +1,392 @@
+{
+ "activateParkingBrake": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 13
+ },
+ "add_contact": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 2
+ },
+ "add_to_watchlist": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 23
+ },
+ "authenticate_travel": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 8
+ },
+ "authenticate_twitter": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 19
+ },
+ "book_flight": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 93
+ },
+ "cancel_booking": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 32
+ },
+ "cancel_order": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 28
+ },
+ "cat": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 16
+ },
+ "cd": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 69
+ },
+ "check_tire_pressure": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 33
+ },
+ "close_ticket": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 5
+ },
+ "comment": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 6
+ },
+ "compute_exchange_rate": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 35
+ },
+ "contact_customer_support": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 16
+ },
+ "cp": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 21
+ },
+ "create_ticket": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 25
+ },
+ "delete_message": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 5
+ },
+ "diff": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 12
+ },
+ "displayCarStatus": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 15
+ },
+ "du": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 4
+ },
+ "echo": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 26
+ },
+ "edit_ticket": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 2
+ },
+ "estimate_distance": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 35
+ },
+ "estimate_drive_feasibility_by_mileage": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 27
+ },
+ "fillFuelTank": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 77
+ },
+ "find": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 6
+ },
+ "find_nearest_tire_shop": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 17
+ },
+ "fund_account": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 6
+ },
+ "gallon_to_liter": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 13
+ },
+ "get_account_info": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 12
+ },
+ "get_available_stocks": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 18
+ },
+ "get_current_time": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 5
+ },
+ "get_flight_cost": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 82
+ },
+ "get_nearest_airport_by_city": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 9
+ },
+ "get_order_details": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 37
+ },
+ "get_outside_temperature_from_google": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 1
+ },
+ "get_stock_info": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 72
+ },
+ "get_ticket": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 7
+ },
+ "get_user_id": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 2
+ },
+ "get_watchlist": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 34
+ },
+ "get_zipcode_based_on_city": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 64
+ },
+ "grep": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 9
+ },
+ "list_all_airports": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 12
+ },
+ "liter_to_gallon": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 19
+ },
+ "lockDoors": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 75
+ },
+ "ls": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 10
+ },
+ "mean": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 2
+ },
+ "mention": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 2
+ },
+ "message_login": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 11
+ },
+ "mkdir": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 12
+ },
+ "mv": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 26
+ },
+ "place_order": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 63
+ },
+ "post_tweet": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 47
+ },
+ "pressBrakePedal": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 75
+ },
+ "purchase_insurance": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 22
+ },
+ "register_credit_card": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 6
+ },
+ "remove_stock_from_watchlist": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 19
+ },
+ "resolve_ticket": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 8
+ },
+ "retrieve_invoice": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 28
+ },
+ "retweet": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 9
+ },
+ "rm": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 2
+ },
+ "rmdir": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 2
+ },
+ "send_message": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 35
+ },
+ "setCruiseControl": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 1
+ },
+ "setHeadlights": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 1
+ },
+ "set_budget_limit": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 35
+ },
+ "set_navigation": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 17
+ },
+ "sort": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 5
+ },
+ "startEngine": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 75
+ },
+ "tail": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 5
+ },
+ "ticket_login": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 11
+ },
+ "touch": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 32
+ },
+ "trading_logout": {
+  "readOnlyHint": false,
+  "idempotentHint": true,
+  "n": 2
+ },
+ "verify_traveler_information": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 13
+ },
+ "view_messages_sent": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 4
+ },
+ "wc": {
+  "readOnlyHint": true,
+  "idempotentHint": true,
+  "n": 5
+ },
+ "withdraw_funds": {
+  "readOnlyHint": false,
+  "idempotentHint": false,
+  "n": 1
+ }
+}

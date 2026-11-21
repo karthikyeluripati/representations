@@ -1,0 +1,12 @@
+# Phase 2 decision dataset on the GPU pod (pilot size). Train split only.
+decisions:
+  split: train
+  n_games: 36              # 6 per task family (family-stratified)
+  states_per_episode: 3
+  candidates_per_state: 4  # policy's choice + 3 uniformly sampled alternatives
+  n_rollouts: 4
+  rollout_policy: frozen_lm
+  rollout_temperature: 0.5
+  dev_fraction: 0.25
+  holdout_families: [pick_two_obj_and_place]
+  out_dir: results/decisions_pilot

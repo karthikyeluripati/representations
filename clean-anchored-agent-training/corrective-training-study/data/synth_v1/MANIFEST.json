@@ -1,0 +1,20 @@
+{
+ "version": "synth_v1",
+ "n_classes": 32,
+ "tasks_per_kind": 2,
+ "n": 832,
+ "counts_iar": {
+  "syn_check": 128,
+  "syn_post": 256,
+  "syn_reject_retry": 64,
+  "syn_idem_retry": 384
+ },
+ "counts_old_before_cycling": {
+  "syn_old_retry": 128,
+  "syn_reject_retry": 64,
+  "syn_idem_retry": 384
+ },
+ "dropped": {},
+ "syn_iar.jsonl": "32f3787e2f9cfafaa485489a6cb3dfb2d405e0bdcb3f25df91cb44aa252f2567",
+ "syn_old.jsonl": "197d733d51a8d88d0be1227f45a0f50a72a059138d80bfe3d77a730bbb6e9eb0"
+}
