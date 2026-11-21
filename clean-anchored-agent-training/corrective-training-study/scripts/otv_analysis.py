@@ -49,7 +49,9 @@ def main():
         "unseen_class": [t for t, r in feas.items() if r["decisive"] and r["fault_class"] not in TC],
         "in_dist": [t for t, r in feas.items() if r["decisive"] and r["fault_class"] in TC and r["split"] != "train"]}
     fixed = {g: sorted(t for t in ts if t in ref and ref[t]["S0"]["correct"]) for g, ts in groups.items()}
-    runs = {arm: {s: by_task(load(a.uo, f"{arm}_s{s}")) for s in a.seeds} for arm in a.arms}
+    # arms may have different seed sets (e.g. a 2-seed arm vs 3-seed arms): use the seeds each arm has
+    runs = {arm: {s: by_task(load(a.uo, f"{arm}_s{s}")) for s in a.seeds if os.path.exists(os.path.join(a.uo, f"{arm}_s{s}.jsonl"))}
+            for arm in a.arms}
     runs[a.ref] = {"-": ref}
     res = {"n_tasks": {g: len(v) for g, v in fixed.items()}, "per_seed": {}, "pooled": {}, "diffs": {}, "controls": {}}
     rng = np.random.default_rng(0)
