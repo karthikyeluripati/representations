@@ -1,0 +1,20 @@
+{
+ "version": "caw2_v1",
+ "n": 1349,
+ "n_synthetic": 832,
+ "n_persist": 88,
+ "n_bfcl_cycled": 429,
+ "counts": {
+  "ac_twin": 275,
+  "ac_twin_timeout": 132,
+  "rejection_retry": 22,
+  "persist_backup": 44,
+  "persist_escalate": 44,
+  "caw_check": 192,
+  "caw_post": 384,
+  "caw_reject_retry": 192,
+  "caw_read_retry": 64
+ },
+ "dropped": {},
+ "caw2.jsonl": "d91cd493812604e0aac9ec7e515cd280961561c7e2965e5cb61732d3e5a784e7"
+}

@@ -47,3 +47,21 @@ def test_no_idempotent_retry_on_writes_and_no_eval_wordings(rows):
     for r in rows:
         blob = json.dumps(r["msgs"], ensure_ascii=False)
         assert all(AC_MESSAGES[m] not in blob for m in AC_EVAL_UNSEEN_MSGS)
+
+
+def test_caw2_persistent_failure_continuations():
+    p = os.path.join(STUDY, "data", "caw2_v1", "caw2.jsonl")
+    if not os.path.exists(p):
+        pytest.skip("caw2_v1 not built")
+    from src.environment.bfcl_env import ESCALATE, TRAIN_ERRORS
+    rows = [json.loads(l) for l in open(p, encoding="utf-8")]
+    assert len(rows) == 1349
+    pers = [r for r in rows if r["kind"].startswith("persist_")]
+    assert len(pers) == 88
+    for r in pers:
+        tool_obs = [m["content"] for m in r["msgs"] if m["role"] == "tool"]
+        assert tool_obs[-1] in TRAIN_ERRORS[1:]                         # the latest attempt failed again
+        if r["kind"] == "persist_backup":
+            assert r["chosen"]["name"].endswith("_backup") and tool_obs[-2] not in TRAIN_ERRORS   # check succeeded, f failed twice
+        else:
+            assert r["chosen"]["name"] == ESCALATE and tool_obs[-2] in TRAIN_ERRORS                # the check itself keeps failing
