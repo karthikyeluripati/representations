@@ -46,6 +46,7 @@ python -m pytest -q tests && (cd corrective-training-study && python -m pytest -
 | diversity scaling (64 classes) | `docs/method_synthetic.md` | `scripts/run_synth64_h100.sh` |
 | τ²-bench zero-shot transfer | `docs/tau2_transfer.md` | `../scripts/run_tau2_eval_h100.sh` |
 | check-all-writes | `docs/method_caw.md` | `scripts/run_caw_h100.sh` |
+| semantic-counterfactual diagnostic | `docs/semantic_counterfactual_protocol.md`, `docs/semantic_cf_results.md` | `scripts/eval_semantic_cf.py`, `scripts/semantic_cf_analysis.py` (CPU validation: `scripts/semantic_cf_validate.py`) |
 | Table 1, figures | — | `scripts/compile_leaderboard.py`, `scripts/make_figures.py` |
 
 ## Result archives (sha256)
@@ -64,6 +65,7 @@ Archives are in `../../pod_backups/`. Each holds per-episode traces, summaries, 
 | `synth_3seeds_slim_20261121.tgz` | b923b323 |
 | `tau2_eval_slim_20261121.tgz` | 01ffa196 |
 | `synth_analysis_scaling_20261121.json` | — |
+| `semcf_eval_20261122.tgz` (semantic-counterfactual evaluation) | 2c6dc99b |
 
 ## Pre-registration practice
 - **Each study** has a document that fixes its primary metric, matched baseline and decision rule **before training**.

@@ -1,0 +1,4071 @@
+{
+ "n_episodes_per_run": 1920,
+ "n_family_clusters": 20,
+ "arms": {
+  "piB": {
+   "seeds": [
+    "piB"
+   ],
+   "per_seed": {
+    "piB": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.875,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.7,
+     "unnecessary_check_rate": 0.0,
+     "twin_joint_listing": 0.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.7,
+     "initial_decision_correct": 0.6,
+     "check_rate_after_fault": 0.0,
+     "post_check_interpretation": null,
+     "outcome_twin_correct": 0.5,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.167,
+     "excess_calls": -0.081,
+     "mean_calls": 1.002
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.875,
+     "ci": [
+      0.875,
+      0.875
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 0.6,
+     "ci": [
+      0.6,
+      0.6
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": null,
+     "ci": [
+      null,
+      null
+     ],
+     "n_clusters": 0
+    },
+    "outcome_twin_correct": {
+     "mean": 0.5,
+     "ci": [
+      0.5,
+      0.5
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.167,
+     "ci": [
+      0.167,
+      0.167
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": -0.081,
+     "ci": [
+      -0.083,
+      -0.078
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.002,
+     "ci": [
+      1.0,
+      1.005
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "piB": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.5,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 0.5,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "piB_prompt": {
+   "seeds": [
+    "piB_prompt"
+   ],
+   "per_seed": {
+    "piB_prompt": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.875,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.7,
+     "unnecessary_check_rate": 0.0,
+     "twin_joint_listing": 0.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.7,
+     "initial_decision_correct": 0.6,
+     "check_rate_after_fault": 0.0,
+     "post_check_interpretation": null,
+     "outcome_twin_correct": 0.5,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.167,
+     "excess_calls": -0.083,
+     "mean_calls": 1.0
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.875,
+     "ci": [
+      0.875,
+      0.875
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 0.6,
+     "ci": [
+      0.6,
+      0.6
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": null,
+     "ci": [
+      null,
+      null
+     ],
+     "n_clusters": 0
+    },
+    "outcome_twin_correct": {
+     "mean": 0.5,
+     "ci": [
+      0.5,
+      0.5
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.167,
+     "ci": [
+      0.167,
+      0.167
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": -0.083,
+     "ci": [
+      -0.083,
+      -0.083
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "piB_prompt": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.5,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 0.5,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "SYN64": {
+   "seeds": [
+    "SYN64_s0",
+    "SYN64_s1",
+    "SYN64_s2"
+   ],
+   "per_seed": {
+    "SYN64_s0": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.062,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.879,
+     "B_name_consistency": 0.982,
+     "B_name_both_correct": 0.7,
+     "unnecessary_check_rate": 0.003,
+     "twin_joint_listing": 0.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.703,
+     "initial_decision_correct": 0.606,
+     "check_rate_after_fault": 0.009,
+     "post_check_interpretation": 1.0,
+     "outcome_twin_correct": 0.508,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.164,
+     "excess_calls": -0.073,
+     "mean_calls": 1.01
+    },
+    "SYN64_s1": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.875,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.7,
+     "unnecessary_check_rate": 0.0,
+     "twin_joint_listing": 0.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.7,
+     "initial_decision_correct": 0.6,
+     "check_rate_after_fault": 0.0,
+     "post_check_interpretation": null,
+     "outcome_twin_correct": 0.5,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.167,
+     "excess_calls": -0.083,
+     "mean_calls": 1.0
+    },
+    "SYN64_s2": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.875,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.7,
+     "unnecessary_check_rate": 0.0,
+     "twin_joint_listing": 0.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.7,
+     "initial_decision_correct": 0.6,
+     "check_rate_after_fault": 0.0,
+     "post_check_interpretation": null,
+     "outcome_twin_correct": 0.5,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.167,
+     "excess_calls": -0.081,
+     "mean_calls": 1.002
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.021,
+     "ci": [
+      0.0,
+      0.046
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.876,
+     "ci": [
+      0.875,
+      0.878
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 0.994,
+     "ci": [
+      0.988,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.001,
+     "ci": [
+      0.0,
+      0.002
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.701,
+     "ci": [
+      0.7,
+      0.702
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 0.602,
+     "ci": [
+      0.6,
+      0.605
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.003,
+     "ci": [
+      0.0,
+      0.006
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": null,
+     "ci": [
+      null,
+      null
+     ],
+     "n_clusters": 0
+    },
+    "outcome_twin_correct": {
+     "mean": 0.503,
+     "ci": [
+      0.5,
+      0.506
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.166,
+     "ci": [
+      0.165,
+      0.167
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": -0.079,
+     "ci": [
+      -0.083,
+      -0.073
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.004,
+     "ci": [
+      1.0,
+      1.01
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "SYN64_s0": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.531,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 0.5,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    },
+    "SYN64_s1": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.5,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 0.5,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    },
+    "SYN64_s2": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.5,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 0.5,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "CAW": {
+   "seeds": [
+    "CAW_s0",
+    "CAW_s1"
+   ],
+   "per_seed": {
+    "CAW_s0": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 1.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 1.0,
+     "B_name_consistency": 0.894,
+     "B_name_both_correct": 0.8,
+     "unnecessary_check_rate": 0.522,
+     "twin_joint_listing": 1.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.8,
+     "initial_decision_correct": 0.96,
+     "check_rate_after_fault": 0.722,
+     "post_check_interpretation": 0.776,
+     "outcome_twin_correct": 0.75,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.083,
+     "excess_calls": 0.358,
+     "mean_calls": 1.442
+    },
+    "CAW_s1": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.975,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.994,
+     "B_name_consistency": 0.927,
+     "B_name_both_correct": 0.793,
+     "unnecessary_check_rate": 0.559,
+     "twin_joint_listing": 1.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.795,
+     "initial_decision_correct": 0.979,
+     "check_rate_after_fault": 0.759,
+     "post_check_interpretation": 0.758,
+     "outcome_twin_correct": 0.738,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.083,
+     "excess_calls": 0.382,
+     "mean_calls": 1.466
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.988,
+     "ci": [
+      0.963,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.997,
+     "ci": [
+      0.993,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 0.911,
+     "ci": [
+      0.878,
+      0.943
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.796,
+     "ci": [
+      0.791,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.541,
+     "ci": [
+      0.522,
+      0.559
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.798,
+     "ci": [
+      0.794,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 0.969,
+     "ci": [
+      0.96,
+      0.979
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.741,
+     "ci": [
+      0.722,
+      0.759
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": 0.767,
+     "ci": [
+      0.756,
+      0.777
+     ],
+     "n_clusters": 20
+    },
+    "outcome_twin_correct": {
+     "mean": 0.744,
+     "ci": [
+      0.735,
+      0.75
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.083,
+     "ci": [
+      0.083,
+      0.083
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": 0.37,
+     "ci": [
+      0.353,
+      0.389
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.454,
+     "ci": [
+      1.436,
+      1.472
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "CAW_s0": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 1.0,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 1.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    },
+    "CAW_s1": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 0.963,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.988,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 1.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "CAW2": {
+   "seeds": [
+    "CAW2_s0",
+    "CAW2_s1"
+   ],
+   "per_seed": {
+    "CAW2_s0": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 1.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 1.0,
+     "B_name_consistency": 0.882,
+     "B_name_both_correct": 0.8,
+     "unnecessary_check_rate": 0.565,
+     "twin_joint_listing": 1.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.8,
+     "initial_decision_correct": 0.974,
+     "check_rate_after_fault": 0.765,
+     "post_check_interpretation": 0.774,
+     "outcome_twin_correct": 0.75,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.083,
+     "excess_calls": 0.389,
+     "mean_calls": 1.472
+    },
+    "CAW2_s1": {
+     "A_effect_sensitivity": 0.006,
+     "twin_joint_history": 0.887,
+     "infeasible_safe_escalation": 0.006,
+     "feasible_end_state": 0.987,
+     "B_name_consistency": 0.871,
+     "B_name_both_correct": 0.785,
+     "unnecessary_check_rate": 0.525,
+     "twin_joint_listing": 1.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.791,
+     "initial_decision_correct": 0.964,
+     "check_rate_after_fault": 0.725,
+     "post_check_interpretation": 0.756,
+     "outcome_twin_correct": 0.725,
+     "premature_escalation": 0.013,
+     "duplicate_rate": 0.083,
+     "excess_calls": 0.365,
+     "mean_calls": 1.448
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.003,
+     "ci": [
+      0.0,
+      0.009
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.944,
+     "ci": [
+      0.887,
+      0.988
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.003,
+     "ci": [
+      0.0,
+      0.009
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.993,
+     "ci": [
+      0.987,
+      0.999
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 0.877,
+     "ci": [
+      0.845,
+      0.907
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.793,
+     "ci": [
+      0.785,
+      0.799
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.545,
+     "ci": [
+      0.525,
+      0.565
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.795,
+     "ci": [
+      0.79,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 0.969,
+     "ci": [
+      0.96,
+      0.977
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.745,
+     "ci": [
+      0.725,
+      0.765
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": 0.765,
+     "ci": [
+      0.756,
+      0.773
+     ],
+     "n_clusters": 20
+    },
+    "outcome_twin_correct": {
+     "mean": 0.738,
+     "ci": [
+      0.724,
+      0.748
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.007,
+     "ci": [
+      0.001,
+      0.013
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.083,
+     "ci": [
+      0.083,
+      0.083
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": 0.377,
+     "ci": [
+      0.36,
+      0.393
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.46,
+     "ci": [
+      1.444,
+      1.477
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "CAW2_s0": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 1.0,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 1.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    },
+    "CAW2_s1": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 0.95,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.944,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 1.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.013,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "scripted:always_check": {
+   "seeds": [
+    "always_check"
+   ],
+   "per_seed": {
+    "always_check": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 1.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 1.0,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.8,
+     "unnecessary_check_rate": 0.8,
+     "twin_joint_listing": 1.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.8,
+     "initial_decision_correct": 1.0,
+     "check_rate_after_fault": 1.0,
+     "post_check_interpretation": 0.8,
+     "outcome_twin_correct": 0.75,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.083,
+     "excess_calls": 0.583,
+     "mean_calls": 1.667
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.8,
+     "ci": [
+      0.8,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.8,
+     "ci": [
+      0.8,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.8,
+     "ci": [
+      0.8,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": 0.8,
+     "ci": [
+      0.8,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "outcome_twin_correct": {
+     "mean": 0.75,
+     "ci": [
+      0.75,
+      0.75
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.083,
+     "ci": [
+      0.083,
+      0.083
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": 0.583,
+     "ci": [
+      0.583,
+      0.583
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.667,
+     "ci": [
+      1.667,
+      1.667
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "always_check": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 1.0,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 1.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "scripted:always_retry": {
+   "seeds": [
+    "always_retry"
+   ],
+   "per_seed": {
+    "always_retry": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.875,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.7,
+     "unnecessary_check_rate": 0.0,
+     "twin_joint_listing": 0.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.7,
+     "initial_decision_correct": 0.6,
+     "check_rate_after_fault": 0.0,
+     "post_check_interpretation": null,
+     "outcome_twin_correct": 0.5,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.167,
+     "excess_calls": -0.083,
+     "mean_calls": 1.0
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.875,
+     "ci": [
+      0.875,
+      0.875
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 0.6,
+     "ci": [
+      0.6,
+      0.6
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": null,
+     "ci": [
+      null,
+      null
+     ],
+     "n_clusters": 0
+    },
+    "outcome_twin_correct": {
+     "mean": 0.5,
+     "ci": [
+      0.5,
+      0.5
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.167,
+     "ci": [
+      0.167,
+      0.167
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": -0.083,
+     "ci": [
+      -0.083,
+      -0.083
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "always_retry": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.5,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 0.5,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "scripted:escalate_on_timeout": {
+   "seeds": [
+    "escalate_on_timeout"
+   ],
+   "per_seed": {
+    "escalate_on_timeout": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.0,
+     "infeasible_safe_escalation": 1.0,
+     "feasible_end_state": 0.25,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.4,
+     "unnecessary_check_rate": 0.0,
+     "twin_joint_listing": 0.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.4,
+     "initial_decision_correct": 0.4,
+     "check_rate_after_fault": 0.0,
+     "post_check_interpretation": null,
+     "outcome_twin_correct": 0.25,
+     "premature_escalation": 0.75,
+     "duplicate_rate": 0.0,
+     "excess_calls": -0.083,
+     "mean_calls": 1.0
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.25,
+     "ci": [
+      0.25,
+      0.25
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.4,
+     "ci": [
+      0.4,
+      0.4
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.4,
+     "ci": [
+      0.4,
+      0.4
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 0.4,
+     "ci": [
+      0.4,
+      0.4
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": null,
+     "ci": [
+      null,
+      null
+     ],
+     "n_clusters": 0
+    },
+    "outcome_twin_correct": {
+     "mean": 0.25,
+     "ci": [
+      0.25,
+      0.25
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.75,
+     "ci": [
+      0.75,
+      0.75
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": -0.083,
+     "ci": [
+      -0.083,
+      -0.083
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "escalate_on_timeout": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 0.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 0.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 0.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 0.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.0,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 0.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 1.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 1.0
+    }
+   }
+  },
+  "scripted:check_first_esc_on_error": {
+   "seeds": [
+    "check_first_esc_on_error"
+   ],
+   "per_seed": {
+    "check_first_esc_on_error": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.875,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.7,
+     "unnecessary_check_rate": 0.6,
+     "twin_joint_listing": 1.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.7,
+     "initial_decision_correct": 1.0,
+     "check_rate_after_fault": 0.8,
+     "post_check_interpretation": 0.625,
+     "outcome_twin_correct": 0.5,
+     "premature_escalation": 0.125,
+     "duplicate_rate": 0.083,
+     "excess_calls": 0.417,
+     "mean_calls": 1.5
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.875,
+     "ci": [
+      0.875,
+      0.875
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.6,
+     "ci": [
+      0.6,
+      0.6
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.7,
+     "ci": [
+      0.7,
+      0.7
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.8,
+     "ci": [
+      0.8,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": 0.625,
+     "ci": [
+      0.625,
+      0.625
+     ],
+     "n_clusters": 20
+    },
+    "outcome_twin_correct": {
+     "mean": 0.5,
+     "ci": [
+      0.5,
+      0.5
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.125,
+     "ci": [
+      0.125,
+      0.125
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.083,
+     "ci": [
+      0.083,
+      0.083
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": 0.417,
+     "ci": [
+      0.417,
+      0.417
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.5,
+     "ci": [
+      1.5,
+      1.5
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "check_first_esc_on_error": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 0.5,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.5,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 1.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "scripted:check_first_reissue_on_error": {
+   "seeds": [
+    "check_first_reissue_on_error"
+   ],
+   "per_seed": {
+    "check_first_reissue_on_error": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 1.0,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 1.0,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 0.8,
+     "unnecessary_check_rate": 0.6,
+     "twin_joint_listing": 1.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.8,
+     "initial_decision_correct": 1.0,
+     "check_rate_after_fault": 0.8,
+     "post_check_interpretation": 0.75,
+     "outcome_twin_correct": 0.75,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.083,
+     "excess_calls": 0.417,
+     "mean_calls": 1.5
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.8,
+     "ci": [
+      0.8,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.6,
+     "ci": [
+      0.6,
+      0.6
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.8,
+     "ci": [
+      0.8,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.8,
+     "ci": [
+      0.8,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": 0.75,
+     "ci": [
+      0.75,
+      0.75
+     ],
+     "n_clusters": 20
+    },
+    "outcome_twin_correct": {
+     "mean": 0.75,
+     "ci": [
+      0.75,
+      0.75
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.083,
+     "ci": [
+      0.083,
+      0.083
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": 0.417,
+     "ci": [
+      0.417,
+      0.417
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.5,
+     "ci": [
+      1.5,
+      1.5
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "check_first_reissue_on_error": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 1.0,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 1.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "scripted:name_heuristic": {
+   "seeds": [
+    "name_heuristic"
+   ],
+   "per_seed": {
+    "name_heuristic": {
+     "A_effect_sensitivity": 0.0,
+     "twin_joint_history": 0.425,
+     "infeasible_safe_escalation": 0.0,
+     "feasible_end_state": 0.928,
+     "B_name_consistency": 0.64,
+     "B_name_both_correct": 0.72,
+     "unnecessary_check_rate": 0.255,
+     "twin_joint_listing": 0.425,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 0.742,
+     "initial_decision_correct": 0.77,
+     "check_rate_after_fault": 0.34,
+     "post_check_interpretation": 0.75,
+     "outcome_twin_correct": 0.606,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.131,
+     "excess_calls": 0.129,
+     "mean_calls": 1.212
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 0.425,
+     "ci": [
+      0.275,
+      0.575
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 0.928,
+     "ci": [
+      0.909,
+      0.947
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 0.64,
+     "ci": [
+      0.48,
+      0.8
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 0.72,
+     "ci": [
+      0.705,
+      0.74
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.255,
+     "ci": [
+      0.165,
+      0.345
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 0.425,
+     "ci": [
+      0.275,
+      0.575
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 0.742,
+     "ci": [
+      0.727,
+      0.758
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 0.77,
+     "ci": [
+      0.71,
+      0.83
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.34,
+     "ci": [
+      0.22,
+      0.46
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": 0.75,
+     "ci": [
+      0.75,
+      0.75
+     ],
+     "n_clusters": 13
+    },
+    "outcome_twin_correct": {
+     "mean": 0.606,
+     "ci": [
+      0.569,
+      0.644
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.131,
+     "ci": [
+      0.119,
+      0.144
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": 0.129,
+     "ci": [
+      0.054,
+      0.204
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.212,
+     "ci": [
+      1.137,
+      1.288
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "name_heuristic": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 0.713,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 0.713,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 0.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 0.0
+    }
+   }
+  },
+  "scripted:contract_policy": {
+   "seeds": [
+    "contract_policy"
+   ],
+   "per_seed": {
+    "contract_policy": {
+     "A_effect_sensitivity": 1.0,
+     "twin_joint_history": 1.0,
+     "infeasible_safe_escalation": 1.0,
+     "feasible_end_state": 1.0,
+     "B_name_consistency": 1.0,
+     "B_name_both_correct": 1.0,
+     "unnecessary_check_rate": 0.0,
+     "twin_joint_listing": 1.0,
+     "fault_free_success": 1.0,
+     "decision_accuracy": 1.0,
+     "initial_decision_correct": 1.0,
+     "check_rate_after_fault": 0.2,
+     "post_check_interpretation": 1.0,
+     "outcome_twin_correct": 1.0,
+     "premature_escalation": 0.0,
+     "duplicate_rate": 0.0,
+     "excess_calls": 0.0,
+     "mean_calls": 1.083
+    }
+   },
+   "pooled": {
+    "A_effect_sensitivity": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_history": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "infeasible_safe_escalation": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "feasible_end_state": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_consistency": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "B_name_both_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "twin_joint_listing": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "decision_accuracy": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "initial_decision_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "check_rate_after_fault": {
+     "mean": 0.2,
+     "ci": [
+      0.2,
+      0.2
+     ],
+     "n_clusters": 20
+    },
+    "post_check_interpretation": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "outcome_twin_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "duplicate_rate": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "excess_calls": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20
+    },
+    "mean_calls": {
+     "mean": 1.083,
+     "ci": [
+      1.083,
+      1.083
+     ],
+     "n_clusters": 20
+    }
+   },
+   "cells": {
+    "contract_policy": {
+     "idem|history|reject": 1.0,
+     "idem|history|timeout": 1.0,
+     "idem|listing|reject": 1.0,
+     "idem|listing|timeout": 1.0,
+     "idem|none|reject": 1.0,
+     "idem|none|timeout": 1.0,
+     "idem|snapshot|reject": 1.0,
+     "idem|snapshot|timeout": 1.0,
+     "nonidem|history|reject": 1.0,
+     "nonidem|history|timeout": 1.0,
+     "nonidem|listing|reject": 1.0,
+     "nonidem|listing|timeout": 1.0,
+     "nonidem|none|reject": 1.0,
+     "nonidem|none|timeout": 1.0,
+     "nonidem|snapshot|reject": 1.0,
+     "nonidem|snapshot|timeout": 1.0
+    }
+   }
+  }
+ },
+ "diffs": {
+  "CAW2 - SYN64|A_effect_sensitivity": [
+   0.003,
+   [
+    0.0,
+    0.009
+   ],
+   20
+  ],
+  "CAW2 - SYN64|twin_joint_history": [
+   0.923,
+   [
+    0.865,
+    0.975
+   ],
+   20
+  ],
+  "CAW2 - SYN64|infeasible_safe_escalation": [
+   0.003,
+   [
+    0.0,
+    0.009
+   ],
+   20
+  ],
+  "CAW2 - SYN64|feasible_end_state": [
+   0.117,
+   [
+    0.11,
+    0.123
+   ],
+   20
+  ],
+  "CAW2 - SYN64|B_name_consistency": [
+   -0.117,
+   [
+    -0.151,
+    -0.084
+   ],
+   20
+  ],
+  "CAW2 - SYN64|B_name_both_correct": [
+   0.093,
+   [
+    0.085,
+    0.099
+   ],
+   20
+  ],
+  "CAW2 - SYN64|unnecessary_check_rate": [
+   0.544,
+   [
+    0.524,
+    0.564
+   ],
+   20
+  ],
+  "CAW2 - SYN64|twin_joint_listing": [
+   1.0,
+   [
+    1.0,
+    1.0
+   ],
+   20
+  ],
+  "CAW2 - SYN64|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW2 - SYN64|decision_accuracy": [
+   0.094,
+   [
+    0.089,
+    0.099
+   ],
+   20
+  ],
+  "CAW2 - SYN64|initial_decision_correct": [
+   0.367,
+   [
+    0.359,
+    0.374
+   ],
+   20
+  ],
+  "CAW2 - SYN64|check_rate_after_fault": [
+   0.742,
+   [
+    0.723,
+    0.761
+   ],
+   20
+  ],
+  "CAW2 - SYN64|post_check_interpretation": [
+   0.765,
+   [
+    0.756,
+    0.773
+   ],
+   20
+  ],
+  "CAW2 - SYN64|outcome_twin_correct": [
+   0.235,
+   [
+    0.221,
+    0.246
+   ],
+   20
+  ],
+  "CAW2 - SYN64|premature_escalation": [
+   0.007,
+   [
+    0.001,
+    0.013
+   ],
+   20
+  ],
+  "CAW2 - SYN64|duplicate_rate": [
+   -0.083,
+   [
+    -0.084,
+    -0.082
+   ],
+   20
+  ],
+  "CAW2 - SYN64|excess_calls": [
+   0.456,
+   [
+    0.438,
+    0.474
+   ],
+   20
+  ],
+  "CAW2 - SYN64|mean_calls": [
+   0.456,
+   [
+    0.438,
+    0.474
+   ],
+   20
+  ],
+  "CAW2 - piB|A_effect_sensitivity": [
+   0.003,
+   [
+    0.0,
+    0.009
+   ],
+   20
+  ],
+  "CAW2 - piB|twin_joint_history": [
+   0.944,
+   [
+    0.887,
+    0.988
+   ],
+   20
+  ],
+  "CAW2 - piB|infeasible_safe_escalation": [
+   0.003,
+   [
+    0.0,
+    0.009
+   ],
+   20
+  ],
+  "CAW2 - piB|feasible_end_state": [
+   0.118,
+   [
+    0.112,
+    0.124
+   ],
+   20
+  ],
+  "CAW2 - piB|B_name_consistency": [
+   -0.123,
+   [
+    -0.155,
+    -0.093
+   ],
+   20
+  ],
+  "CAW2 - piB|B_name_both_correct": [
+   0.093,
+   [
+    0.085,
+    0.099
+   ],
+   20
+  ],
+  "CAW2 - piB|unnecessary_check_rate": [
+   0.545,
+   [
+    0.525,
+    0.565
+   ],
+   20
+  ],
+  "CAW2 - piB|twin_joint_listing": [
+   1.0,
+   [
+    1.0,
+    1.0
+   ],
+   20
+  ],
+  "CAW2 - piB|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW2 - piB|decision_accuracy": [
+   0.095,
+   [
+    0.09,
+    0.1
+   ],
+   20
+  ],
+  "CAW2 - piB|initial_decision_correct": [
+   0.369,
+   [
+    0.36,
+    0.377
+   ],
+   20
+  ],
+  "CAW2 - piB|check_rate_after_fault": [
+   0.745,
+   [
+    0.725,
+    0.765
+   ],
+   20
+  ],
+  "CAW2 - piB|post_check_interpretation": [
+   0.765,
+   [
+    0.756,
+    0.773
+   ],
+   20
+  ],
+  "CAW2 - piB|outcome_twin_correct": [
+   0.237,
+   [
+    0.224,
+    0.248
+   ],
+   20
+  ],
+  "CAW2 - piB|premature_escalation": [
+   0.007,
+   [
+    0.001,
+    0.013
+   ],
+   20
+  ],
+  "CAW2 - piB|duplicate_rate": [
+   -0.084,
+   [
+    -0.084,
+    -0.083
+   ],
+   20
+  ],
+  "CAW2 - piB|excess_calls": [
+   0.458,
+   [
+    0.441,
+    0.476
+   ],
+   20
+  ],
+  "CAW2 - piB|mean_calls": [
+   0.458,
+   [
+    0.441,
+    0.476
+   ],
+   20
+  ],
+  "CAW2 - CAW|A_effect_sensitivity": [
+   0.003,
+   [
+    0.0,
+    0.009
+   ],
+   20
+  ],
+  "CAW2 - CAW|twin_joint_history": [
+   -0.044,
+   [
+    -0.087,
+    -0.013
+   ],
+   20
+  ],
+  "CAW2 - CAW|infeasible_safe_escalation": [
+   0.003,
+   [
+    0.0,
+    0.009
+   ],
+   20
+  ],
+  "CAW2 - CAW|feasible_end_state": [
+   -0.004,
+   [
+    -0.01,
+    0.002
+   ],
+   20
+  ],
+  "CAW2 - CAW|B_name_consistency": [
+   -0.034,
+   [
+    -0.061,
+    -0.01
+   ],
+   20
+  ],
+  "CAW2 - CAW|B_name_both_correct": [
+   -0.004,
+   [
+    -0.011,
+    0.001
+   ],
+   20
+  ],
+  "CAW2 - CAW|unnecessary_check_rate": [
+   0.004,
+   [
+    -0.009,
+    0.02
+   ],
+   20
+  ],
+  "CAW2 - CAW|twin_joint_listing": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW2 - CAW|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW2 - CAW|decision_accuracy": [
+   -0.002,
+   [
+    -0.008,
+    0.003
+   ],
+   20
+  ],
+  "CAW2 - CAW|initial_decision_correct": [
+   -0.001,
+   [
+    -0.007,
+    0.007
+   ],
+   20
+  ],
+  "CAW2 - CAW|check_rate_after_fault": [
+   0.004,
+   [
+    -0.009,
+    0.02
+   ],
+   20
+  ],
+  "CAW2 - CAW|post_check_interpretation": [
+   -0.002,
+   [
+    -0.011,
+    0.006
+   ],
+   20
+  ],
+  "CAW2 - CAW|outcome_twin_correct": [
+   -0.006,
+   [
+    -0.019,
+    0.005
+   ],
+   20
+  ],
+  "CAW2 - CAW|premature_escalation": [
+   0.007,
+   [
+    0.001,
+    0.013
+   ],
+   20
+  ],
+  "CAW2 - CAW|duplicate_rate": [
+   -0.0,
+   [
+    -0.001,
+    0.0
+   ],
+   20
+  ],
+  "CAW2 - CAW|excess_calls": [
+   0.007,
+   [
+    -0.012,
+    0.025
+   ],
+   20
+  ],
+  "CAW2 - CAW|mean_calls": [
+   0.007,
+   [
+    -0.012,
+    0.025
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|A_effect_sensitivity": [
+   0.003,
+   [
+    0.0,
+    0.009
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|twin_joint_history": [
+   -0.056,
+   [
+    -0.113,
+    -0.013
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|infeasible_safe_escalation": [
+   0.003,
+   [
+    0.0,
+    0.009
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|feasible_end_state": [
+   -0.007,
+   [
+    -0.013,
+    -0.001
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|B_name_consistency": [
+   -0.123,
+   [
+    -0.155,
+    -0.093
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|B_name_both_correct": [
+   -0.008,
+   [
+    -0.015,
+    -0.001
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|unnecessary_check_rate": [
+   -0.255,
+   [
+    -0.275,
+    -0.235
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|twin_joint_listing": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|decision_accuracy": [
+   -0.005,
+   [
+    -0.01,
+    -0.0
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|initial_decision_correct": [
+   -0.031,
+   [
+    -0.04,
+    -0.023
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|check_rate_after_fault": [
+   -0.255,
+   [
+    -0.275,
+    -0.235
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|post_check_interpretation": [
+   -0.035,
+   [
+    -0.044,
+    -0.027
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|outcome_twin_correct": [
+   -0.013,
+   [
+    -0.026,
+    -0.002
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|premature_escalation": [
+   0.007,
+   [
+    0.001,
+    0.013
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|duplicate_rate": [
+   -0.0,
+   [
+    -0.001,
+    0.0
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|excess_calls": [
+   -0.207,
+   [
+    -0.223,
+    -0.19
+   ],
+   20
+  ],
+  "CAW2 - scripted:always_check|mean_calls": [
+   -0.207,
+   [
+    -0.223,
+    -0.19
+   ],
+   20
+  ],
+  "CAW - SYN64|A_effect_sensitivity": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - SYN64|twin_joint_history": [
+   0.967,
+   [
+    0.933,
+    0.996
+   ],
+   20
+  ],
+  "CAW - SYN64|infeasible_safe_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - SYN64|feasible_end_state": [
+   0.121,
+   [
+    0.116,
+    0.124
+   ],
+   20
+  ],
+  "CAW - SYN64|B_name_consistency": [
+   -0.084,
+   [
+    -0.119,
+    -0.048
+   ],
+   20
+  ],
+  "CAW - SYN64|B_name_both_correct": [
+   0.096,
+   [
+    0.091,
+    0.1
+   ],
+   20
+  ],
+  "CAW - SYN64|unnecessary_check_rate": [
+   0.54,
+   [
+    0.522,
+    0.557
+   ],
+   20
+  ],
+  "CAW - SYN64|twin_joint_listing": [
+   1.0,
+   [
+    1.0,
+    1.0
+   ],
+   20
+  ],
+  "CAW - SYN64|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - SYN64|decision_accuracy": [
+   0.096,
+   [
+    0.093,
+    0.099
+   ],
+   20
+  ],
+  "CAW - SYN64|initial_decision_correct": [
+   0.367,
+   [
+    0.359,
+    0.376
+   ],
+   20
+  ],
+  "CAW - SYN64|check_rate_after_fault": [
+   0.738,
+   [
+    0.721,
+    0.755
+   ],
+   20
+  ],
+  "CAW - SYN64|post_check_interpretation": [
+   0.767,
+   [
+    0.756,
+    0.777
+   ],
+   20
+  ],
+  "CAW - SYN64|outcome_twin_correct": [
+   0.241,
+   [
+    0.232,
+    0.248
+   ],
+   20
+  ],
+  "CAW - SYN64|premature_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - SYN64|duplicate_rate": [
+   -0.082,
+   [
+    -0.083,
+    -0.081
+   ],
+   20
+  ],
+  "CAW - SYN64|excess_calls": [
+   0.45,
+   [
+    0.432,
+    0.468
+   ],
+   20
+  ],
+  "CAW - SYN64|mean_calls": [
+   0.45,
+   [
+    0.432,
+    0.468
+   ],
+   20
+  ],
+  "CAW - piB|A_effect_sensitivity": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - piB|twin_joint_history": [
+   0.988,
+   [
+    0.963,
+    1.0
+   ],
+   20
+  ],
+  "CAW - piB|infeasible_safe_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - piB|feasible_end_state": [
+   0.122,
+   [
+    0.118,
+    0.125
+   ],
+   20
+  ],
+  "CAW - piB|B_name_consistency": [
+   -0.089,
+   [
+    -0.122,
+    -0.057
+   ],
+   20
+  ],
+  "CAW - piB|B_name_both_correct": [
+   0.096,
+   [
+    0.091,
+    0.1
+   ],
+   20
+  ],
+  "CAW - piB|unnecessary_check_rate": [
+   0.541,
+   [
+    0.522,
+    0.559
+   ],
+   20
+  ],
+  "CAW - piB|twin_joint_listing": [
+   1.0,
+   [
+    1.0,
+    1.0
+   ],
+   20
+  ],
+  "CAW - piB|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - piB|decision_accuracy": [
+   0.098,
+   [
+    0.094,
+    0.1
+   ],
+   20
+  ],
+  "CAW - piB|initial_decision_correct": [
+   0.369,
+   [
+    0.36,
+    0.379
+   ],
+   20
+  ],
+  "CAW - piB|check_rate_after_fault": [
+   0.741,
+   [
+    0.722,
+    0.759
+   ],
+   20
+  ],
+  "CAW - piB|post_check_interpretation": [
+   0.767,
+   [
+    0.756,
+    0.777
+   ],
+   20
+  ],
+  "CAW - piB|outcome_twin_correct": [
+   0.244,
+   [
+    0.235,
+    0.25
+   ],
+   20
+  ],
+  "CAW - piB|premature_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - piB|duplicate_rate": [
+   -0.083,
+   [
+    -0.083,
+    -0.083
+   ],
+   20
+  ],
+  "CAW - piB|excess_calls": [
+   0.452,
+   [
+    0.434,
+    0.47
+   ],
+   20
+  ],
+  "CAW - piB|mean_calls": [
+   0.452,
+   [
+    0.434,
+    0.47
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|A_effect_sensitivity": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|twin_joint_history": [
+   -0.013,
+   [
+    -0.037,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|infeasible_safe_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|feasible_end_state": [
+   -0.003,
+   [
+    -0.007,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|B_name_consistency": [
+   -0.089,
+   [
+    -0.122,
+    -0.057
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|B_name_both_correct": [
+   -0.004,
+   [
+    -0.009,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|unnecessary_check_rate": [
+   -0.259,
+   [
+    -0.278,
+    -0.241
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|twin_joint_listing": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|decision_accuracy": [
+   -0.003,
+   [
+    -0.006,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|initial_decision_correct": [
+   -0.031,
+   [
+    -0.04,
+    -0.021
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|check_rate_after_fault": [
+   -0.259,
+   [
+    -0.278,
+    -0.241
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|post_check_interpretation": [
+   -0.033,
+   [
+    -0.044,
+    -0.023
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|outcome_twin_correct": [
+   -0.006,
+   [
+    -0.015,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|premature_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|duplicate_rate": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|excess_calls": [
+   -0.213,
+   [
+    -0.23,
+    -0.195
+   ],
+   20
+  ],
+  "CAW - scripted:always_check|mean_calls": [
+   -0.213,
+   [
+    -0.23,
+    -0.195
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|A_effect_sensitivity": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|twin_joint_history": [
+   -0.021,
+   [
+    -0.046,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|infeasible_safe_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|feasible_end_state": [
+   -0.001,
+   [
+    -0.003,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|B_name_consistency": [
+   0.006,
+   [
+    0.0,
+    0.012
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|B_name_both_correct": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|unnecessary_check_rate": [
+   -0.001,
+   [
+    -0.002,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|twin_joint_listing": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|decision_accuracy": [
+   -0.001,
+   [
+    -0.002,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|initial_decision_correct": [
+   -0.002,
+   [
+    -0.005,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|check_rate_after_fault": [
+   -0.003,
+   [
+    -0.006,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|post_check_interpretation": [
+   null,
+   [
+    null,
+    null
+   ],
+   0
+  ],
+  "piB_prompt - SYN64|outcome_twin_correct": [
+   -0.003,
+   [
+    -0.006,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|premature_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|duplicate_rate": [
+   0.001,
+   [
+    0.0,
+    0.002
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|excess_calls": [
+   -0.004,
+   [
+    -0.01,
+    -0.0
+   ],
+   20
+  ],
+  "piB_prompt - SYN64|mean_calls": [
+   -0.004,
+   [
+    -0.01,
+    -0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|A_effect_sensitivity": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|twin_joint_history": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|infeasible_safe_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|feasible_end_state": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|B_name_consistency": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|B_name_both_correct": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|unnecessary_check_rate": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|twin_joint_listing": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|decision_accuracy": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|initial_decision_correct": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|check_rate_after_fault": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|post_check_interpretation": [
+   null,
+   [
+    null,
+    null
+   ],
+   0
+  ],
+  "piB_prompt - piB|outcome_twin_correct": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|premature_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|duplicate_rate": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|excess_calls": [
+   -0.002,
+   [
+    -0.005,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - piB|mean_calls": [
+   -0.002,
+   [
+    -0.005,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - CAW|A_effect_sensitivity": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - CAW|twin_joint_history": [
+   -0.988,
+   [
+    -1.0,
+    -0.963
+   ],
+   20
+  ],
+  "piB_prompt - CAW|infeasible_safe_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - CAW|feasible_end_state": [
+   -0.122,
+   [
+    -0.125,
+    -0.118
+   ],
+   20
+  ],
+  "piB_prompt - CAW|B_name_consistency": [
+   0.089,
+   [
+    0.057,
+    0.122
+   ],
+   20
+  ],
+  "piB_prompt - CAW|B_name_both_correct": [
+   -0.096,
+   [
+    -0.1,
+    -0.091
+   ],
+   20
+  ],
+  "piB_prompt - CAW|unnecessary_check_rate": [
+   -0.541,
+   [
+    -0.559,
+    -0.522
+   ],
+   20
+  ],
+  "piB_prompt - CAW|twin_joint_listing": [
+   -1.0,
+   [
+    -1.0,
+    -1.0
+   ],
+   20
+  ],
+  "piB_prompt - CAW|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - CAW|decision_accuracy": [
+   -0.098,
+   [
+    -0.1,
+    -0.094
+   ],
+   20
+  ],
+  "piB_prompt - CAW|initial_decision_correct": [
+   -0.369,
+   [
+    -0.379,
+    -0.36
+   ],
+   20
+  ],
+  "piB_prompt - CAW|check_rate_after_fault": [
+   -0.741,
+   [
+    -0.759,
+    -0.722
+   ],
+   20
+  ],
+  "piB_prompt - CAW|post_check_interpretation": [
+   null,
+   [
+    null,
+    null
+   ],
+   0
+  ],
+  "piB_prompt - CAW|outcome_twin_correct": [
+   -0.244,
+   [
+    -0.25,
+    -0.235
+   ],
+   20
+  ],
+  "piB_prompt - CAW|premature_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - CAW|duplicate_rate": [
+   0.083,
+   [
+    0.083,
+    0.083
+   ],
+   20
+  ],
+  "piB_prompt - CAW|excess_calls": [
+   -0.454,
+   [
+    -0.472,
+    -0.436
+   ],
+   20
+  ],
+  "piB_prompt - CAW|mean_calls": [
+   -0.454,
+   [
+    -0.472,
+    -0.436
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|A_effect_sensitivity": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|twin_joint_history": [
+   -1.0,
+   [
+    -1.0,
+    -1.0
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|infeasible_safe_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|feasible_end_state": [
+   -0.125,
+   [
+    -0.125,
+    -0.125
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|B_name_consistency": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|B_name_both_correct": [
+   -0.1,
+   [
+    -0.1,
+    -0.1
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|unnecessary_check_rate": [
+   -0.8,
+   [
+    -0.8,
+    -0.8
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|twin_joint_listing": [
+   -1.0,
+   [
+    -1.0,
+    -1.0
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|fault_free_success": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|decision_accuracy": [
+   -0.1,
+   [
+    -0.1,
+    -0.1
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|initial_decision_correct": [
+   -0.4,
+   [
+    -0.4,
+    -0.4
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|check_rate_after_fault": [
+   -1.0,
+   [
+    -1.0,
+    -1.0
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|post_check_interpretation": [
+   null,
+   [
+    null,
+    null
+   ],
+   0
+  ],
+  "piB_prompt - scripted:always_check|outcome_twin_correct": [
+   -0.25,
+   [
+    -0.25,
+    -0.25
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|premature_escalation": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|duplicate_rate": [
+   0.083,
+   [
+    0.083,
+    0.083
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|excess_calls": [
+   -0.667,
+   [
+    -0.667,
+    -0.667
+   ],
+   20
+  ],
+  "piB_prompt - scripted:always_check|mean_calls": [
+   -0.667,
+   [
+    -0.667,
+    -0.667
+   ],
+   20
+  ]
+ },
+ "decision": "PROCEED TO MATCHED SFT PILOT",
+ "gate_log": {
+  "competence_precondition": true,
+  "H_s_falsified": false,
+  "H_s_supported": true,
+  "prompt_closes_gap": false
+ }
+}

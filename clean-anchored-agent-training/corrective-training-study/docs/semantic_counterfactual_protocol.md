@@ -180,3 +180,9 @@ Each shortcut fails in exactly the cells designed to expose it. The diagnostic s
   - `CAW_s{0,1}` = CAW64;
   - `CAW2_s{0,1}`.
 - **Decoding:** greedy, as in §4. No prompt other than SYSTEM, plus PROMPT_HINT for `piB_prompt`, is ever used.
+
+## Result (2026-11-22; appended after inference; nothing above was changed)
+See `semantic_cf_results.md`:
+- **Gates applied as written:** H_s supported via M1 (0.003, CI upper bound 0.009); M2 = 0.944, so the interpretation component of H_s is falsified; the prompt does not close the gap.
+- **Decision: PROCEED TO MATCHED SFT PILOT.** Not started; it needs new authorization.
+- **Archive:** `pod_backups/semcf_eval_20261122.tgz`, sha256 `2c6dc99b…`.
