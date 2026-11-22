@@ -1,0 +1,2703 @@
+{
+ "selection": {
+  "piB": {
+   "selected": "P1",
+   "candidates_(dev_acc, dev_excess_calls, prompt)": [
+    [
+     0.767,
+     0.11,
+     "P0"
+    ],
+    [
+     0.793,
+     0.013,
+     "P1"
+    ],
+    [
+     0.782,
+     0.116,
+     "P2"
+    ],
+    [
+     0.796,
+     0.125,
+     "P3"
+    ]
+   ]
+  },
+  "CAW2_s0": {
+   "selected": "P0",
+   "candidates_(dev_acc, dev_excess_calls, prompt)": [
+    [
+     0.866,
+     0.513,
+     "P0"
+    ],
+    [
+     0.865,
+     0.532,
+     "P1"
+    ],
+    [
+     0.865,
+     0.632,
+     "P2"
+    ],
+    [
+     0.862,
+     0.704,
+     "P3"
+    ]
+   ]
+  }
+ },
+ "dev": {
+  "piB@P0": {
+   "runs": [
+    "piB@P0"
+   ],
+   "n_episodes_per_run": 2160,
+   "decision_accuracy": {
+    "mean": 0.767,
+    "ci": [
+     0.748,
+     0.786
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.767
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.841,
+    "ci": [
+     0.821,
+     0.863
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.841
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.611,
+    "ci": [
+     0.59,
+     0.632
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.611
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.061,
+    "ci": [
+     0.04,
+     0.081
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.061
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.111,
+    "ci": [
+     0.111,
+     0.111
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.111
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "excess_calls": {
+    "mean": 0.11,
+    "ci": [
+     0.043,
+     0.174
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.11
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.992,
+    "ci": [
+     0.981,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P0": 0.992
+    }
+   }
+  },
+  "piB@P1": {
+   "runs": [
+    "piB@P1"
+   ],
+   "n_episodes_per_run": 2160,
+   "decision_accuracy": {
+    "mean": 0.793,
+    "ci": [
+     0.775,
+     0.81
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.793
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.871,
+    "ci": [
+     0.851,
+     0.889
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.871
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.636,
+    "ci": [
+     0.617,
+     0.654
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.636
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.032,
+    "ci": [
+     0.013,
+     0.052
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.032
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.111,
+    "ci": [
+     0.111,
+     0.111
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.111
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "excess_calls": {
+    "mean": 0.013,
+    "ci": [
+     -0.031,
+     0.062
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.013
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.975,
+    "ci": [
+     0.958,
+     0.989
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P1": 0.975
+    }
+   }
+  },
+  "piB@P2": {
+   "runs": [
+    "piB@P2"
+   ],
+   "n_episodes_per_run": 2160,
+   "decision_accuracy": {
+    "mean": 0.782,
+    "ci": [
+     0.764,
+     0.796
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.782
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.858,
+    "ci": [
+     0.839,
+     0.874
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.858
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.618,
+    "ci": [
+     0.597,
+     0.635
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.618
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.045,
+    "ci": [
+     0.029,
+     0.063
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.045
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.111,
+    "ci": [
+     0.111,
+     0.111
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.111
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.012,
+    "ci": [
+     0.003,
+     0.022
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.012
+    }
+   },
+   "excess_calls": {
+    "mean": 0.116,
+    "ci": [
+     0.056,
+     0.2
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.116
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.9,
+    "ci": [
+     0.861,
+     0.936
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P2": 0.9
+    }
+   }
+  },
+  "piB@P3": {
+   "runs": [
+    "piB@P3"
+   ],
+   "n_episodes_per_run": 2160,
+   "decision_accuracy": {
+    "mean": 0.796,
+    "ci": [
+     0.774,
+     0.811
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.796
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.874,
+    "ci": [
+     0.85,
+     0.89
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.874
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.637,
+    "ci": [
+     0.617,
+     0.653
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.637
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.029,
+    "ci": [
+     0.012,
+     0.052
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.029
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.111,
+    "ci": [
+     0.111,
+     0.111
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.111
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.007,
+    "ci": [
+     0.002,
+     0.012
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.007
+    }
+   },
+   "excess_calls": {
+    "mean": 0.125,
+    "ci": [
+     0.072,
+     0.204
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.125
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.767,
+    "ci": [
+     0.731,
+     0.8
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "piB@P3": 0.767
+    }
+   }
+  },
+  "CAW2_s0@P0": {
+   "runs": [
+    "CAW2_s0@P0"
+   ],
+   "n_episodes_per_run": 2160,
+   "decision_accuracy": {
+    "mean": 0.866,
+    "ci": [
+     0.865,
+     0.867
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.866
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.951,
+    "ci": [
+     0.949,
+     0.951
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.951
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.778,
+    "ci": [
+     0.778,
+     0.778
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.778
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.001,
+    "ci": [
+     0.0,
+     0.002
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.001
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.074,
+    "ci": [
+     0.074,
+     0.074
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.074
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.641,
+    "ci": [
+     0.64,
+     0.644
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.641
+    }
+   },
+   "excess_calls": {
+    "mean": 0.513,
+    "ci": [
+     0.505,
+     0.522
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 0.513
+    }
+   },
+   "fault_free_success": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P0": 1.0
+    }
+   }
+  },
+  "CAW2_s0@P1": {
+   "runs": [
+    "CAW2_s0@P1"
+   ],
+   "n_episodes_per_run": 2160,
+   "decision_accuracy": {
+    "mean": 0.865,
+    "ci": [
+     0.863,
+     0.867
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.865
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.949,
+    "ci": [
+     0.947,
+     0.951
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.949
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.776,
+    "ci": [
+     0.774,
+     0.778
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.776
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.002,
+    "ci": [
+     0.0,
+     0.004
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.002
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.074,
+    "ci": [
+     0.074,
+     0.074
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.074
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.648,
+    "ci": [
+     0.642,
+     0.654
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.648
+    }
+   },
+   "excess_calls": {
+    "mean": 0.532,
+    "ci": [
+     0.513,
+     0.555
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.532
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.989,
+    "ci": [
+     0.978,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P1": 0.989
+    }
+   }
+  },
+  "CAW2_s0@P2": {
+   "runs": [
+    "CAW2_s0@P2"
+   ],
+   "n_episodes_per_run": 2160,
+   "decision_accuracy": {
+    "mean": 0.865,
+    "ci": [
+     0.863,
+     0.867
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.865
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.949,
+    "ci": [
+     0.947,
+     0.951
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.949
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.776,
+    "ci": [
+     0.774,
+     0.778
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.776
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.002,
+    "ci": [
+     0.0,
+     0.004
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.002
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.074,
+    "ci": [
+     0.074,
+     0.074
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.074
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.663,
+    "ci": [
+     0.656,
+     0.67
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.663
+    }
+   },
+   "excess_calls": {
+    "mean": 0.632,
+    "ci": [
+     0.596,
+     0.669
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.632
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.903,
+    "ci": [
+     0.858,
+     0.939
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P2": 0.903
+    }
+   }
+  },
+  "CAW2_s0@P3": {
+   "runs": [
+    "CAW2_s0@P3"
+   ],
+   "n_episodes_per_run": 2160,
+   "decision_accuracy": {
+    "mean": 0.862,
+    "ci": [
+     0.857,
+     0.865
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.862
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.946,
+    "ci": [
+     0.941,
+     0.949
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.946
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.776,
+    "ci": [
+     0.774,
+     0.778
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.776
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.005,
+    "ci": [
+     0.002,
+     0.01
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.005
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.074,
+    "ci": [
+     0.074,
+     0.074
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.074
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.67,
+    "ci": [
+     0.661,
+     0.679
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.67
+    }
+   },
+   "excess_calls": {
+    "mean": 0.704,
+    "ci": [
+     0.669,
+     0.738
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.704
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.758,
+    "ci": [
+     0.722,
+     0.792
+    ],
+    "n_families": 10,
+    "per_seed": {
+     "CAW2_s0@P3": 0.758
+    }
+   }
+  }
+ },
+ "test": {
+  "piB@P0": {
+   "runs": [
+    "piB@P0"
+   ],
+   "n_episodes_per_run": 4320,
+   "decision_accuracy": {
+    "mean": 0.666,
+    "ci": [
+     0.641,
+     0.693
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.666
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.731,
+    "ci": [
+     0.703,
+     0.76
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.731
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.523,
+    "ci": [
+     0.497,
+     0.551
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.523
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.172,
+    "ci": [
+     0.142,
+     0.199
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.172
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.111,
+    "ci": [
+     0.111,
+     0.111
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.111
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.001,
+    "ci": [
+     0.0,
+     0.002
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.001
+    }
+   },
+   "excess_calls": {
+    "mean": 0.478,
+    "ci": [
+     0.379,
+     0.571
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.478
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.999,
+    "ci": [
+     0.996,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.999
+    }
+   }
+  },
+  "piB@P1": {
+   "runs": [
+    "piB@P1"
+   ],
+   "n_episodes_per_run": 4320,
+   "decision_accuracy": {
+    "mean": 0.688,
+    "ci": [
+     0.666,
+     0.713
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.688
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.755,
+    "ci": [
+     0.731,
+     0.783
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.755
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.549,
+    "ci": [
+     0.526,
+     0.574
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.549
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.147,
+    "ci": [
+     0.12,
+     0.172
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.147
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.111,
+    "ci": [
+     0.111,
+     0.111
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.111
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.007,
+    "ci": [
+     0.004,
+     0.011
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.007
+    }
+   },
+   "excess_calls": {
+    "mean": 0.306,
+    "ci": [
+     0.238,
+     0.368
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.306
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.999,
+    "ci": [
+     0.996,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.999
+    }
+   }
+  },
+  "SYN64@P0": {
+   "runs": [
+    "SYN64_s0@P0",
+    "SYN64_s1@P0",
+    "SYN64_s2@P0"
+   ],
+   "n_episodes_per_run": 4320,
+   "decision_accuracy": {
+    "mean": 0.819,
+    "ci": [
+     0.814,
+     0.825
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.835,
+     "SYN64_s1@P0": 0.82,
+     "SYN64_s2@P0": 0.803
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.0,
+     "SYN64_s1@P0": 0.0,
+     "SYN64_s2@P0": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.5,
+    "ci": [
+     0.5,
+     0.5
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.5,
+     "SYN64_s1@P0": 0.5,
+     "SYN64_s2@P0": 0.5
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.899,
+    "ci": [
+     0.893,
+     0.906
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.916,
+     "SYN64_s1@P0": 0.9,
+     "SYN64_s2@P0": 0.881
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.0,
+     "SYN64_s1@P0": 0.0,
+     "SYN64_s2@P0": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.0,
+     "SYN64_s1@P0": 0.0,
+     "SYN64_s2@P0": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 1.0,
+     "SYN64_s1@P0": 1.0,
+     "SYN64_s2@P0": 1.0
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.7,
+    "ci": [
+     0.694,
+     0.706
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.74,
+     "SYN64_s1@P0": 0.692,
+     "SYN64_s2@P0": 0.669
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.037,
+    "ci": [
+     0.03,
+     0.044
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.034,
+     "SYN64_s1@P0": 0.042,
+     "SYN64_s2@P0": 0.036
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.085,
+    "ci": [
+     0.084,
+     0.086
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.075,
+     "SYN64_s1@P0": 0.081,
+     "SYN64_s2@P0": 0.1
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.317,
+    "ci": [
+     0.302,
+     0.332
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.492,
+     "SYN64_s1@P0": 0.309,
+     "SYN64_s2@P0": 0.148
+    }
+   },
+   "excess_calls": {
+    "mean": 0.368,
+    "ci": [
+     0.336,
+     0.398
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.514,
+     "SYN64_s1@P0": 0.424,
+     "SYN64_s2@P0": 0.166
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.999,
+    "ci": [
+     0.998,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 1.0,
+     "SYN64_s1@P0": 1.0,
+     "SYN64_s2@P0": 0.997
+    }
+   }
+  },
+  "CAW@P0": {
+   "runs": [
+    "CAW_s0@P0",
+    "CAW_s1@P0"
+   ],
+   "n_episodes_per_run": 4320,
+   "decision_accuracy": {
+    "mean": 0.841,
+    "ci": [
+     0.836,
+     0.846
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.823,
+     "CAW_s1@P0": 0.859
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.0,
+     "CAW_s1@P0": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.497,
+    "ci": [
+     0.491,
+     0.5
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.5,
+     "CAW_s1@P0": 0.494
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.923,
+    "ci": [
+     0.917,
+     0.928
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.903,
+     "CAW_s1@P0": 0.942
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.0,
+     "CAW_s1@P0": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.0,
+     "CAW_s1@P0": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 0.997,
+    "ci": [
+     0.994,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 1.0,
+     "CAW_s1@P0": 0.995
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.728,
+    "ci": [
+     0.719,
+     0.736
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.697,
+     "CAW_s1@P0": 0.759
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.025,
+    "ci": [
+     0.02,
+     0.031
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.045,
+     "CAW_s1@P0": 0.005
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.074,
+    "ci": [
+     0.074,
+     0.075
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.074,
+     "CAW_s1@P0": 0.075
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.641,
+    "ci": [
+     0.633,
+     0.648
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.658,
+     "CAW_s1@P0": 0.625
+    }
+   },
+   "excess_calls": {
+    "mean": 0.719,
+    "ci": [
+     0.683,
+     0.752
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.886,
+     "CAW_s1@P0": 0.552
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.998,
+    "ci": [
+     0.996,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.996,
+     "CAW_s1@P0": 1.0
+    }
+   }
+  },
+  "CAW2@P0": {
+   "runs": [
+    "CAW2_s0@P0",
+    "CAW2_s1@P0"
+   ],
+   "n_episodes_per_run": 4320,
+   "decision_accuracy": {
+    "mean": 0.854,
+    "ci": [
+     0.847,
+     0.86
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.849,
+     "CAW2_s1@P0": 0.859
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0,
+     "CAW2_s1@P0": 0.0
+    }
+   },
+   "hc_outcome_twin_correct": {
+    "mean": 0.498,
+    "ci": [
+     0.495,
+     0.5
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.5,
+     "CAW2_s1@P0": 0.497
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.937,
+    "ci": [
+     0.93,
+     0.943
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.932,
+     "CAW2_s1@P0": 0.942
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0,
+     "CAW2_s1@P0": 0.0
+    }
+   },
+   "reconcile_twin_correct": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0,
+     "CAW2_s1@P0": 0.0
+    }
+   },
+   "keyed_retry_correct": {
+    "mean": 0.997,
+    "ci": [
+     0.994,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 1.0,
+     "CAW2_s1@P0": 0.995
+    }
+   },
+   "outcome_twin_correct": {
+    "mean": 0.75,
+    "ci": [
+     0.736,
+     0.762
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.742,
+     "CAW2_s1@P0": 0.759
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.013,
+    "ci": [
+     0.007,
+     0.019
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.02,
+     "CAW2_s1@P0": 0.006
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.074,
+    "ci": [
+     0.073,
+     0.074
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.074,
+     "CAW2_s1@P0": 0.074
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.641,
+    "ci": [
+     0.636,
+     0.644
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.643,
+     "CAW2_s1@P0": 0.638
+    }
+   },
+   "excess_calls": {
+    "mean": 0.558,
+    "ci": [
+     0.539,
+     0.58
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.599,
+     "CAW2_s1@P0": 0.518
+    }
+   },
+   "fault_free_success": {
+    "mean": 0.999,
+    "ci": [
+     0.997,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.997,
+     "CAW2_s1@P0": 1.0
+    }
+   }
+  },
+  "piB@P1 - piB@P0": {
+   "A_effect_sensitivity": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ],
+    20
+   ],
+   "hc_outcome_twin_correct": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ],
+    20
+   ],
+   "decision_accuracy": [
+    0.022,
+    [
+     0.013,
+     0.033
+    ],
+    20
+   ]
+  }
+ },
+ "t1": {
+  "piB@P0": {
+   "runs": [
+    "piB@P0"
+   ],
+   "n_episodes_per_run": 1920,
+   "decision_accuracy": {
+    "mean": 0.7,
+    "ci": [
+     0.7,
+     0.7
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.7
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "twin_joint_history": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.875,
+    "ci": [
+     0.875,
+     0.875
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.875
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.167,
+    "ci": [
+     0.167,
+     0.167
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.167
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 0.0
+    }
+   },
+   "excess_calls": {
+    "mean": -0.081,
+    "ci": [
+     -0.083,
+     -0.078
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": -0.081
+    }
+   },
+   "fault_free_success": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P0": 1.0
+    }
+   }
+  },
+  "piB@P1": {
+   "runs": [
+    "piB@P1"
+   ],
+   "n_episodes_per_run": 1920,
+   "decision_accuracy": {
+    "mean": 0.7,
+    "ci": [
+     0.7,
+     0.7
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.7
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "twin_joint_history": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.875,
+    "ci": [
+     0.875,
+     0.875
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.875
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.167,
+    "ci": [
+     0.167,
+     0.167
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.167
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 0.0
+    }
+   },
+   "excess_calls": {
+    "mean": -0.083,
+    "ci": [
+     -0.083,
+     -0.083
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": -0.083
+    }
+   },
+   "fault_free_success": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "piB@P1": 1.0
+    }
+   }
+  },
+  "SYN64@P0": {
+   "runs": [
+    "SYN64_s0@P0",
+    "SYN64_s1@P0",
+    "SYN64_s2@P0"
+   ],
+   "n_episodes_per_run": 1920,
+   "decision_accuracy": {
+    "mean": 0.701,
+    "ci": [
+     0.7,
+     0.702
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.703,
+     "SYN64_s1@P0": 0.7,
+     "SYN64_s2@P0": 0.7
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.0,
+     "SYN64_s1@P0": 0.0,
+     "SYN64_s2@P0": 0.0
+    }
+   },
+   "twin_joint_history": {
+    "mean": 0.021,
+    "ci": [
+     0.0,
+     0.046
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.062,
+     "SYN64_s1@P0": 0.0,
+     "SYN64_s2@P0": 0.0
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.876,
+    "ci": [
+     0.875,
+     0.878
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.879,
+     "SYN64_s1@P0": 0.875,
+     "SYN64_s2@P0": 0.875
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.0,
+     "SYN64_s1@P0": 0.0,
+     "SYN64_s2@P0": 0.0
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.0,
+     "SYN64_s1@P0": 0.0,
+     "SYN64_s2@P0": 0.0
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.166,
+    "ci": [
+     0.165,
+     0.167
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.164,
+     "SYN64_s1@P0": 0.167,
+     "SYN64_s2@P0": 0.167
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.001,
+    "ci": [
+     0.0,
+     0.002
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 0.003,
+     "SYN64_s1@P0": 0.0,
+     "SYN64_s2@P0": 0.0
+    }
+   },
+   "excess_calls": {
+    "mean": -0.079,
+    "ci": [
+     -0.083,
+     -0.073
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": -0.073,
+     "SYN64_s1@P0": -0.083,
+     "SYN64_s2@P0": -0.081
+    }
+   },
+   "fault_free_success": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "SYN64_s0@P0": 1.0,
+     "SYN64_s1@P0": 1.0,
+     "SYN64_s2@P0": 1.0
+    }
+   }
+  },
+  "CAW@P0": {
+   "runs": [
+    "CAW_s0@P0",
+    "CAW_s1@P0"
+   ],
+   "n_episodes_per_run": 1920,
+   "decision_accuracy": {
+    "mean": 0.798,
+    "ci": [
+     0.794,
+     0.8
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.8,
+     "CAW_s1@P0": 0.795
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.0,
+     "CAW_s1@P0": 0.0
+    }
+   },
+   "twin_joint_history": {
+    "mean": 0.988,
+    "ci": [
+     0.963,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 1.0,
+     "CAW_s1@P0": 0.975
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.997,
+    "ci": [
+     0.993,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 1.0,
+     "CAW_s1@P0": 0.994
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.0,
+     "CAW_s1@P0": 0.0
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.0,
+     "CAW_s1@P0": 0.0
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.083,
+    "ci": [
+     0.083,
+     0.083
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.083,
+     "CAW_s1@P0": 0.083
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.541,
+    "ci": [
+     0.522,
+     0.559
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.522,
+     "CAW_s1@P0": 0.559
+    }
+   },
+   "excess_calls": {
+    "mean": 0.37,
+    "ci": [
+     0.353,
+     0.389
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 0.358,
+     "CAW_s1@P0": 0.382
+    }
+   },
+   "fault_free_success": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW_s0@P0": 1.0,
+     "CAW_s1@P0": 1.0
+    }
+   }
+  },
+  "CAW2@P0": {
+   "runs": [
+    "CAW2_s0@P0",
+    "CAW2_s1@P0"
+   ],
+   "n_episodes_per_run": 1920,
+   "decision_accuracy": {
+    "mean": 0.795,
+    "ci": [
+     0.789,
+     0.799
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.8,
+     "CAW2_s1@P0": 0.789
+    }
+   },
+   "A_effect_sensitivity": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0,
+     "CAW2_s1@P0": 0.0
+    }
+   },
+   "twin_joint_history": {
+    "mean": 0.944,
+    "ci": [
+     0.887,
+     0.988
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 1.0,
+     "CAW2_s1@P0": 0.887
+    }
+   },
+   "feasible_end_state": {
+    "mean": 0.993,
+    "ci": [
+     0.986,
+     0.998
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 1.0,
+     "CAW2_s1@P0": 0.985
+    }
+   },
+   "infeasible_safe_escalation": {
+    "mean": 0.003,
+    "ci": [
+     0.0,
+     0.009
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0,
+     "CAW2_s1@P0": 0.006
+    }
+   },
+   "premature_escalation": {
+    "mean": 0.007,
+    "ci": [
+     0.002,
+     0.014
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.0,
+     "CAW2_s1@P0": 0.015
+    }
+   },
+   "duplicate_rate": {
+    "mean": 0.083,
+    "ci": [
+     0.083,
+     0.083
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.083,
+     "CAW2_s1@P0": 0.083
+    }
+   },
+   "unnecessary_check_rate": {
+    "mean": 0.548,
+    "ci": [
+     0.528,
+     0.568
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.567,
+     "CAW2_s1@P0": 0.529
+    }
+   },
+   "excess_calls": {
+    "mean": 0.38,
+    "ci": [
+     0.363,
+     0.396
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 0.39,
+     "CAW2_s1@P0": 0.369
+    }
+   },
+   "fault_free_success": {
+    "mean": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "n_families": 20,
+    "per_seed": {
+     "CAW2_s0@P0": 1.0,
+     "CAW2_s1@P0": 1.0
+    }
+   }
+  }
+ }
+}
