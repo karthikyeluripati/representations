@@ -1,0 +1,296 @@
+{
+ "tau2_obs_sensitivity|CAW": [
+  {
+   "n_checked_ACa": 35,
+   "reissue_after_check_ACa": 0.086,
+   "n_checked_ACl": 35,
+   "reissue_after_check_ACl": 0.686
+  },
+  {
+   "n_checked_ACa": 27,
+   "reissue_after_check_ACa": 0.0,
+   "n_checked_ACl": 27,
+   "reissue_after_check_ACl": 0.63
+  }
+ ],
+ "tau2_obs_sensitivity|CAW2": [
+  {
+   "n_checked_ACa": 34,
+   "reissue_after_check_ACa": 0.029,
+   "n_checked_ACl": 34,
+   "reissue_after_check_ACl": 0.647
+  },
+  {
+   "n_checked_ACa": 39,
+   "reissue_after_check_ACa": 0.026,
+   "n_checked_ACl": 39,
+   "reissue_after_check_ACl": 0.692
+  }
+ ],
+ "bfcl_obs_sensitivity|SYN32|heldout_class": [
+  {
+   "n_checked_ACa": 88,
+   "reissue_after_check_ACa": 0.216,
+   "n_checked_ACl": 88,
+   "reissue_after_check_ACl": 0.909
+  },
+  {
+   "n_checked_ACa": 83,
+   "reissue_after_check_ACa": 0.313,
+   "n_checked_ACl": 83,
+   "reissue_after_check_ACl": 0.94
+  },
+  {
+   "n_checked_ACa": 52,
+   "reissue_after_check_ACa": 0.288,
+   "n_checked_ACl": 52,
+   "reissue_after_check_ACl": 0.942
+  }
+ ],
+ "bfcl_obs_sensitivity|SYN32|all_diag": [
+  {
+   "n_checked_ACa": 233,
+   "reissue_after_check_ACa": 0.335,
+   "n_checked_ACl": 233,
+   "reissue_after_check_ACl": 0.957
+  },
+  {
+   "n_checked_ACa": 266,
+   "reissue_after_check_ACa": 0.368,
+   "n_checked_ACl": 266,
+   "reissue_after_check_ACl": 0.97
+  },
+  {
+   "n_checked_ACa": 236,
+   "reissue_after_check_ACa": 0.297,
+   "n_checked_ACl": 237,
+   "reissue_after_check_ACl": 0.975
+  }
+ ],
+ "bfcl_obs_sensitivity|CAW|heldout_class": [
+  {
+   "n_checked_ACa": 114,
+   "reissue_after_check_ACa": 0.158,
+   "n_checked_ACl": 114,
+   "reissue_after_check_ACl": 0.904
+  },
+  {
+   "n_checked_ACa": 114,
+   "reissue_after_check_ACa": 0.14,
+   "n_checked_ACl": 114,
+   "reissue_after_check_ACl": 0.886
+  }
+ ],
+ "bfcl_obs_sensitivity|CAW|all_diag": [
+  {
+   "n_checked_ACa": 288,
+   "reissue_after_check_ACa": 0.229,
+   "n_checked_ACl": 288,
+   "reissue_after_check_ACl": 0.948
+  },
+  {
+   "n_checked_ACa": 297,
+   "reissue_after_check_ACa": 0.256,
+   "n_checked_ACl": 297,
+   "reissue_after_check_ACl": 0.936
+  }
+ ],
+ "bfcl_obs_sensitivity|CAW2|heldout_class": [
+  {
+   "n_checked_ACa": 112,
+   "reissue_after_check_ACa": 0.17,
+   "n_checked_ACl": 112,
+   "reissue_after_check_ACl": 0.929
+  },
+  {
+   "n_checked_ACa": 112,
+   "reissue_after_check_ACa": 0.259,
+   "n_checked_ACl": 112,
+   "reissue_after_check_ACl": 0.911
+  }
+ ],
+ "bfcl_obs_sensitivity|CAW2|all_diag": [
+  {
+   "n_checked_ACa": 315,
+   "reissue_after_check_ACa": 0.346,
+   "n_checked_ACl": 317,
+   "reissue_after_check_ACl": 0.959
+  },
+  {
+   "n_checked_ACa": 301,
+   "reissue_after_check_ACa": 0.259,
+   "n_checked_ACl": 301,
+   "reissue_after_check_ACl": 0.95
+  }
+ ],
+ "S0_fault_free|test": {
+  "n_base_tasks": 22,
+  "B": 0.841,
+  "CAW": 0.811,
+  "CAW-B": [
+   -0.03,
+   [
+    -0.083,
+    0.0
+   ]
+  ],
+  "CAW2": 0.791,
+  "CAW2-B": [
+   -0.05,
+   [
+    -0.108,
+    -0.005
+   ]
+  ]
+ },
+ "composite|test": {
+  "B_s0.jsonl": {
+   "fault_free": 0.907,
+   "injected_recovery": 0.833,
+   "conditional_recovery": 0.919,
+   "correct_escalation": 0.93,
+   "premature_abstention": 0.035,
+   "false_outage_rate": 0.476,
+   "overall": 0.872
+  },
+  "B_s1.jsonl": {
+   "fault_free": 0.907,
+   "injected_recovery": 0.818,
+   "conditional_recovery": 0.902,
+   "correct_escalation": 0.907,
+   "premature_abstention": 0.033,
+   "false_outage_rate": 0.463,
+   "overall": 0.858
+  },
+  "B_s2.jsonl": {
+   "fault_free": 0.907,
+   "injected_recovery": 0.841,
+   "conditional_recovery": 0.927,
+   "correct_escalation": 0.915,
+   "premature_abstention": 0.024,
+   "false_outage_rate": 0.428,
+   "overall": 0.867
+  },
+  "CAW64_s0.jsonl": {
+   "fault_free": 0.86,
+   "injected_recovery": 0.81,
+   "conditional_recovery": 0.941,
+   "correct_escalation": 0.775,
+   "premature_abstention": 0.004,
+   "false_outage_rate": 0.092,
+   "overall": 0.837
+  },
+  "CAW64_s1.jsonl": {
+   "fault_free": 0.884,
+   "injected_recovery": 0.682,
+   "conditional_recovery": 0.772,
+   "correct_escalation": 0.767,
+   "premature_abstention": 0.078,
+   "false_outage_rate": 0.161,
+   "overall": 0.756
+  },
+  "CAW2_s0.jsonl": {
+   "fault_free": 0.814,
+   "injected_recovery": 0.818,
+   "conditional_recovery": 0.981,
+   "correct_escalation": 1.0,
+   "premature_abstention": 0.041,
+   "false_outage_rate": 0.175,
+   "overall": 0.856
+  },
+  "CAW2_s1.jsonl": {
+   "fault_free": 0.86,
+   "injected_recovery": 0.876,
+   "conditional_recovery": 0.991,
+   "correct_escalation": 1.0,
+   "premature_abstention": 0.033,
+   "false_outage_rate": 0.117,
+   "overall": 0.9
+  }
+ },
+ "S0_fault_free|heldout": {
+  "n_base_tasks": 49,
+  "B": 0.684,
+  "CAW": 0.641,
+  "CAW-B": [
+   -0.043,
+   [
+    -0.107,
+    0.02
+   ]
+  ],
+  "CAW2": 0.628,
+  "CAW2-B": [
+   -0.055,
+   [
+    -0.13,
+    0.015
+   ]
+  ]
+ },
+ "composite|heldout": {
+  "B_s0.jsonl": {
+   "fault_free": 0.693,
+   "injected_recovery": 0.646,
+   "conditional_recovery": 0.922,
+   "correct_escalation": 0.927,
+   "premature_abstention": 0.074,
+   "false_outage_rate": 0.094,
+   "overall": 0.732
+  },
+  "B_s1.jsonl": {
+   "fault_free": 0.684,
+   "injected_recovery": 0.643,
+   "conditional_recovery": 0.929,
+   "correct_escalation": 0.904,
+   "premature_abstention": 0.069,
+   "false_outage_rate": 0.097,
+   "overall": 0.73
+  },
+  "B_s2.jsonl": {
+   "fault_free": 0.693,
+   "injected_recovery": 0.651,
+   "conditional_recovery": 0.928,
+   "correct_escalation": 0.909,
+   "premature_abstention": 0.067,
+   "false_outage_rate": 0.097,
+   "overall": 0.731
+  },
+  "CAW64_s0.jsonl": {
+   "fault_free": 0.684,
+   "injected_recovery": 0.667,
+   "conditional_recovery": 0.891,
+   "correct_escalation": 0.842,
+   "premature_abstention": 0.055,
+   "false_outage_rate": 0.104,
+   "overall": 0.725
+  },
+  "CAW64_s1.jsonl": {
+   "fault_free": 0.64,
+   "injected_recovery": 0.62,
+   "conditional_recovery": 0.865,
+   "correct_escalation": 0.854,
+   "premature_abstention": 0.072,
+   "false_outage_rate": 0.089,
+   "overall": 0.682
+  },
+  "CAW2_s0.jsonl": {
+   "fault_free": 0.649,
+   "injected_recovery": 0.68,
+   "conditional_recovery": 0.93,
+   "correct_escalation": 0.898,
+   "premature_abstention": 0.11,
+   "false_outage_rate": 0.186,
+   "overall": 0.728
+  },
+  "CAW2_s1.jsonl": {
+   "fault_free": 0.632,
+   "injected_recovery": 0.656,
+   "conditional_recovery": 0.942,
+   "correct_escalation": 0.918,
+   "premature_abstention": 0.107,
+   "false_outage_rate": 0.13,
+   "overall": 0.726
+  }
+ }
+}

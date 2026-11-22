@@ -1,0 +1,3742 @@
+{
+ "tau2": {
+  "S0": {
+   "piB": [
+    0.082
+   ],
+   "SYN32": [
+    0.143,
+    0.163,
+    0.143
+   ],
+   "SYN64": [
+    0.102,
+    0.163,
+    0.143
+   ],
+   "CAW": [
+    0.143,
+    0.122
+   ],
+   "CAW2": [
+    0.184,
+    0.163
+   ]
+  },
+  "diag_implicit": {
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "dec_given_check": NaN,
+     "twin_discrim": 0.0,
+     "success": 0.154,
+     "twin_joint_success": 0.0,
+     "escalate": 0.038,
+     "calls": 6.115,
+     "per_seed": [
+      {
+       "n": 26,
+       "check": 0.0,
+       "first": {
+        "retry": 26
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.038,
+       "calls": 6.115
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "dec_given_check": NaN,
+     "twin_discrim": 0.0,
+     "success": 0.154,
+     "twin_joint_success": 0.0,
+     "escalate": 0.013,
+     "calls": 6.167,
+     "per_seed": [
+      {
+       "n": 26,
+       "check": 0.0,
+       "first": {
+        "retry": 26
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.038,
+       "calls": 6.0
+      },
+      {
+       "n": 26,
+       "check": 0.0,
+       "first": {
+        "retry": 26
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.0,
+       "calls": 6.346
+      },
+      {
+       "n": 26,
+       "check": 0.0,
+       "first": {
+        "retry": 26
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.0,
+       "calls": 6.154
+      }
+     ]
+    },
+    "SYN64": {
+     "check": 0.026,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "dec_given_check": 0.5,
+     "twin_discrim": 0.0,
+     "success": 0.154,
+     "twin_joint_success": 0.0,
+     "escalate": 0.013,
+     "calls": 6.679,
+     "per_seed": [
+      {
+       "n": 26,
+       "check": 0.0,
+       "first": {
+        "retry": 26
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.0,
+       "calls": 6.115
+      },
+      {
+       "n": 26,
+       "check": 0.077,
+       "first": {
+        "retry": 24,
+        "check": 2
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": 0.5,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.038,
+       "calls": 7.731
+      },
+      {
+       "n": 26,
+       "check": 0.0,
+       "first": {
+        "retry": 26
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.0,
+       "calls": 6.192
+      }
+     ]
+    },
+    "CAW": {
+     "check": 0.654,
+     "dec_ACa": 0.615,
+     "dec_ACl": 0.731,
+     "dec_given_check": 0.767,
+     "twin_discrim": 0.346,
+     "success": 0.25,
+     "twin_joint_success": 0.115,
+     "escalate": 0.0,
+     "calls": 7.5,
+     "per_seed": [
+      {
+       "n": 26,
+       "check": 0.692,
+       "first": {
+        "check": 18,
+        "retry": 8
+       },
+       "dec_ACa": 0.615,
+       "dec_ACl": 0.692,
+       "dec_given_check": 0.722,
+       "twin_discrim": 0.308,
+       "success": 0.269,
+       "twin_joint_success": 0.154,
+       "escalate": 0.0,
+       "calls": 7.423
+      },
+      {
+       "n": 26,
+       "check": 0.615,
+       "first": {
+        "check": 16,
+        "retry": 10
+       },
+       "dec_ACa": 0.615,
+       "dec_ACl": 0.769,
+       "dec_given_check": 0.812,
+       "twin_discrim": 0.385,
+       "success": 0.231,
+       "twin_joint_success": 0.077,
+       "escalate": 0.0,
+       "calls": 7.577
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 0.846,
+     "dec_ACa": 0.808,
+     "dec_ACl": 0.692,
+     "dec_given_check": 0.793,
+     "twin_discrim": 0.5,
+     "success": 0.212,
+     "twin_joint_success": 0.154,
+     "escalate": 0.135,
+     "calls": 6.212,
+     "per_seed": [
+      {
+       "n": 26,
+       "check": 0.692,
+       "first": {
+        "check": 18,
+        "retry": 8
+       },
+       "dec_ACa": 0.692,
+       "dec_ACl": 0.692,
+       "dec_given_check": 0.778,
+       "twin_discrim": 0.385,
+       "success": 0.231,
+       "twin_joint_success": 0.154,
+       "escalate": 0.038,
+       "calls": 7.615
+      },
+      {
+       "n": 26,
+       "check": 1.0,
+       "first": {
+        "check": 26
+       },
+       "dec_ACa": 0.923,
+       "dec_ACl": 0.692,
+       "dec_given_check": 0.808,
+       "twin_discrim": 0.615,
+       "success": 0.192,
+       "twin_joint_success": 0.154,
+       "escalate": 0.231,
+       "calls": 4.808
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-SYN64|check|event": [
+     0.821,
+     [
+      0.654,
+      0.962
+     ],
+     13
+    ],
+    "CAW2-SYN64|disc|event": [
+     0.5,
+     [
+      0.269,
+      0.731
+     ],
+     13
+    ],
+    "CAW2-SYN64|success|event": [
+     0.058,
+     [
+      -0.038,
+      0.173
+     ],
+     13
+    ],
+    "CAW2-SYN64|calls|event": [
+     -0.468,
+     [
+      -2.987,
+      2.218
+     ],
+     13
+    ],
+    "CAW2-CAW|check|event": [
+     0.192,
+     [
+      0.038,
+      0.385
+     ],
+     13
+    ],
+    "CAW2-CAW|disc|event": [
+     0.154,
+     [
+      -0.038,
+      0.346
+     ],
+     13
+    ],
+    "CAW2-CAW|success|event": [
+     -0.038,
+     [
+      -0.135,
+      0.038
+     ],
+     13
+    ],
+    "CAW2-CAW|calls|event": [
+     -1.288,
+     [
+      -3.385,
+      0.558
+     ],
+     13
+    ],
+    "CAW2-piB|check|event": [
+     0.846,
+     [
+      0.731,
+      0.962
+     ],
+     13
+    ],
+    "CAW2-piB|disc|event": [
+     0.5,
+     [
+      0.269,
+      0.731
+     ],
+     13
+    ],
+    "CAW2-piB|success|event": [
+     0.058,
+     [
+      -0.038,
+      0.173
+     ],
+     13
+    ],
+    "CAW2-piB|calls|event": [
+     0.096,
+     [
+      -2.308,
+      2.635
+     ],
+     13
+    ],
+    "CAW-SYN64|check|event": [
+     0.628,
+     [
+      0.397,
+      0.859
+     ],
+     13
+    ],
+    "CAW-SYN64|disc|event": [
+     0.346,
+     [
+      0.153,
+      0.577
+     ],
+     13
+    ],
+    "CAW-SYN64|success|event": [
+     0.096,
+     [
+      0.0,
+      0.212
+     ],
+     13
+    ],
+    "CAW-SYN64|calls|event": [
+     0.821,
+     [
+      -1.186,
+      4.09
+     ],
+     13
+    ],
+    "CAW-piB|check|event": [
+     0.654,
+     [
+      0.423,
+      0.885
+     ],
+     13
+    ],
+    "CAW-piB|disc|event": [
+     0.346,
+     [
+      0.153,
+      0.577
+     ],
+     13
+    ],
+    "CAW-piB|success|event": [
+     0.096,
+     [
+      0.0,
+      0.212
+     ],
+     13
+    ],
+    "CAW-piB|calls|event": [
+     1.385,
+     [
+      -0.423,
+      4.538
+     ],
+     13
+    ],
+    "CAW2-SYN64|check|task": [
+     0.865,
+     [
+      0.688,
+      0.979
+     ],
+     8
+    ],
+    "CAW2-SYN64|disc|task": [
+     0.354,
+     [
+      0.094,
+      0.635
+     ],
+     8
+    ],
+    "CAW2-SYN64|success|task": [
+     0.031,
+     [
+      -0.094,
+      0.188
+     ],
+     8
+    ],
+    "CAW2-SYN64|calls|task": [
+     -1.042,
+     [
+      -4.823,
+      3.224
+     ],
+     8
+    ],
+    "CAW2-CAW|check|task": [
+     0.125,
+     [
+      0.031,
+      0.25
+     ],
+     8
+    ],
+    "CAW2-CAW|disc|task": [
+     0.062,
+     [
+      -0.125,
+      0.25
+     ],
+     8
+    ],
+    "CAW2-CAW|success|task": [
+     -0.047,
+     [
+      -0.125,
+      0.031
+     ],
+     8
+    ],
+    "CAW2-CAW|calls|task": [
+     -2.573,
+     [
+      -5.391,
+      0.115
+     ],
+     8
+    ],
+    "CAW2-piB|check|task": [
+     0.885,
+     [
+      0.75,
+      0.979
+     ],
+     8
+    ],
+    "CAW2-piB|disc|task": [
+     0.354,
+     [
+      0.094,
+      0.635
+     ],
+     8
+    ],
+    "CAW2-piB|success|task": [
+     0.031,
+     [
+      -0.094,
+      0.188
+     ],
+     8
+    ],
+    "CAW2-piB|calls|task": [
+     -0.271,
+     [
+      -3.823,
+      3.677
+     ],
+     8
+    ],
+    "CAW-SYN64|check|task": [
+     0.74,
+     [
+      0.531,
+      0.938
+     ],
+     8
+    ],
+    "CAW-SYN64|disc|task": [
+     0.292,
+     [
+      0.125,
+      0.479
+     ],
+     8
+    ],
+    "CAW-SYN64|success|task": [
+     0.078,
+     [
+      0.0,
+      0.188
+     ],
+     8
+    ],
+    "CAW-SYN64|calls|task": [
+     1.531,
+     [
+      -1.604,
+      6.834
+     ],
+     8
+    ],
+    "CAW-piB|check|task": [
+     0.76,
+     [
+      0.573,
+      0.938
+     ],
+     8
+    ],
+    "CAW-piB|disc|task": [
+     0.292,
+     [
+      0.125,
+      0.479
+     ],
+     8
+    ],
+    "CAW-piB|success|task": [
+     0.078,
+     [
+      0.0,
+      0.188
+     ],
+     8
+    ],
+    "CAW-piB|calls|task": [
+     2.302,
+     [
+      -0.328,
+      7.172
+     ],
+     8
+    ]
+   }
+  },
+  "diag_all": {
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "dec_given_check": NaN,
+     "twin_discrim": 0.0,
+     "success": 0.167,
+     "twin_joint_success": 0.0,
+     "escalate": 0.013,
+     "calls": 6.218,
+     "per_seed": [
+      {
+       "n": 78,
+       "check": 0.0,
+       "first": {
+        "retry": 78
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.167,
+       "twin_joint_success": 0.0,
+       "escalate": 0.013,
+       "calls": 6.218
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 0.043,
+     "dec_ACa": 0.026,
+     "dec_ACl": 0.983,
+     "dec_given_check": 0.556,
+     "twin_discrim": 0.009,
+     "success": 0.154,
+     "twin_joint_success": 0.0,
+     "escalate": 0.009,
+     "calls": 6.402,
+     "per_seed": [
+      {
+       "n": 78,
+       "check": 0.077,
+       "first": {
+        "retry": 68,
+        "stop": 2,
+        "check": 6,
+        "other": 2
+       },
+       "dec_ACa": 0.077,
+       "dec_ACl": 0.949,
+       "dec_given_check": 0.667,
+       "twin_discrim": 0.026,
+       "success": 0.141,
+       "twin_joint_success": 0.0,
+       "escalate": 0.026,
+       "calls": 6.744
+      },
+      {
+       "n": 78,
+       "check": 0.026,
+       "first": {
+        "retry": 76,
+        "check": 2
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": 0.5,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.0,
+       "calls": 6.359
+      },
+      {
+       "n": 78,
+       "check": 0.026,
+       "first": {
+        "retry": 76,
+        "check": 2
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": 0.5,
+       "twin_discrim": 0.0,
+       "success": 0.167,
+       "twin_joint_success": 0.0,
+       "escalate": 0.0,
+       "calls": 6.103
+      }
+     ]
+    },
+    "SYN64": {
+     "check": 0.043,
+     "dec_ACa": 0.017,
+     "dec_ACl": 1.0,
+     "dec_given_check": 0.625,
+     "twin_discrim": 0.017,
+     "success": 0.15,
+     "twin_joint_success": 0.0,
+     "escalate": 0.013,
+     "calls": 6.444,
+     "per_seed": [
+      {
+       "n": 78,
+       "check": 0.026,
+       "first": {
+        "retry": 76,
+        "check": 2
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": 0.5,
+       "twin_discrim": 0.0,
+       "success": 0.167,
+       "twin_joint_success": 0.0,
+       "escalate": 0.0,
+       "calls": 6.026
+      },
+      {
+       "n": 78,
+       "check": 0.103,
+       "first": {
+        "retry": 70,
+        "check": 8
+       },
+       "dec_ACa": 0.051,
+       "dec_ACl": 1.0,
+       "dec_given_check": 0.75,
+       "twin_discrim": 0.051,
+       "success": 0.128,
+       "twin_joint_success": 0.0,
+       "escalate": 0.026,
+       "calls": 7.167
+      },
+      {
+       "n": 78,
+       "check": 0.0,
+       "first": {
+        "retry": 78
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.154,
+       "twin_joint_success": 0.0,
+       "escalate": 0.013,
+       "calls": 6.141
+      }
+     ]
+    },
+    "CAW": {
+     "check": 0.795,
+     "dec_ACa": 0.756,
+     "dec_ACl": 0.731,
+     "dec_given_check": 0.807,
+     "twin_discrim": 0.487,
+     "success": 0.263,
+     "twin_joint_success": 0.141,
+     "escalate": 0.013,
+     "calls": 7.25,
+     "per_seed": [
+      {
+       "n": 78,
+       "check": 0.897,
+       "first": {
+        "check": 70,
+        "retry": 8
+       },
+       "dec_ACa": 0.821,
+       "dec_ACl": 0.718,
+       "dec_given_check": 0.8,
+       "twin_discrim": 0.538,
+       "success": 0.269,
+       "twin_joint_success": 0.179,
+       "escalate": 0.0,
+       "calls": 7.064
+      },
+      {
+       "n": 78,
+       "check": 0.692,
+       "first": {
+        "check": 54,
+        "retry": 24
+       },
+       "dec_ACa": 0.692,
+       "dec_ACl": 0.744,
+       "dec_given_check": 0.815,
+       "twin_discrim": 0.436,
+       "success": 0.256,
+       "twin_joint_success": 0.103,
+       "escalate": 0.026,
+       "calls": 7.436
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 0.936,
+     "dec_ACa": 0.91,
+     "dec_ACl": 0.692,
+     "dec_given_check": 0.821,
+     "twin_discrim": 0.603,
+     "success": 0.199,
+     "twin_joint_success": 0.154,
+     "escalate": 0.128,
+     "calls": 6.404,
+     "per_seed": [
+      {
+       "n": 78,
+       "check": 0.872,
+       "first": {
+        "check": 68,
+        "retry": 10
+       },
+       "dec_ACa": 0.846,
+       "dec_ACl": 0.692,
+       "dec_given_check": 0.809,
+       "twin_discrim": 0.538,
+       "success": 0.231,
+       "twin_joint_success": 0.154,
+       "escalate": 0.051,
+       "calls": 7.474
+      },
+      {
+       "n": 78,
+       "check": 1.0,
+       "first": {
+        "check": 78
+       },
+       "dec_ACa": 0.974,
+       "dec_ACl": 0.692,
+       "dec_given_check": 0.833,
+       "twin_discrim": 0.667,
+       "success": 0.167,
+       "twin_joint_success": 0.154,
+       "escalate": 0.205,
+       "calls": 5.333
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-SYN64|check|event": [
+     0.893,
+     [
+      0.791,
+      0.974
+     ],
+     13
+    ],
+    "CAW2-SYN64|disc|event": [
+     0.585,
+     [
+      0.355,
+      0.803
+     ],
+     13
+    ],
+    "CAW2-SYN64|success|event": [
+     0.049,
+     [
+      -0.056,
+      0.169
+     ],
+     13
+    ],
+    "CAW2-SYN64|calls|event": [
+     -0.041,
+     [
+      -2.361,
+      2.449
+     ],
+     13
+    ],
+    "CAW2-CAW|check|event": [
+     0.141,
+     [
+      0.051,
+      0.244
+     ],
+     13
+    ],
+    "CAW2-CAW|disc|event": [
+     0.115,
+     [
+      0.0,
+      0.231
+     ],
+     13
+    ],
+    "CAW2-CAW|success|event": [
+     -0.064,
+     [
+      -0.167,
+      0.013
+     ],
+     13
+    ],
+    "CAW2-CAW|calls|event": [
+     -0.846,
+     [
+      -2.641,
+      0.744
+     ],
+     13
+    ],
+    "CAW2-piB|check|event": [
+     0.936,
+     [
+      0.872,
+      0.987
+     ],
+     13
+    ],
+    "CAW2-piB|disc|event": [
+     0.603,
+     [
+      0.372,
+      0.821
+     ],
+     13
+    ],
+    "CAW2-piB|success|event": [
+     0.032,
+     [
+      -0.083,
+      0.16
+     ],
+     13
+    ],
+    "CAW2-piB|calls|event": [
+     0.186,
+     [
+      -2.218,
+      2.75
+     ],
+     13
+    ],
+    "CAW-SYN64|check|event": [
+     0.752,
+     [
+      0.585,
+      0.902
+     ],
+     13
+    ],
+    "CAW-SYN64|disc|event": [
+     0.47,
+     [
+      0.265,
+      0.679
+     ],
+     13
+    ],
+    "CAW-SYN64|success|event": [
+     0.113,
+     [
+      0.015,
+      0.227
+     ],
+     13
+    ],
+    "CAW-SYN64|calls|event": [
+     0.806,
+     [
+      -0.848,
+      3.513
+     ],
+     13
+    ],
+    "CAW-piB|check|event": [
+     0.795,
+     [
+      0.667,
+      0.923
+     ],
+     13
+    ],
+    "CAW-piB|disc|event": [
+     0.487,
+     [
+      0.295,
+      0.679
+     ],
+     13
+    ],
+    "CAW-piB|success|event": [
+     0.096,
+     [
+      0.006,
+      0.205
+     ],
+     13
+    ],
+    "CAW-piB|calls|event": [
+     1.032,
+     [
+      -0.654,
+      3.776
+     ],
+     13
+    ],
+    "CAW2-SYN64|check|task": [
+     0.91,
+     [
+      0.788,
+      0.986
+     ],
+     8
+    ],
+    "CAW2-SYN64|disc|task": [
+     0.427,
+     [
+      0.139,
+      0.722
+     ],
+     8
+    ],
+    "CAW2-SYN64|success|task": [
+     0.03,
+     [
+      -0.09,
+      0.184
+     ],
+     8
+    ],
+    "CAW2-SYN64|calls|task": [
+     -0.498,
+     [
+      -3.972,
+      3.444
+     ],
+     8
+    ],
+    "CAW2-CAW|check|task": [
+     0.097,
+     [
+      0.021,
+      0.167
+     ],
+     8
+    ],
+    "CAW2-CAW|disc|task": [
+     0.066,
+     [
+      -0.021,
+      0.153
+     ],
+     8
+    ],
+    "CAW2-CAW|success|task": [
+     -0.068,
+     [
+      -0.161,
+      0.01
+     ],
+     8
+    ],
+    "CAW2-CAW|calls|task": [
+     -1.899,
+     [
+      -4.355,
+      0.479
+     ],
+     8
+    ],
+    "CAW2-piB|check|task": [
+     0.951,
+     [
+      0.885,
+      0.993
+     ],
+     8
+    ],
+    "CAW2-piB|disc|task": [
+     0.441,
+     [
+      0.156,
+      0.733
+     ],
+     8
+    ],
+    "CAW2-piB|success|task": [
+     0.016,
+     [
+      -0.109,
+      0.172
+     ],
+     8
+    ],
+    "CAW2-piB|calls|task": [
+     -0.168,
+     [
+      -3.688,
+      3.707
+     ],
+     8
+    ],
+    "CAW-SYN64|check|task": [
+     0.812,
+     [
+      0.653,
+      0.938
+     ],
+     8
+    ],
+    "CAW-SYN64|disc|task": [
+     0.361,
+     [
+      0.135,
+      0.59
+     ],
+     8
+    ],
+    "CAW-SYN64|success|task": [
+     0.097,
+     [
+      0.007,
+      0.205
+     ],
+     8
+    ],
+    "CAW-SYN64|calls|task": [
+     1.401,
+     [
+      -1.174,
+      5.79
+     ],
+     8
+    ],
+    "CAW-piB|check|task": [
+     0.854,
+     [
+      0.74,
+      0.958
+     ],
+     8
+    ],
+    "CAW-piB|disc|task": [
+     0.375,
+     [
+      0.146,
+      0.604
+     ],
+     8
+    ],
+    "CAW-piB|success|task": [
+     0.083,
+     [
+      -0.005,
+      0.193
+     ],
+     8
+    ],
+    "CAW-piB|calls|task": [
+     1.731,
+     [
+      -0.602,
+      5.948
+     ],
+     8
+    ]
+   }
+  },
+  "control_implicit": {
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "dec_given_check": NaN,
+     "twin_discrim": 0.0,
+     "success": 0.389,
+     "twin_joint_success": 0.306,
+     "escalate": 0.167,
+     "calls": 5.486,
+     "per_seed": [
+      {
+       "n": 72,
+       "check": 0.0,
+       "first": {
+        "retry": 72
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.389,
+       "twin_joint_success": 0.306,
+       "escalate": 0.167,
+       "calls": 5.486
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "dec_given_check": NaN,
+     "twin_discrim": 0.0,
+     "success": 0.394,
+     "twin_joint_success": 0.324,
+     "escalate": 0.204,
+     "calls": 4.593,
+     "per_seed": [
+      {
+       "n": 72,
+       "check": 0.0,
+       "first": {
+        "retry": 72
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.417,
+       "twin_joint_success": 0.333,
+       "escalate": 0.167,
+       "calls": 4.708
+      },
+      {
+       "n": 72,
+       "check": 0.0,
+       "first": {
+        "retry": 72
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.361,
+       "twin_joint_success": 0.306,
+       "escalate": 0.25,
+       "calls": 4.694
+      },
+      {
+       "n": 72,
+       "check": 0.0,
+       "first": {
+        "retry": 72
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.403,
+       "twin_joint_success": 0.333,
+       "escalate": 0.194,
+       "calls": 4.375
+      }
+     ]
+    },
+    "SYN64": {
+     "check": 0.046,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "dec_given_check": 0.5,
+     "twin_discrim": 0.0,
+     "success": 0.394,
+     "twin_joint_success": 0.333,
+     "escalate": 0.153,
+     "calls": 5.644,
+     "per_seed": [
+      {
+       "n": 72,
+       "check": 0.0,
+       "first": {
+        "retry": 72
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.375,
+       "twin_joint_success": 0.306,
+       "escalate": 0.167,
+       "calls": 6.153
+      },
+      {
+       "n": 72,
+       "check": 0.139,
+       "first": {
+        "retry": 62,
+        "check": 10
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": 0.5,
+       "twin_discrim": 0.0,
+       "success": 0.361,
+       "twin_joint_success": 0.306,
+       "escalate": 0.153,
+       "calls": 6.528
+      },
+      {
+       "n": 72,
+       "check": 0.0,
+       "first": {
+        "retry": 72
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "dec_given_check": NaN,
+       "twin_discrim": 0.0,
+       "success": 0.444,
+       "twin_joint_success": 0.389,
+       "escalate": 0.139,
+       "calls": 4.25
+      }
+     ]
+    },
+    "CAW": {
+     "check": 0.458,
+     "dec_ACa": 0.292,
+     "dec_ACl": 0.944,
+     "dec_given_check": 0.758,
+     "twin_discrim": 0.236,
+     "success": 0.368,
+     "twin_joint_success": 0.278,
+     "escalate": 0.118,
+     "calls": 5.264,
+     "per_seed": [
+      {
+       "n": 72,
+       "check": 0.444,
+       "first": {
+        "check": 32,
+        "retry": 40
+       },
+       "dec_ACa": 0.306,
+       "dec_ACl": 0.944,
+       "dec_given_check": 0.781,
+       "twin_discrim": 0.25,
+       "success": 0.375,
+       "twin_joint_success": 0.278,
+       "escalate": 0.111,
+       "calls": 5.597
+      },
+      {
+       "n": 72,
+       "check": 0.472,
+       "first": {
+        "check": 34,
+        "retry": 38
+       },
+       "dec_ACa": 0.278,
+       "dec_ACl": 0.944,
+       "dec_given_check": 0.735,
+       "twin_discrim": 0.222,
+       "success": 0.361,
+       "twin_joint_success": 0.278,
+       "escalate": 0.125,
+       "calls": 4.931
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 0.708,
+     "dec_ACa": 0.528,
+     "dec_ACl": 0.944,
+     "dec_given_check": 0.809,
+     "twin_discrim": 0.472,
+     "success": 0.333,
+     "twin_joint_success": 0.222,
+     "escalate": 0.201,
+     "calls": 4.333,
+     "per_seed": [
+      {
+       "n": 72,
+       "check": 0.472,
+       "first": {
+        "check": 34,
+        "retry": 38
+       },
+       "dec_ACa": 0.306,
+       "dec_ACl": 0.972,
+       "dec_given_check": 0.765,
+       "twin_discrim": 0.278,
+       "success": 0.375,
+       "twin_joint_success": 0.278,
+       "escalate": 0.194,
+       "calls": 4.583
+      },
+      {
+       "n": 72,
+       "check": 0.944,
+       "first": {
+        "check": 68,
+        "retry": 4
+       },
+       "dec_ACa": 0.75,
+       "dec_ACl": 0.917,
+       "dec_given_check": 0.853,
+       "twin_discrim": 0.667,
+       "success": 0.292,
+       "twin_joint_success": 0.167,
+       "escalate": 0.208,
+       "calls": 4.083
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-SYN64|check|event": [
+     0.662,
+     [
+      0.56,
+      0.764
+     ],
+     36
+    ],
+    "CAW2-SYN64|disc|event": [
+     0.472,
+     [
+      0.361,
+      0.583
+     ],
+     36
+    ],
+    "CAW2-SYN64|success|event": [
+     -0.06,
+     [
+      -0.144,
+      0.014
+     ],
+     36
+    ],
+    "CAW2-SYN64|calls|event": [
+     -1.31,
+     [
+      -2.5,
+      -0.227
+     ],
+     36
+    ],
+    "CAW2-CAW|check|event": [
+     0.25,
+     [
+      0.139,
+      0.361
+     ],
+     36
+    ],
+    "CAW2-CAW|disc|event": [
+     0.236,
+     [
+      0.139,
+      0.333
+     ],
+     36
+    ],
+    "CAW2-CAW|success|event": [
+     -0.035,
+     [
+      -0.104,
+      0.035
+     ],
+     36
+    ],
+    "CAW2-CAW|calls|event": [
+     -0.931,
+     [
+      -1.924,
+      -0.021
+     ],
+     36
+    ],
+    "CAW2-piB|check|event": [
+     0.708,
+     [
+      0.611,
+      0.806
+     ],
+     36
+    ],
+    "CAW2-piB|disc|event": [
+     0.472,
+     [
+      0.361,
+      0.583
+     ],
+     36
+    ],
+    "CAW2-piB|success|event": [
+     -0.056,
+     [
+      -0.153,
+      0.049
+     ],
+     36
+    ],
+    "CAW2-piB|calls|event": [
+     -1.153,
+     [
+      -2.84,
+      0.326
+     ],
+     36
+    ],
+    "CAW-SYN64|check|event": [
+     0.412,
+     [
+      0.264,
+      0.565
+     ],
+     36
+    ],
+    "CAW-SYN64|disc|event": [
+     0.236,
+     [
+      0.125,
+      0.361
+     ],
+     36
+    ],
+    "CAW-SYN64|success|event": [
+     -0.025,
+     [
+      -0.069,
+      0.016
+     ],
+     36
+    ],
+    "CAW-SYN64|calls|event": [
+     -0.38,
+     [
+      -1.276,
+      0.357
+     ],
+     36
+    ],
+    "CAW-piB|check|event": [
+     0.458,
+     [
+      0.306,
+      0.611
+     ],
+     36
+    ],
+    "CAW-piB|disc|event": [
+     0.236,
+     [
+      0.125,
+      0.361
+     ],
+     36
+    ],
+    "CAW-piB|success|event": [
+     -0.021,
+     [
+      -0.111,
+      0.076
+     ],
+     36
+    ],
+    "CAW-piB|calls|event": [
+     -0.222,
+     [
+      -1.854,
+      1.229
+     ],
+     36
+    ],
+    "CAW2-SYN64|check|task": [
+     0.638,
+     [
+      0.511,
+      0.754
+     ],
+     21
+    ],
+    "CAW2-SYN64|disc|task": [
+     0.498,
+     [
+      0.354,
+      0.639
+     ],
+     21
+    ],
+    "CAW2-SYN64|success|task": [
+     -0.11,
+     [
+      -0.222,
+      -0.026
+     ],
+     21
+    ],
+    "CAW2-SYN64|calls|task": [
+     -0.634,
+     [
+      -1.805,
+      0.401
+     ],
+     21
+    ],
+    "CAW2-CAW|check|task": [
+     0.188,
+     [
+      0.069,
+      0.307
+     ],
+     21
+    ],
+    "CAW2-CAW|disc|task": [
+     0.218,
+     [
+      0.119,
+      0.321
+     ],
+     21
+    ],
+    "CAW2-CAW|success|task": [
+     -0.056,
+     [
+      -0.157,
+      0.026
+     ],
+     21
+    ],
+    "CAW2-CAW|calls|task": [
+     -0.902,
+     [
+      -2.203,
+      0.225
+     ],
+     21
+    ],
+    "CAW2-piB|check|task": [
+     0.706,
+     [
+      0.587,
+      0.817
+     ],
+     21
+    ],
+    "CAW2-piB|disc|task": [
+     0.498,
+     [
+      0.354,
+      0.639
+     ],
+     21
+    ],
+    "CAW2-piB|success|task": [
+     -0.121,
+     [
+      -0.24,
+      -0.008
+     ],
+     21
+    ],
+    "CAW2-piB|calls|task": [
+     -0.254,
+     [
+      -1.825,
+      1.056
+     ],
+     21
+    ],
+    "CAW-SYN64|check|task": [
+     0.449,
+     [
+      0.274,
+      0.625
+     ],
+     21
+    ],
+    "CAW-SYN64|disc|task": [
+     0.279,
+     [
+      0.137,
+      0.429
+     ],
+     21
+    ],
+    "CAW-SYN64|success|task": [
+     -0.054,
+     [
+      -0.115,
+      -0.003
+     ],
+     21
+    ],
+    "CAW-SYN64|calls|task": [
+     0.269,
+     [
+      -0.383,
+      0.871
+     ],
+     21
+    ],
+    "CAW-piB|check|task": [
+     0.518,
+     [
+      0.348,
+      0.69
+     ],
+     21
+    ],
+    "CAW-piB|disc|task": [
+     0.279,
+     [
+      0.137,
+      0.429
+     ],
+     21
+    ],
+    "CAW-piB|success|task": [
+     -0.066,
+     [
+      -0.183,
+      0.048
+     ],
+     21
+    ],
+    "CAW-piB|calls|task": [
+     0.648,
+     [
+      -0.389,
+      1.843
+     ],
+     21
+    ]
+   }
+  },
+  "by_fn_implicit": {
+   "piB": {
+    "cancel_reservation": "0/22",
+    "book_reservation": "0/4"
+   },
+   "SYN32": {
+    "cancel_reservation": "0/66",
+    "book_reservation": "0/12"
+   },
+   "SYN64": {
+    "cancel_reservation": "0/66",
+    "book_reservation": "2/12"
+   },
+   "CAW": {
+    "cancel_reservation": "28/44",
+    "book_reservation": "6/8"
+   },
+   "CAW2": {
+    "cancel_reservation": "38/44",
+    "book_reservation": "6/8"
+   }
+  }
+ },
+ "bfcl_uo": {
+  "heldout_class_decisive|implicit": {
+   "n_tasks": 35,
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "twin_discrim": 0.0,
+     "success": 0.514,
+     "twin_joint_success": 0.029,
+     "success_ACa": 0.029,
+     "success_ACl": 1.0,
+     "calls": 2.571,
+     "per_seed": [
+      {
+       "n": 70,
+       "check": 0.0,
+       "first": {
+        "retry": 70
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "twin_discrim": 0.0,
+       "success": 0.514,
+       "twin_joint_success": 0.029,
+       "success_ACa": 0.029,
+       "success_ACl": 1.0,
+       "calls": 2.571
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 0.448,
+     "dec_ACa": 0.286,
+     "dec_ACl": 0.971,
+     "twin_discrim": 0.257,
+     "success": 0.61,
+     "twin_joint_success": 0.248,
+     "success_ACa": 0.267,
+     "success_ACl": 0.952,
+     "calls": 2.8,
+     "per_seed": [
+      {
+       "n": 70,
+       "check": 0.629,
+       "first": {
+        "check": 44,
+        "retry": 26
+       },
+       "dec_ACa": 0.486,
+       "dec_ACl": 0.943,
+       "twin_discrim": 0.429,
+       "success": 0.7,
+       "twin_joint_success": 0.429,
+       "success_ACa": 0.457,
+       "success_ACl": 0.943,
+       "calls": 2.757
+      },
+      {
+       "n": 70,
+       "check": 0.629,
+       "first": {
+        "check": 44,
+        "retry": 26
+       },
+       "dec_ACa": 0.286,
+       "dec_ACl": 0.971,
+       "twin_discrim": 0.257,
+       "success": 0.6,
+       "twin_joint_success": 0.229,
+       "success_ACa": 0.257,
+       "success_ACl": 0.943,
+       "calls": 3.029
+      },
+      {
+       "n": 70,
+       "check": 0.086,
+       "first": {
+        "retry": 64,
+        "check": 6
+       },
+       "dec_ACa": 0.086,
+       "dec_ACl": 1.0,
+       "twin_discrim": 0.086,
+       "success": 0.529,
+       "twin_joint_success": 0.086,
+       "success_ACa": 0.086,
+       "success_ACl": 0.971,
+       "calls": 2.614
+      }
+     ]
+    },
+    "CAW": {
+     "check": 1.0,
+     "dec_ACa": 0.814,
+     "dec_ACl": 0.914,
+     "twin_discrim": 0.729,
+     "success": 0.829,
+     "twin_joint_success": 0.714,
+     "success_ACa": 0.743,
+     "success_ACl": 0.914,
+     "calls": 3.371,
+     "per_seed": [
+      {
+       "n": 70,
+       "check": 1.0,
+       "first": {
+        "check": 70
+       },
+       "dec_ACa": 0.8,
+       "dec_ACl": 0.914,
+       "twin_discrim": 0.714,
+       "success": 0.829,
+       "twin_joint_success": 0.714,
+       "success_ACa": 0.743,
+       "success_ACl": 0.914,
+       "calls": 3.4
+      },
+      {
+       "n": 70,
+       "check": 1.0,
+       "first": {
+        "check": 70
+       },
+       "dec_ACa": 0.829,
+       "dec_ACl": 0.914,
+       "twin_discrim": 0.743,
+       "success": 0.829,
+       "twin_joint_success": 0.714,
+       "success_ACa": 0.743,
+       "success_ACl": 0.914,
+       "calls": 3.343
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 0.971,
+     "dec_ACa": 0.671,
+     "dec_ACl": 0.929,
+     "twin_discrim": 0.6,
+     "success": 0.75,
+     "twin_joint_success": 0.557,
+     "success_ACa": 0.614,
+     "success_ACl": 0.886,
+     "calls": 3.071,
+     "per_seed": [
+      {
+       "n": 70,
+       "check": 1.0,
+       "first": {
+        "check": 70
+       },
+       "dec_ACa": 0.714,
+       "dec_ACl": 0.914,
+       "twin_discrim": 0.629,
+       "success": 0.743,
+       "twin_joint_success": 0.543,
+       "success_ACa": 0.657,
+       "success_ACl": 0.829,
+       "calls": 3.2
+      },
+      {
+       "n": 70,
+       "check": 0.943,
+       "first": {
+        "check": 66,
+        "retry": 4
+       },
+       "dec_ACa": 0.629,
+       "dec_ACl": 0.943,
+       "twin_discrim": 0.571,
+       "success": 0.757,
+       "twin_joint_success": 0.571,
+       "success_ACa": 0.571,
+       "success_ACl": 0.943,
+       "calls": 2.943
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-CAW|success": [
+     -0.079,
+     [
+      -0.15,
+      -0.007
+     ],
+     35
+    ],
+    "CAW2-CAW|disc": [
+     -0.129,
+     [
+      -0.257,
+      0.0
+     ],
+     35
+    ],
+    "CAW2-CAW|check": [
+     -0.029,
+     [
+      -0.071,
+      0.0
+     ],
+     35
+    ],
+    "CAW2-SYN32|success": [
+     0.14,
+     [
+      0.069,
+      0.21
+     ],
+     35
+    ],
+    "CAW2-SYN32|disc": [
+     0.343,
+     [
+      0.224,
+      0.471
+     ],
+     35
+    ],
+    "CAW2-SYN32|check": [
+     0.524,
+     [
+      0.405,
+      0.638
+     ],
+     35
+    ],
+    "CAW2-piB|success": [
+     0.236,
+     [
+      0.121,
+      0.329
+     ],
+     35
+    ],
+    "CAW2-piB|disc": [
+     0.6,
+     [
+      0.457,
+      0.757
+     ],
+     35
+    ],
+    "CAW2-piB|check": [
+     0.971,
+     [
+      0.929,
+      1.0
+     ],
+     35
+    ],
+    "CAW-SYN32|success": [
+     0.219,
+     [
+      0.14,
+      0.288
+     ],
+     35
+    ],
+    "CAW-SYN32|disc": [
+     0.471,
+     [
+      0.343,
+      0.59
+     ],
+     35
+    ],
+    "CAW-SYN32|check": [
+     0.552,
+     [
+      0.448,
+      0.657
+     ],
+     35
+    ],
+    "CAW-piB|success": [
+     0.314,
+     [
+      0.193,
+      0.407
+     ],
+     35
+    ],
+    "CAW-piB|disc": [
+     0.729,
+     [
+      0.6,
+      0.843
+     ],
+     35
+    ],
+    "CAW-piB|check": [
+     1.0,
+     [
+      1.0,
+      1.0
+     ],
+     35
+    ]
+   }
+  },
+  "heldout_class_decisive|unseen_wordings": {
+   "n_tasks": 35,
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "twin_discrim": 0.0,
+     "success": 0.514,
+     "twin_joint_success": 0.029,
+     "success_ACa": 0.029,
+     "success_ACl": 1.0,
+     "calls": 2.571,
+     "per_seed": [
+      {
+       "n": 140,
+       "check": 0.0,
+       "first": {
+        "retry": 140
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "twin_discrim": 0.0,
+       "success": 0.514,
+       "twin_joint_success": 0.029,
+       "success_ACa": 0.029,
+       "success_ACl": 1.0,
+       "calls": 2.571
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 0.643,
+     "dec_ACa": 0.524,
+     "dec_ACl": 0.929,
+     "twin_discrim": 0.457,
+     "success": 0.71,
+     "twin_joint_success": 0.452,
+     "success_ACa": 0.5,
+     "success_ACl": 0.919,
+     "calls": 2.838,
+     "per_seed": [
+      {
+       "n": 140,
+       "check": 0.729,
+       "first": {
+        "stop": 8,
+        "check": 102,
+        "retry": 30
+       },
+       "dec_ACa": 0.686,
+       "dec_ACl": 0.871,
+       "twin_discrim": 0.557,
+       "success": 0.764,
+       "twin_joint_success": 0.557,
+       "success_ACa": 0.657,
+       "success_ACl": 0.871,
+       "calls": 2.779
+      },
+      {
+       "n": 140,
+       "check": 0.7,
+       "first": {
+        "check": 98,
+        "retry": 42
+       },
+       "dec_ACa": 0.5,
+       "dec_ACl": 0.957,
+       "twin_discrim": 0.457,
+       "success": 0.707,
+       "twin_joint_success": 0.443,
+       "success_ACa": 0.471,
+       "success_ACl": 0.943,
+       "calls": 2.95
+      },
+      {
+       "n": 140,
+       "check": 0.5,
+       "first": {
+        "check": 70,
+        "retry": 70
+       },
+       "dec_ACa": 0.386,
+       "dec_ACl": 0.957,
+       "twin_discrim": 0.357,
+       "success": 0.657,
+       "twin_joint_success": 0.357,
+       "success_ACa": 0.371,
+       "success_ACl": 0.943,
+       "calls": 2.786
+      }
+     ]
+    },
+    "CAW": {
+     "check": 1.0,
+     "dec_ACa": 0.871,
+     "dec_ACl": 0.886,
+     "twin_discrim": 0.757,
+     "success": 0.854,
+     "twin_joint_success": 0.75,
+     "success_ACa": 0.821,
+     "success_ACl": 0.886,
+     "calls": 3.354,
+     "per_seed": [
+      {
+       "n": 140,
+       "check": 1.0,
+       "first": {
+        "check": 140
+       },
+       "dec_ACa": 0.857,
+       "dec_ACl": 0.886,
+       "twin_discrim": 0.743,
+       "success": 0.85,
+       "twin_joint_success": 0.743,
+       "success_ACa": 0.814,
+       "success_ACl": 0.886,
+       "calls": 3.407
+      },
+      {
+       "n": 140,
+       "check": 1.0,
+       "first": {
+        "check": 140
+       },
+       "dec_ACa": 0.886,
+       "dec_ACl": 0.886,
+       "twin_discrim": 0.771,
+       "success": 0.857,
+       "twin_joint_success": 0.757,
+       "success_ACa": 0.829,
+       "success_ACl": 0.886,
+       "calls": 3.3
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 0.979,
+     "dec_ACa": 0.786,
+     "dec_ACl": 0.921,
+     "twin_discrim": 0.707,
+     "success": 0.782,
+     "twin_joint_success": 0.621,
+     "success_ACa": 0.729,
+     "success_ACl": 0.836,
+     "calls": 3.254,
+     "per_seed": [
+      {
+       "n": 140,
+       "check": 0.986,
+       "first": {
+        "check": 138,
+        "other": 2
+       },
+       "dec_ACa": 0.829,
+       "dec_ACl": 0.929,
+       "twin_discrim": 0.757,
+       "success": 0.764,
+       "twin_joint_success": 0.586,
+       "success_ACa": 0.771,
+       "success_ACl": 0.757,
+       "calls": 3.521
+      },
+      {
+       "n": 140,
+       "check": 0.971,
+       "first": {
+        "check": 136,
+        "retry": 4
+       },
+       "dec_ACa": 0.743,
+       "dec_ACl": 0.914,
+       "twin_discrim": 0.657,
+       "success": 0.8,
+       "twin_joint_success": 0.657,
+       "success_ACa": 0.686,
+       "success_ACl": 0.914,
+       "calls": 2.986
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-CAW|success": [
+     -0.071,
+     [
+      -0.118,
+      -0.021
+     ],
+     35
+    ],
+    "CAW2-CAW|disc": [
+     -0.05,
+     [
+      -0.136,
+      0.036
+     ],
+     35
+    ],
+    "CAW2-CAW|check": [
+     -0.021,
+     [
+      -0.043,
+      0.0
+     ],
+     35
+    ],
+    "CAW2-SYN32|success": [
+     0.073,
+     [
+      0.017,
+      0.127
+     ],
+     35
+    ],
+    "CAW2-SYN32|disc": [
+     0.25,
+     [
+      0.174,
+      0.331
+     ],
+     35
+    ],
+    "CAW2-SYN32|check": [
+     0.336,
+     [
+      0.257,
+      0.412
+     ],
+     35
+    ],
+    "CAW2-piB|success": [
+     0.268,
+     [
+      0.161,
+      0.357
+     ],
+     35
+    ],
+    "CAW2-piB|disc": [
+     0.707,
+     [
+      0.586,
+      0.821
+     ],
+     35
+    ],
+    "CAW2-piB|check": [
+     0.979,
+     [
+      0.957,
+      1.0
+     ],
+     35
+    ],
+    "CAW-SYN32|success": [
+     0.144,
+     [
+      0.087,
+      0.195
+     ],
+     35
+    ],
+    "CAW-SYN32|disc": [
+     0.3,
+     [
+      0.198,
+      0.395
+     ],
+     35
+    ],
+    "CAW-SYN32|check": [
+     0.357,
+     [
+      0.281,
+      0.438
+     ],
+     35
+    ],
+    "CAW-piB|success": [
+     0.339,
+     [
+      0.225,
+      0.422
+     ],
+     35
+    ],
+    "CAW-piB|disc": [
+     0.757,
+     [
+      0.629,
+      0.864
+     ],
+     35
+    ],
+    "CAW-piB|check": [
+     1.0,
+     [
+      1.0,
+      1.0
+     ],
+     35
+    ]
+   }
+  },
+  "train_class_nontrain_split_decisive|implicit": {
+   "n_tasks": 6,
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "twin_discrim": 0.0,
+     "success": 0.5,
+     "twin_joint_success": 0.0,
+     "success_ACa": 0.0,
+     "success_ACl": 1.0,
+     "calls": 2.0,
+     "per_seed": [
+      {
+       "n": 12,
+       "check": 0.0,
+       "first": {
+        "retry": 12
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "twin_discrim": 0.0,
+       "success": 0.5,
+       "twin_joint_success": 0.0,
+       "success_ACa": 0.0,
+       "success_ACl": 1.0,
+       "calls": 2.0
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 1.0,
+     "dec_ACa": 0.944,
+     "dec_ACl": 0.889,
+     "twin_discrim": 0.833,
+     "success": 0.917,
+     "twin_joint_success": 0.833,
+     "success_ACa": 0.944,
+     "success_ACl": 0.889,
+     "calls": 2.472,
+     "per_seed": [
+      {
+       "n": 12,
+       "check": 1.0,
+       "first": {
+        "check": 12
+       },
+       "dec_ACa": 1.0,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.917,
+       "twin_joint_success": 0.833,
+       "success_ACa": 1.0,
+       "success_ACl": 0.833,
+       "calls": 2.417
+      },
+      {
+       "n": 12,
+       "check": 1.0,
+       "first": {
+        "check": 12
+       },
+       "dec_ACa": 1.0,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.917,
+       "twin_joint_success": 0.833,
+       "success_ACa": 1.0,
+       "success_ACl": 0.833,
+       "calls": 2.417
+      },
+      {
+       "n": 12,
+       "check": 1.0,
+       "first": {
+        "check": 12
+       },
+       "dec_ACa": 0.833,
+       "dec_ACl": 1.0,
+       "twin_discrim": 0.833,
+       "success": 0.917,
+       "twin_joint_success": 0.833,
+       "success_ACa": 0.833,
+       "success_ACl": 1.0,
+       "calls": 2.583
+      }
+     ]
+    },
+    "CAW": {
+     "check": 1.0,
+     "dec_ACa": 0.917,
+     "dec_ACl": 0.833,
+     "twin_discrim": 0.833,
+     "success": 0.875,
+     "twin_joint_success": 0.833,
+     "success_ACa": 0.917,
+     "success_ACl": 0.833,
+     "calls": 2.458,
+     "per_seed": [
+      {
+       "n": 12,
+       "check": 1.0,
+       "first": {
+        "check": 12
+       },
+       "dec_ACa": 1.0,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.917,
+       "twin_joint_success": 0.833,
+       "success_ACa": 1.0,
+       "success_ACl": 0.833,
+       "calls": 2.417
+      },
+      {
+       "n": 12,
+       "check": 1.0,
+       "first": {
+        "check": 12
+       },
+       "dec_ACa": 0.833,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.833,
+       "twin_joint_success": 0.833,
+       "success_ACa": 0.833,
+       "success_ACl": 0.833,
+       "calls": 2.5
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 1.0,
+     "dec_ACa": 0.833,
+     "dec_ACl": 0.833,
+     "twin_discrim": 0.833,
+     "success": 0.75,
+     "twin_joint_success": 0.75,
+     "success_ACa": 0.75,
+     "success_ACl": 0.75,
+     "calls": 2.5,
+     "per_seed": [
+      {
+       "n": 12,
+       "check": 1.0,
+       "first": {
+        "check": 12
+       },
+       "dec_ACa": 0.833,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.833,
+       "twin_joint_success": 0.833,
+       "success_ACa": 0.833,
+       "success_ACl": 0.833,
+       "calls": 2.5
+      },
+      {
+       "n": 12,
+       "check": 1.0,
+       "first": {
+        "check": 12
+       },
+       "dec_ACa": 0.833,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.667,
+       "twin_joint_success": 0.667,
+       "success_ACa": 0.667,
+       "success_ACl": 0.667,
+       "calls": 2.5
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-CAW|success": [
+     -0.125,
+     [
+      -0.292,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-CAW|disc": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-CAW|check": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-SYN32|success": [
+     -0.167,
+     [
+      -0.333,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-SYN32|disc": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-SYN32|check": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-piB|success": [
+     0.25,
+     [
+      -0.083,
+      0.5
+     ],
+     6
+    ],
+    "CAW2-piB|disc": [
+     0.833,
+     [
+      0.5,
+      1.0
+     ],
+     6
+    ],
+    "CAW2-piB|check": [
+     1.0,
+     [
+      1.0,
+      1.0
+     ],
+     6
+    ],
+    "CAW-SYN32|success": [
+     -0.042,
+     [
+      -0.125,
+      0.0
+     ],
+     6
+    ],
+    "CAW-SYN32|disc": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     6
+    ],
+    "CAW-SYN32|check": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     6
+    ],
+    "CAW-piB|success": [
+     0.375,
+     [
+      0.125,
+      0.5
+     ],
+     6
+    ],
+    "CAW-piB|disc": [
+     0.833,
+     [
+      0.5,
+      1.0
+     ],
+     6
+    ],
+    "CAW-piB|check": [
+     1.0,
+     [
+      1.0,
+      1.0
+     ],
+     6
+    ]
+   }
+  },
+  "train_class_nontrain_split_decisive|unseen_wordings": {
+   "n_tasks": 6,
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 1.0,
+     "twin_discrim": 0.0,
+     "success": 0.5,
+     "twin_joint_success": 0.0,
+     "success_ACa": 0.0,
+     "success_ACl": 1.0,
+     "calls": 2.0,
+     "per_seed": [
+      {
+       "n": 24,
+       "check": 0.0,
+       "first": {
+        "retry": 24
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 1.0,
+       "twin_discrim": 0.0,
+       "success": 0.5,
+       "twin_joint_success": 0.0,
+       "success_ACa": 0.0,
+       "success_ACl": 1.0,
+       "calls": 2.0
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 0.917,
+     "dec_ACa": 0.944,
+     "dec_ACl": 0.806,
+     "twin_discrim": 0.75,
+     "success": 0.875,
+     "twin_joint_success": 0.75,
+     "success_ACa": 0.944,
+     "success_ACl": 0.806,
+     "calls": 2.347,
+     "per_seed": [
+      {
+       "n": 24,
+       "check": 0.75,
+       "first": {
+        "stop": 6,
+        "check": 18
+       },
+       "dec_ACa": 1.0,
+       "dec_ACl": 0.583,
+       "twin_discrim": 0.583,
+       "success": 0.792,
+       "twin_joint_success": 0.583,
+       "success_ACa": 1.0,
+       "success_ACl": 0.583,
+       "calls": 2.042
+      },
+      {
+       "n": 24,
+       "check": 1.0,
+       "first": {
+        "check": 24
+       },
+       "dec_ACa": 1.0,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.917,
+       "twin_joint_success": 0.833,
+       "success_ACa": 1.0,
+       "success_ACl": 0.833,
+       "calls": 2.417
+      },
+      {
+       "n": 24,
+       "check": 1.0,
+       "first": {
+        "check": 24
+       },
+       "dec_ACa": 0.833,
+       "dec_ACl": 1.0,
+       "twin_discrim": 0.833,
+       "success": 0.917,
+       "twin_joint_success": 0.833,
+       "success_ACa": 0.833,
+       "success_ACl": 1.0,
+       "calls": 2.583
+      }
+     ]
+    },
+    "CAW": {
+     "check": 1.0,
+     "dec_ACa": 0.917,
+     "dec_ACl": 0.833,
+     "twin_discrim": 0.833,
+     "success": 0.875,
+     "twin_joint_success": 0.833,
+     "success_ACa": 0.917,
+     "success_ACl": 0.833,
+     "calls": 2.458,
+     "per_seed": [
+      {
+       "n": 24,
+       "check": 1.0,
+       "first": {
+        "check": 24
+       },
+       "dec_ACa": 1.0,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.917,
+       "twin_joint_success": 0.833,
+       "success_ACa": 1.0,
+       "success_ACl": 0.833,
+       "calls": 2.417
+      },
+      {
+       "n": 24,
+       "check": 1.0,
+       "first": {
+        "check": 24
+       },
+       "dec_ACa": 0.833,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.833,
+       "twin_joint_success": 0.833,
+       "success_ACa": 0.833,
+       "success_ACl": 0.833,
+       "calls": 2.5
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 1.0,
+     "dec_ACa": 0.875,
+     "dec_ACl": 0.833,
+     "twin_discrim": 0.833,
+     "success": 0.771,
+     "twin_joint_success": 0.75,
+     "success_ACa": 0.792,
+     "success_ACl": 0.75,
+     "calls": 2.479,
+     "per_seed": [
+      {
+       "n": 24,
+       "check": 1.0,
+       "first": {
+        "check": 24
+       },
+       "dec_ACa": 0.833,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.833,
+       "twin_joint_success": 0.833,
+       "success_ACa": 0.833,
+       "success_ACl": 0.833,
+       "calls": 2.5
+      },
+      {
+       "n": 24,
+       "check": 1.0,
+       "first": {
+        "check": 24
+       },
+       "dec_ACa": 0.917,
+       "dec_ACl": 0.833,
+       "twin_discrim": 0.833,
+       "success": 0.708,
+       "twin_joint_success": 0.667,
+       "success_ACa": 0.75,
+       "success_ACl": 0.667,
+       "calls": 2.458
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-CAW|success": [
+     -0.104,
+     [
+      -0.271,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-CAW|disc": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-CAW|check": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ],
+     6
+    ],
+    "CAW2-SYN32|success": [
+     -0.104,
+     [
+      -0.271,
+      0.056
+     ],
+     6
+    ],
+    "CAW2-SYN32|disc": [
+     0.083,
+     [
+      0.028,
+      0.139
+     ],
+     6
+    ],
+    "CAW2-SYN32|check": [
+     0.083,
+     [
+      0.028,
+      0.139
+     ],
+     6
+    ],
+    "CAW2-piB|success": [
+     0.271,
+     [
+      -0.021,
+      0.5
+     ],
+     6
+    ],
+    "CAW2-piB|disc": [
+     0.833,
+     [
+      0.5,
+      1.0
+     ],
+     6
+    ],
+    "CAW2-piB|check": [
+     1.0,
+     [
+      1.0,
+      1.0
+     ],
+     6
+    ],
+    "CAW-SYN32|success": [
+     0.0,
+     [
+      -0.111,
+      0.069
+     ],
+     6
+    ],
+    "CAW-SYN32|disc": [
+     0.083,
+     [
+      0.028,
+      0.139
+     ],
+     6
+    ],
+    "CAW-SYN32|check": [
+     0.083,
+     [
+      0.028,
+      0.139
+     ],
+     6
+    ],
+    "CAW-piB|success": [
+     0.375,
+     [
+      0.125,
+      0.5
+     ],
+     6
+    ],
+    "CAW-piB|disc": [
+     0.833,
+     [
+      0.5,
+      1.0
+     ],
+     6
+    ],
+    "CAW-piB|check": [
+     1.0,
+     [
+      1.0,
+      1.0
+     ],
+     6
+    ]
+   }
+  },
+  "all_diagnostic|implicit": {
+   "n_tasks": 116,
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.0,
+     "dec_ACl": 0.991,
+     "twin_discrim": 0.0,
+     "success": 0.448,
+     "twin_joint_success": 0.017,
+     "success_ACa": 0.017,
+     "success_ACl": 0.879,
+     "calls": 2.672,
+     "per_seed": [
+      {
+       "n": 232,
+       "check": 0.0,
+       "first": {
+        "retry": 230,
+        "never_called": 2
+       },
+       "dec_ACa": 0.0,
+       "dec_ACl": 0.991,
+       "twin_discrim": 0.0,
+       "success": 0.448,
+       "twin_joint_success": 0.017,
+       "success_ACa": 0.017,
+       "success_ACl": 0.879,
+       "calls": 2.672
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 0.671,
+     "dec_ACa": 0.397,
+     "dec_ACl": 0.971,
+     "twin_discrim": 0.382,
+     "success": 0.586,
+     "twin_joint_success": 0.307,
+     "success_ACa": 0.319,
+     "success_ACl": 0.853,
+     "calls": 3.165,
+     "per_seed": [
+      {
+       "n": 232,
+       "check": 0.733,
+       "first": {
+        "check": 170,
+        "retry": 58,
+        "never_called": 4
+       },
+       "dec_ACa": 0.474,
+       "dec_ACl": 0.957,
+       "twin_discrim": 0.448,
+       "success": 0.612,
+       "twin_joint_success": 0.371,
+       "success_ACa": 0.388,
+       "success_ACl": 0.836,
+       "calls": 3.159
+      },
+      {
+       "n": 232,
+       "check": 0.75,
+       "first": {
+        "check": 174,
+        "retry": 54,
+        "never_called": 4
+       },
+       "dec_ACa": 0.371,
+       "dec_ACl": 0.966,
+       "twin_discrim": 0.353,
+       "success": 0.569,
+       "twin_joint_success": 0.276,
+       "success_ACa": 0.293,
+       "success_ACl": 0.845,
+       "calls": 3.349
+      },
+      {
+       "n": 232,
+       "check": 0.53,
+       "first": {
+        "check": 123,
+        "retry": 107,
+        "never_called": 2
+       },
+       "dec_ACa": 0.345,
+       "dec_ACl": 0.991,
+       "twin_discrim": 0.345,
+       "success": 0.578,
+       "twin_joint_success": 0.276,
+       "success_ACa": 0.276,
+       "success_ACl": 0.879,
+       "calls": 2.987
+      }
+     ]
+    },
+    "CAW": {
+     "check": 0.81,
+     "dec_ACa": 0.591,
+     "dec_ACl": 0.953,
+     "twin_discrim": 0.556,
+     "success": 0.679,
+     "twin_joint_success": 0.496,
+     "success_ACa": 0.513,
+     "success_ACl": 0.845,
+     "calls": 3.547,
+     "per_seed": [
+      {
+       "n": 232,
+       "check": 0.802,
+       "first": {
+        "check": 186,
+        "never_called": 2,
+        "other": 38,
+        "retry": 6
+       },
+       "dec_ACa": 0.603,
+       "dec_ACl": 0.957,
+       "twin_discrim": 0.569,
+       "success": 0.681,
+       "twin_joint_success": 0.5,
+       "success_ACa": 0.517,
+       "success_ACl": 0.845,
+       "calls": 3.453
+      },
+      {
+       "n": 232,
+       "check": 0.819,
+       "first": {
+        "check": 190,
+        "never_called": 2,
+        "other": 38,
+        "retry": 2
+       },
+       "dec_ACa": 0.578,
+       "dec_ACl": 0.948,
+       "twin_discrim": 0.543,
+       "success": 0.677,
+       "twin_joint_success": 0.491,
+       "success_ACa": 0.509,
+       "success_ACl": 0.845,
+       "calls": 3.642
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 0.879,
+     "dec_ACa": 0.565,
+     "dec_ACl": 0.957,
+     "twin_discrim": 0.539,
+     "success": 0.64,
+     "twin_joint_success": 0.444,
+     "success_ACa": 0.461,
+     "success_ACl": 0.819,
+     "calls": 3.315,
+     "per_seed": [
+      {
+       "n": 232,
+       "check": 0.914,
+       "first": {
+        "check": 212,
+        "never_called": 2,
+        "other": 6,
+        "retry": 12
+       },
+       "dec_ACa": 0.543,
+       "dec_ACl": 0.948,
+       "twin_discrim": 0.509,
+       "success": 0.625,
+       "twin_joint_success": 0.414,
+       "success_ACa": 0.448,
+       "success_ACl": 0.802,
+       "calls": 3.341
+      },
+      {
+       "n": 232,
+       "check": 0.845,
+       "first": {
+        "check": 196,
+        "never_called": 2,
+        "other": 30,
+        "retry": 4
+       },
+       "dec_ACa": 0.586,
+       "dec_ACl": 0.966,
+       "twin_discrim": 0.569,
+       "success": 0.655,
+       "twin_joint_success": 0.474,
+       "success_ACa": 0.474,
+       "success_ACl": 0.836,
+       "calls": 3.289
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-CAW|success": [
+     -0.039,
+     [
+      -0.08,
+      -0.002
+     ],
+     116
+    ],
+    "CAW2-CAW|disc": [
+     -0.017,
+     [
+      -0.082,
+      0.043
+     ],
+     116
+    ],
+    "CAW2-CAW|check": [
+     0.069,
+     [
+      0.017,
+      0.121
+     ],
+     116
+    ],
+    "CAW2-SYN32|success": [
+     0.054,
+     [
+      0.018,
+      0.089
+     ],
+     116
+    ],
+    "CAW2-SYN32|disc": [
+     0.157,
+     [
+      0.098,
+      0.217
+     ],
+     116
+    ],
+    "CAW2-SYN32|check": [
+     0.208,
+     [
+      0.131,
+      0.289
+     ],
+     116
+    ],
+    "CAW2-piB|success": [
+     0.192,
+     [
+      0.136,
+      0.246
+     ],
+     116
+    ],
+    "CAW2-piB|disc": [
+     0.539,
+     [
+      0.457,
+      0.616
+     ],
+     116
+    ],
+    "CAW2-piB|check": [
+     0.879,
+     [
+      0.832,
+      0.922
+     ],
+     116
+    ],
+    "CAW-SYN32|success": [
+     0.093,
+     [
+      0.057,
+      0.129
+     ],
+     116
+    ],
+    "CAW-SYN32|disc": [
+     0.174,
+     [
+      0.106,
+      0.243
+     ],
+     116
+    ],
+    "CAW-SYN32|check": [
+     0.139,
+     [
+      0.036,
+      0.244
+     ],
+     116
+    ],
+    "CAW-piB|success": [
+     0.231,
+     [
+      0.172,
+      0.287
+     ],
+     116
+    ],
+    "CAW-piB|disc": [
+     0.556,
+     [
+      0.47,
+      0.642
+     ],
+     116
+    ],
+    "CAW-piB|check": [
+     0.81,
+     [
+      0.741,
+      0.875
+     ],
+     116
+    ]
+   }
+  },
+  "all_diagnostic|unseen_wordings": {
+   "n_tasks": 116,
+   "arms": {
+    "piB": {
+     "check": 0.0,
+     "dec_ACa": 0.004,
+     "dec_ACl": 0.987,
+     "twin_discrim": 0.0,
+     "success": 0.448,
+     "twin_joint_success": 0.017,
+     "success_ACa": 0.017,
+     "success_ACl": 0.879,
+     "calls": 2.642,
+     "per_seed": [
+      {
+       "n": 464,
+       "check": 0.0,
+       "first": {
+        "retry": 458,
+        "never_called": 4,
+        "stop": 2
+       },
+       "dec_ACa": 0.004,
+       "dec_ACl": 0.987,
+       "twin_discrim": 0.0,
+       "success": 0.448,
+       "twin_joint_success": 0.017,
+       "success_ACa": 0.017,
+       "success_ACl": 0.879,
+       "calls": 2.642
+      }
+     ]
+    },
+    "SYN32": {
+     "check": 0.68,
+     "dec_ACa": 0.56,
+     "dec_ACl": 0.885,
+     "twin_discrim": 0.461,
+     "success": 0.631,
+     "twin_joint_success": 0.398,
+     "success_ACa": 0.476,
+     "success_ACl": 0.786,
+     "calls": 3.09,
+     "per_seed": [
+      {
+       "n": 464,
+       "check": 0.591,
+       "first": {
+        "stop": 96,
+        "check": 274,
+        "retry": 86,
+        "never_called": 8
+       },
+       "dec_ACa": 0.642,
+       "dec_ACl": 0.746,
+       "twin_discrim": 0.405,
+       "success": 0.601,
+       "twin_joint_success": 0.349,
+       "success_ACa": 0.543,
+       "success_ACl": 0.659,
+       "calls": 2.804
+      },
+      {
+       "n": 464,
+       "check": 0.759,
+       "first": {
+        "check": 352,
+        "retry": 96,
+        "never_called": 8,
+        "stop": 8
+       },
+       "dec_ACa": 0.517,
+       "dec_ACl": 0.944,
+       "twin_discrim": 0.478,
+       "success": 0.636,
+       "twin_joint_success": 0.409,
+       "success_ACa": 0.435,
+       "success_ACl": 0.836,
+       "calls": 3.349
+      },
+      {
+       "n": 464,
+       "check": 0.692,
+       "first": {
+        "check": 321,
+        "retry": 137,
+        "never_called": 4,
+        "other": 2
+       },
+       "dec_ACa": 0.522,
+       "dec_ACl": 0.966,
+       "twin_discrim": 0.5,
+       "success": 0.655,
+       "twin_joint_success": 0.435,
+       "success_ACa": 0.448,
+       "success_ACl": 0.862,
+       "calls": 3.116
+      }
+     ]
+    },
+    "CAW": {
+     "check": 0.843,
+     "dec_ACa": 0.659,
+     "dec_ACl": 0.927,
+     "twin_discrim": 0.599,
+     "success": 0.704,
+     "twin_joint_success": 0.539,
+     "success_ACa": 0.58,
+     "success_ACl": 0.828,
+     "calls": 3.512,
+     "per_seed": [
+      {
+       "n": 464,
+       "check": 0.836,
+       "first": {
+        "check": 388,
+        "never_called": 4,
+        "other": 64,
+        "stop": 2,
+        "retry": 6
+       },
+       "dec_ACa": 0.659,
+       "dec_ACl": 0.94,
+       "twin_discrim": 0.608,
+       "success": 0.698,
+       "twin_joint_success": 0.53,
+       "success_ACa": 0.569,
+       "success_ACl": 0.828,
+       "calls": 3.485
+      },
+      {
+       "n": 464,
+       "check": 0.849,
+       "first": {
+        "check": 394,
+        "stop": 10,
+        "never_called": 4,
+        "other": 52,
+        "retry": 4
+       },
+       "dec_ACa": 0.659,
+       "dec_ACl": 0.914,
+       "twin_discrim": 0.591,
+       "success": 0.709,
+       "twin_joint_success": 0.547,
+       "success_ACa": 0.591,
+       "success_ACl": 0.828,
+       "calls": 3.539
+      }
+     ]
+    },
+    "CAW2": {
+     "check": 0.907,
+     "dec_ACa": 0.638,
+     "dec_ACl": 0.948,
+     "twin_discrim": 0.601,
+     "success": 0.664,
+     "twin_joint_success": 0.496,
+     "success_ACa": 0.539,
+     "success_ACl": 0.789,
+     "calls": 3.445,
+     "per_seed": [
+      {
+       "n": 464,
+       "check": 0.931,
+       "first": {
+        "check": 432,
+        "never_called": 4,
+        "other": 16,
+        "retry": 12
+       },
+       "dec_ACa": 0.616,
+       "dec_ACl": 0.953,
+       "twin_discrim": 0.586,
+       "success": 0.647,
+       "twin_joint_success": 0.461,
+       "success_ACa": 0.522,
+       "success_ACl": 0.772,
+       "calls": 3.511
+      },
+      {
+       "n": 464,
+       "check": 0.884,
+       "first": {
+        "check": 410,
+        "never_called": 4,
+        "other": 46,
+        "retry": 4
+       },
+       "dec_ACa": 0.659,
+       "dec_ACl": 0.944,
+       "twin_discrim": 0.616,
+       "success": 0.681,
+       "twin_joint_success": 0.53,
+       "success_ACa": 0.556,
+       "success_ACl": 0.806,
+       "calls": 3.379
+      }
+     ]
+    }
+   },
+   "diffs": {
+    "CAW2-CAW|success": [
+     -0.04,
+     [
+      -0.073,
+      -0.01
+     ],
+     116
+    ],
+    "CAW2-CAW|disc": [
+     0.002,
+     [
+      -0.045,
+      0.047
+     ],
+     116
+    ],
+    "CAW2-CAW|check": [
+     0.065,
+     [
+      0.026,
+      0.103
+     ],
+     116
+    ],
+    "CAW2-SYN32|success": [
+     0.033,
+     [
+      0.003,
+      0.061
+     ],
+     116
+    ],
+    "CAW2-SYN32|disc": [
+     0.14,
+     [
+      0.098,
+      0.182
+     ],
+     116
+    ],
+    "CAW2-SYN32|check": [
+     0.227,
+     [
+      0.17,
+      0.287
+     ],
+     116
+    ],
+    "CAW2-piB|success": [
+     0.216,
+     [
+      0.162,
+      0.267
+     ],
+     116
+    ],
+    "CAW2-piB|disc": [
+     0.601,
+     [
+      0.526,
+      0.672
+     ],
+     116
+    ],
+    "CAW2-piB|check": [
+     0.907,
+     [
+      0.866,
+      0.942
+     ],
+     116
+    ],
+    "CAW-SYN32|success": [
+     0.073,
+     [
+      0.045,
+      0.102
+     ],
+     116
+    ],
+    "CAW-SYN32|disc": [
+     0.138,
+     [
+      0.088,
+      0.19
+     ],
+     116
+    ],
+    "CAW-SYN32|check": [
+     0.162,
+     [
+      0.088,
+      0.236
+     ],
+     116
+    ],
+    "CAW-piB|success": [
+     0.255,
+     [
+      0.202,
+      0.309
+     ],
+     116
+    ],
+    "CAW-piB|disc": [
+     0.599,
+     [
+      0.517,
+      0.679
+     ],
+     116
+    ],
+    "CAW-piB|check": [
+     0.843,
+     [
+      0.787,
+      0.897
+     ],
+     116
+    ]
+   }
+  },
+  "S1_given_S0": {
+   "piB": [
+    1.0
+   ],
+   "SYN32": [
+    0.99,
+    1.0,
+    1.0
+   ],
+   "CAW": [
+    1.0,
+    0.97
+   ],
+   "CAW2": [
+    0.95,
+    0.99
+   ]
+  }
+ },
+ "original": {
+  "B": [
+   {
+    "B_s0.jsonl": {
+     "test": {
+      "overall_reported": 0.872,
+      "S0": 0.907,
+      "S1": 0.884,
+      "S2": 0.783,
+      "S3": 0.93
+     },
+     "heldout": {
+      "overall_reported": 0.732,
+      "S0": 0.693,
+      "S1": 0.681,
+      "S2": 0.611,
+      "S3": 0.927
+     }
+    }
+   },
+   {
+    "B_s1.jsonl": {
+     "test": {
+      "overall_reported": 0.858,
+      "S0": 0.907,
+      "S1": 0.884,
+      "S2": 0.752,
+      "S3": 0.907
+     },
+     "heldout": {
+      "overall_reported": 0.73,
+      "S0": 0.684,
+      "S1": 0.684,
+      "S2": 0.602,
+      "S3": 0.904
+     }
+    }
+   },
+   {
+    "B_s2.jsonl": {
+     "test": {
+      "overall_reported": 0.867,
+      "S0": 0.907,
+      "S1": 0.891,
+      "S2": 0.791,
+      "S3": 0.915
+     },
+     "heldout": {
+      "overall_reported": 0.731,
+      "S0": 0.693,
+      "S1": 0.69,
+      "S2": 0.611,
+      "S3": 0.909
+     }
+    }
+   }
+  ],
+  "CAW": [
+   {
+    "CAW64_s0.jsonl": {
+     "test": {
+      "overall_reported": 0.837,
+      "S0": 0.86,
+      "S1": 0.829,
+      "S2": 0.791,
+      "S3": 0.775
+     },
+     "heldout": {
+      "overall_reported": 0.725,
+      "S0": 0.684,
+      "S1": 0.696,
+      "S2": 0.637,
+      "S3": 0.842
+     }
+    }
+   },
+   {
+    "CAW64_s1.jsonl": {
+     "test": {
+      "overall_reported": 0.756,
+      "S0": 0.884,
+      "S1": 0.822,
+      "S2": 0.543,
+      "S3": 0.767
+     },
+     "heldout": {
+      "overall_reported": 0.682,
+      "S0": 0.64,
+      "S1": 0.675,
+      "S2": 0.564,
+      "S3": 0.854
+     }
+    }
+   }
+  ],
+  "CAW2": [
+   {
+    "CAW2_s0.jsonl": {
+     "test": {
+      "overall_reported": 0.856,
+      "S0": 0.814,
+      "S1": 0.829,
+      "S2": 0.806,
+      "S3": 1.0
+     },
+     "heldout": {
+      "overall_reported": 0.728,
+      "S0": 0.649,
+      "S1": 0.687,
+      "S2": 0.673,
+      "S3": 0.898
+     }
+    }
+   },
+   {
+    "CAW2_s1.jsonl": {
+     "test": {
+      "overall_reported": 0.9,
+      "S0": 0.86,
+      "S1": 0.884,
+      "S2": 0.868,
+      "S3": 1.0
+     },
+     "heldout": {
+      "overall_reported": 0.726,
+      "S0": 0.632,
+      "S1": 0.661,
+      "S2": 0.652,
+      "S3": 0.918
+     }
+    }
+   }
+  ]
+ },
+ "notes": [
+  "missing rep\\replication\\s0_rerun1\\B_s0.jsonl"
+ ]
+}
