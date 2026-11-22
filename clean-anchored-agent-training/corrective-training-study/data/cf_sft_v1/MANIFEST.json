@@ -1,0 +1,120 @@
+{
+ "version": "cf_sft_v1",
+ "K": 320,
+ "quota": {
+  "cf": {
+   "ff_call": 20,
+   "finish_after_success": 20,
+   "retry_reject": 20,
+   "retry_idem": 30,
+   "retry_keyed": 30,
+   "check_needed": 35,
+   "post_check_finish": 25,
+   "post_check_reissue": 25,
+   "escalate": 45,
+   "reconcile_retry": 25,
+   "reconcile_reverse": 25,
+   "reconcile_finish": 20
+  },
+  "ctrl": {
+   "ff_call": 40,
+   "finish_after_success": 40,
+   "retry_reject": 40,
+   "check_after_timeout": 80,
+   "post_check_finish": 60,
+   "post_check_reissue": 60
+  }
+ },
+ "n_base": 1029,
+ "train_specs": 5040,
+ "cf_trajectories": 5040,
+ "ctrl_trajectories": 4560,
+ "ctrl_specs_excluded_unsafe_cells": 480,
+ "cf_pool_unique": 7320,
+ "ctrl_pool_unique": 8400,
+ "arms": {
+  "CF": {
+   "n": 1349,
+   "sha256": "77a5ab03b38c8fa404965098067732ae5b0e9990c1367ccfb0a7d7537cade1a5",
+   "added_by_role": {
+    "ff_call": 20,
+    "finish_after_success": 20,
+    "retry_reject": 20,
+    "retry_idem": 30,
+    "retry_keyed": 30,
+    "check_needed": 35,
+    "post_check_finish": 25,
+    "post_check_reissue": 25,
+    "escalate": 45,
+    "reconcile_retry": 25,
+    "reconcile_reverse": 25,
+    "reconcile_finish": 20
+   },
+   "added_by_effect": {
+    "idem": 53,
+    "keyed": 53,
+    "nonidem": 214
+   },
+   "added_by_verifier": {
+    "stale": 127,
+    "none": 65,
+    "decisive": 128
+   },
+   "added_families": 30
+  },
+  "CTRL": {
+   "n": 1349,
+   "sha256": "416bd3472d39b4db0ea78471ad484790b07d2754592fed9b7ba22b35161d75fb",
+   "added_by_role": {
+    "ff_call": 40,
+    "finish_after_success": 40,
+    "retry_reject": 40,
+    "check_after_timeout": 80,
+    "post_check_finish": 60,
+    "post_check_reissue": 60
+   },
+   "added_by_effect": {
+    "idem": 146,
+    "keyed": 105,
+    "nonidem": 69
+   },
+   "added_by_verifier": {
+    "stale": 94,
+    "none": 48,
+    "decisive": 178
+   },
+   "added_families": 30
+  },
+  "ABL": {
+   "n": 1349,
+   "sha256": "aa93d2860c2aaa40c91def27a7a17910f7c8408c1d464ac1a5565de25b831a95",
+   "added_by_role": {
+    "ff_call": 20,
+    "finish_after_success": 20,
+    "retry_reject": 20,
+    "retry_idem": 30,
+    "retry_keyed": 30,
+    "check_needed": 35,
+    "post_check_finish": 25,
+    "post_check_reissue": 25,
+    "escalate": 45,
+    "reconcile_retry": 25,
+    "reconcile_reverse": 25,
+    "reconcile_finish": 20
+   },
+   "added_by_effect": {
+    "idem": 53,
+    "keyed": 53,
+    "nonidem": 214
+   },
+   "added_by_verifier": {
+    "stale": 127,
+    "none": 65,
+    "decisive": 128
+   },
+   "added_families": 30
+  }
+ },
+ "cf_disagrees_with_caw": 155,
+ "cf_disagree_and_caw_fails": 95
+}
