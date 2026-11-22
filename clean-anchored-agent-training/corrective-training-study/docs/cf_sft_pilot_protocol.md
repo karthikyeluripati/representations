@@ -186,3 +186,10 @@ See `cf_pilot_stage0_results.md`:
 - **Every baseline, under every prompt:** E2 = 0, E1 = 0.50, T1 M1 = 0, safe escalation 0, reconcile 0.
 - **Archive:** `pod_backups/cf_pilot_stage0_20261122.tgz` (sha256 `c762872e…`).
 - **Stage 1 is not started.** It needs authorization.
+
+## Result, stage 1 (2026-11-22; appended after inference; nothing above was changed)
+See `cf_pilot_stage1_results.md`. The futility gate passed on all four checks: **CONTINUE TO STAGE 2**.
+- **CF_s0:** E2 0.481; E1 0.722 (+0.222 vs CTRL); fault-free 0.996; feasible 0.961 vs CTRL 0.951.
+- **Weaknesses observed (not gate results):** safe escalation 0.125; T1 E3 0.087.
+- **Archive:** `pod_backups/cf_pilot_stage1_20261122.tgz` (sha256 `d1ccf583…`). Cost about $12.9.
+- **Stage 2 is not started.** It needs authorization (protocol estimate ≈ $50, cap $58).

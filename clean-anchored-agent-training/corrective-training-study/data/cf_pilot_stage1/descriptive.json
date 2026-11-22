@@ -1,0 +1,318 @@
+{
+ "paired_CF_minus_CTRL": {
+  "A_effect_sensitivity": [
+   0.481,
+   [
+    0.463,
+    0.5
+   ],
+   20
+  ],
+  "hc_outcome_twin_correct": [
+   0.222,
+   [
+    0.209,
+    0.234
+   ],
+   20
+  ],
+  "infeasible_safe_escalation": [
+   0.125,
+   [
+    0.125,
+    0.125
+   ],
+   20
+  ],
+  "reconcile_twin_correct": [
+   0.944,
+   [
+    0.919,
+    0.969
+   ],
+   20
+  ],
+  "outcome_twin_correct": [
+   0.055,
+   [
+    0.047,
+    0.062
+   ],
+   20
+  ],
+  "feasible_end_state": [
+   0.01,
+   [
+    0.004,
+    0.015
+   ],
+   20
+  ],
+  "unnecessary_check_rate": [
+   -0.619,
+   [
+    -0.627,
+    -0.612
+   ],
+   20
+  ],
+  "excess_calls": [
+   -0.42,
+   [
+    -0.438,
+    -0.397
+   ],
+   20
+  ],
+  "fault_free_success": [
+   -0.004,
+   [
+    -0.011,
+    0.0
+   ],
+   20
+  ],
+  "decision_accuracy": [
+   0.02,
+   [
+    0.014,
+    0.025
+   ],
+   20
+  ]
+ },
+ "CF_minus_CAW2_T1": {
+  "A_effect_sensitivity": [
+   0.087,
+   [
+    0.044,
+    0.138
+   ],
+   20
+  ],
+  "infeasible_safe_escalation": [
+   0.116,
+   [
+    0.069,
+    0.159
+   ],
+   20
+  ],
+  "twin_joint_history": [
+   0.044,
+   [
+    -0.013,
+    0.106
+   ],
+   20
+  ],
+  "feasible_end_state": [
+   -0.004,
+   [
+    -0.014,
+    0.007
+   ],
+   20
+  ],
+  "unnecessary_check_rate": [
+   -0.331,
+   [
+    -0.35,
+    -0.313
+   ],
+   20
+  ]
+ },
+ "fault_free_raw": {
+  "T2|CF_s0": {
+   "n_fault_free": 720,
+   "goal_state": 720,
+   "no_dup": 720,
+   "no_escalate": 717,
+   "correct": 717,
+   "mean_calls": 1.017,
+   "min_calls": 1.0
+  },
+  "T2|CTRL_s0": {
+   "n_fault_free": 720,
+   "goal_state": 720,
+   "no_dup": 720,
+   "no_escalate": 720,
+   "correct": 720,
+   "mean_calls": 1.0,
+   "min_calls": 1.0
+  },
+  "T1|CF_s0": {
+   "n_fault_free": 320,
+   "goal_state": 320,
+   "no_dup": 320,
+   "no_escalate": 320,
+   "correct": 320,
+   "mean_calls": 1.066,
+   "min_calls": 1.0
+  },
+  "T1|CTRL_s0": {
+   "n_fault_free": 320,
+   "goal_state": 320,
+   "no_dup": 320,
+   "no_escalate": 320,
+   "correct": 320,
+   "mean_calls": 1.0,
+   "min_calls": 1.0
+  }
+ },
+ "cells": {
+  "CF_s0": {
+   "HO|keyed|none|absent|none": [
+    1.0,
+    40
+   ],
+   "HO|keyed|none|absent|reject": [
+    1.0,
+    40
+   ],
+   "HO|keyed|none|absent|timeout": [
+    1.0,
+    160
+   ],
+   "HO|keyed|none|present|none": [
+    1.0,
+    40
+   ],
+   "HO|keyed|none|present|reject": [
+    1.0,
+    40
+   ],
+   "HO|keyed|none|present|timeout": [
+    1.0,
+    160
+   ],
+   "HO|nonidem|none|present|none": [
+    1.0,
+    40
+   ],
+   "HO|nonidem|none|present|reject": [
+    1.0,
+    40
+   ],
+   "HO|nonidem|none|present|timeout": [
+    0.944,
+    160
+   ],
+   "HO|nonidem|stale|absent|none": [
+    1.0,
+    40
+   ],
+   "HO|nonidem|stale|absent|reject": [
+    1.0,
+    40
+   ],
+   "HO|nonidem|stale|absent|timeout": [
+    0.0,
+    160
+   ],
+   "oracle|check_then_branch": [
+    0.809,
+    320
+   ],
+   "oracle|do_once": [
+    0.996,
+    720
+   ],
+   "oracle|escalate": [
+    0.125,
+    320
+   ],
+   "oracle|reconcile": [
+    0.972,
+    320
+   ],
+   "oracle|reissue": [
+    0.965,
+    1680
+   ],
+   "oracle|reissue_same_key": [
+    1.0,
+    960
+   ]
+  },
+  "CTRL_s0": {
+   "HO|keyed|none|absent|none": [
+    1.0,
+    40
+   ],
+   "HO|keyed|none|absent|reject": [
+    1.0,
+    40
+   ],
+   "HO|keyed|none|absent|timeout": [
+    1.0,
+    160
+   ],
+   "HO|keyed|none|present|none": [
+    1.0,
+    40
+   ],
+   "HO|keyed|none|present|reject": [
+    1.0,
+    40
+   ],
+   "HO|keyed|none|present|timeout": [
+    1.0,
+    160
+   ],
+   "HO|nonidem|none|present|none": [
+    1.0,
+    40
+   ],
+   "HO|nonidem|none|present|reject": [
+    1.0,
+    40
+   ],
+   "HO|nonidem|none|present|timeout": [
+    0.5,
+    160
+   ],
+   "HO|nonidem|stale|absent|none": [
+    1.0,
+    40
+   ],
+   "HO|nonidem|stale|absent|reject": [
+    1.0,
+    40
+   ],
+   "HO|nonidem|stale|absent|timeout": [
+    0.0,
+    160
+   ],
+   "oracle|check_then_branch": [
+    1.0,
+    320
+   ],
+   "oracle|do_once": [
+    1.0,
+    720
+   ],
+   "oracle|escalate": [
+    0.0,
+    320
+   ],
+   "oracle|reconcile": [
+    0.5,
+    320
+   ],
+   "oracle|reissue": [
+    1.0,
+    1680
+   ],
+   "oracle|reissue_same_key": [
+    1.0,
+    960
+   ]
+  }
+ },
+ "CF_escalate_first_action": {
+  "('reissue', None)": 280,
+  "('escalate', None)": 40
+ }
+}

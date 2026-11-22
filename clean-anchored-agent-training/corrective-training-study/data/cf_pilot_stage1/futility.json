@@ -1,0 +1,486 @@
+{
+ "stage": "futility",
+ "arms": {
+  "CF": {
+   "T2": {
+    "A_effect_sensitivity": {
+     "mean": 0.481,
+     "ci": [
+      0.463,
+      0.5
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.481
+     }
+    },
+    "hc_outcome_twin_correct": {
+     "mean": 0.722,
+     "ci": [
+      0.709,
+      0.734
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.722
+     }
+    },
+    "feasible_end_state": {
+     "mean": 0.961,
+     "ci": [
+      0.955,
+      0.966
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.961
+     }
+    },
+    "fault_free_success": {
+     "mean": 0.996,
+     "ci": [
+      0.989,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.996
+     }
+    },
+    "premature_escalation": {
+     "mean": 0.024,
+     "ci": [
+      0.019,
+      0.03
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.024
+     }
+    },
+    "decision_accuracy": {
+     "mean": 0.887,
+     "ci": [
+      0.881,
+      0.892
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.887
+     }
+    },
+    "outcome_twin_correct": {
+     "mean": 0.833,
+     "ci": [
+      0.825,
+      0.84
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.833
+     }
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.125,
+     "ci": [
+      0.125,
+      0.125
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.125
+     }
+    },
+    "reconcile_twin_correct": {
+     "mean": 0.944,
+     "ci": [
+      0.919,
+      0.969
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.944
+     }
+    },
+    "keyed_retry_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 1.0
+     }
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.021,
+     "ci": [
+      0.014,
+      0.029
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.021
+     }
+    },
+    "excess_calls": {
+     "mean": 0.062,
+     "ci": [
+      0.046,
+      0.085
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.062
+     }
+    },
+    "initial_decision_correct": {
+     "mean": 0.878,
+     "ci": [
+      0.875,
+      0.881
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.878
+     }
+    },
+    "post_check_interpretation": {
+     "mean": 0.944,
+     "ci": [
+      0.898,
+      0.981
+     ],
+     "n_clusters": 19,
+     "per_seed": {
+      "CF_s0": 0.944
+     }
+    },
+    "B_name_consistency": {
+     "mean": 0.851,
+     "ci": [
+      0.832,
+      0.868
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.851
+     }
+    }
+   },
+   "T1": {
+    "A_effect_sensitivity": {
+     "mean": 0.087,
+     "ci": [
+      0.044,
+      0.138
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.087
+     }
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.119,
+     "ci": [
+      0.069,
+      0.163
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.119
+     }
+    },
+    "twin_joint_history": {
+     "mean": 0.988,
+     "ci": [
+      0.963,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.988
+     }
+    },
+    "feasible_end_state": {
+     "mean": 0.989,
+     "ci": [
+      0.981,
+      0.997
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.989
+     }
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 1.0
+     }
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.217,
+     "ci": [
+      0.208,
+      0.227
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CF_s0": 0.217
+     }
+    }
+   }
+  },
+  "CTRL": {
+   "T2": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.0
+     }
+    },
+    "hc_outcome_twin_correct": {
+     "mean": 0.5,
+     "ci": [
+      0.5,
+      0.5
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.5
+     }
+    },
+    "feasible_end_state": {
+     "mean": 0.951,
+     "ci": [
+      0.951,
+      0.951
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.951
+     }
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 1.0
+     }
+    },
+    "premature_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.0
+     }
+    },
+    "decision_accuracy": {
+     "mean": 0.867,
+     "ci": [
+      0.867,
+      0.867
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.867
+     }
+    },
+    "outcome_twin_correct": {
+     "mean": 0.778,
+     "ci": [
+      0.778,
+      0.778
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.778
+     }
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.0
+     }
+    },
+    "reconcile_twin_correct": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.0
+     }
+    },
+    "keyed_retry_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 1.0
+     }
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.641,
+     "ci": [
+      0.64,
+      0.642
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.641
+     }
+    },
+    "excess_calls": {
+     "mean": 0.483,
+     "ci": [
+      0.482,
+      0.484
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.483
+     }
+    },
+    "initial_decision_correct": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 1.0
+     }
+    },
+    "post_check_interpretation": {
+     "mean": 0.889,
+     "ci": [
+      0.889,
+      0.889
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.889
+     }
+    },
+    "B_name_consistency": {
+     "mean": 0.997,
+     "ci": [
+      0.995,
+      0.999
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.997
+     }
+    }
+   },
+   "T1": {
+    "A_effect_sensitivity": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.0
+     }
+    },
+    "infeasible_safe_escalation": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.0
+     }
+    },
+    "twin_joint_history": {
+     "mean": 0.963,
+     "ci": [
+      0.9,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.963
+     }
+    },
+    "feasible_end_state": {
+     "mean": 0.996,
+     "ci": [
+      0.99,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.996
+     }
+    },
+    "fault_free_success": {
+     "mean": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 1.0
+     }
+    },
+    "unnecessary_check_rate": {
+     "mean": 0.6,
+     "ci": [
+      0.6,
+      0.6
+     ],
+     "n_clusters": 20,
+     "per_seed": {
+      "CTRL_s0": 0.6
+     }
+    }
+   }
+  }
+ },
+ "futility_checks": {
+  "CF_E2_ge_0.40": true,
+  "CF_minus_CTRL_E2_ge_0.20": true,
+  "CF_fault_free_ge_0.95": true,
+  "CF_feasible_not_below_CTRL_by_0.05": true
+ },
+ "decision": "CONTINUE TO STAGE 2"
+}

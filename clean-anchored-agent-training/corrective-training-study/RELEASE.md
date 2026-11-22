@@ -67,6 +67,7 @@ Archives are in `../../pod_backups/`. Each holds per-episode traces, summaries, 
 | `synth_analysis_scaling_20261121.json` | — |
 | `semcf_eval_20261122.tgz` (semantic-counterfactual evaluation) | 2c6dc99b |
 | `cf_pilot_stage0_20261122.tgz` (CF-SFT pilot stage 0: prompt selection, baselines) | c762872e |
+| `cf_pilot_stage1_20261122.tgz` (CF-SFT pilot stage 1: CF_s0, CTRL_s0 traces, logs, configs) | d1ccf583 |
 
 ## Pre-registration practice
 - **Each study** has a document that fixes its primary metric, matched baseline and decision rule **before training**.
