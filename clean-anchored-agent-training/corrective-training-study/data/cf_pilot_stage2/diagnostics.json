@@ -1,0 +1,227 @@
+{
+ "E2_by_compensation": {
+  "CF_s0": {
+   "absent": 0.019,
+   "present": 0.944,
+   "pooled": 0.481
+  },
+  "CF_s1": {
+   "absent": 0.1,
+   "present": 0.956,
+   "pooled": 0.528
+  },
+  "CF_s2": {
+   "absent": 0.025,
+   "present": 1.0,
+   "pooled": 0.512
+  },
+  "ABL_s0": {
+   "absent": 0.006,
+   "present": 1.0,
+   "pooled": 0.503
+  },
+  "ABL_s1": {
+   "absent": 0.013,
+   "present": 1.0,
+   "pooled": 0.506
+  },
+  "CTRL_s0": {
+   "absent": 0.0,
+   "present": 0.0,
+   "pooled": 0.0
+  },
+  "CTRL_s1": {
+   "absent": 0.0,
+   "present": 0.0,
+   "pooled": 0.0
+  },
+  "CTRL_s2": {
+   "absent": 0.0,
+   "present": 0.0,
+   "pooled": 0.0
+  },
+  "CAW2_s0": {
+   "absent": 0.0,
+   "present": 0.0,
+   "pooled": 0.0
+  },
+  "CAW2_s1": {
+   "absent": 0.0,
+   "present": 0.0,
+   "pooled": 0.0
+  }
+ },
+ "comp_absent_nondecisive_timeouts": {
+  "CF_s0": {
+   "idem": {
+    "reissue": 282,
+    "escalate": 38
+   },
+   "keyed": {
+    "reissue_same_key": 320
+   },
+   "nonidem": {
+    "reissue": 280,
+    "escalate": 40
+   }
+  },
+  "CF_s1": {
+   "idem": {
+    "reissue": 242,
+    "escalate": 78
+   },
+   "keyed": {
+    "reissue_same_key": 318,
+    "other": 2
+   },
+   "nonidem": {
+    "reissue": 224,
+    "escalate": 96
+   }
+  },
+  "CF_s2": {
+   "idem": {
+    "reissue": 297,
+    "escalate": 23
+   },
+   "keyed": {
+    "reissue_same_key": 320
+   },
+   "nonidem": {
+    "reissue": 292,
+    "escalate": 28
+   }
+  },
+  "ABL_s0": {
+   "idem": {
+    "reissue": 306,
+    "escalate": 14
+   },
+   "keyed": {
+    "reissue_same_key": 320
+   },
+   "nonidem": {
+    "reissue": 310,
+    "escalate": 10
+   }
+  },
+  "ABL_s1": {
+   "idem": {
+    "reissue": 172,
+    "escalate": 148
+   },
+   "keyed": {
+    "reissue_same_key": 258,
+    "escalate": 62
+   },
+   "nonidem": {
+    "reissue": 167,
+    "escalate": 153
+   }
+  },
+  "CTRL_s0": {
+   "idem": {
+    "check+reissue": 320
+   },
+   "keyed": {
+    "check+reissue_same_key": 320
+   },
+   "nonidem": {
+    "check+reissue": 320
+   }
+  },
+  "CTRL_s1": {
+   "idem": {
+    "check+reissue": 320
+   },
+   "keyed": {
+    "check+reissue_same_key": 320
+   },
+   "nonidem": {
+    "check+reissue": 320
+   }
+  },
+  "CTRL_s2": {
+   "idem": {
+    "check+reissue": 320
+   },
+   "keyed": {
+    "check+reissue_same_key": 320
+   },
+   "nonidem": {
+    "check+reissue": 320
+   }
+  },
+  "CAW2_s0": {
+   "idem": {
+    "check+reissue": 316,
+    "other": 2,
+    "other+reissue": 2
+   },
+   "keyed": {
+    "check+reissue_same_key": 318,
+    "other+reissue_same_key": 2
+   },
+   "nonidem": {
+    "check+reissue": 316,
+    "other+reissue": 4
+   }
+  },
+  "CAW2_s1": {
+   "idem": {
+    "check+reissue": 320
+   },
+   "keyed": {
+    "check+reissue_same_key": 318,
+    "check+reissue": 2
+   },
+   "nonidem": {
+    "check+reissue": 320
+   }
+  }
+ },
+ "regression_per_seed": {
+  "CF_s0": {
+   "S0_test": 0.814,
+   "S0_heldout": 0.632,
+   "bfcl_heldout_implicit": 0.743,
+   "tau2_check": 0.615,
+   "tau2_success": 0.115
+  },
+  "CF_s1": {
+   "S0_test": 0.86,
+   "S0_heldout": 0.64,
+   "bfcl_heldout_implicit": 0.871,
+   "tau2_check": 0.538,
+   "tau2_success": 0.192
+  },
+  "CF_s2": {
+   "S0_test": 0.791,
+   "S0_heldout": 0.614,
+   "bfcl_heldout_implicit": 0.686,
+   "tau2_check": 0.615,
+   "tau2_success": 0.192
+  },
+  "CTRL_s0": {
+   "S0_test": 0.837,
+   "S0_heldout": 0.632,
+   "bfcl_heldout_implicit": 0.771,
+   "tau2_check": 0.385,
+   "tau2_success": 0.115
+  },
+  "CAW2_s0": {
+   "S0_test": 0.814,
+   "S0_heldout": 0.649,
+   "bfcl_heldout_implicit": 0.743,
+   "tau2_check": 0.692,
+   "tau2_success": 0.231
+  },
+  "CAW2_s1": {
+   "S0_test": 0.86,
+   "S0_heldout": 0.632,
+   "bfcl_heldout_implicit": 0.757,
+   "tau2_check": 1.0,
+   "tau2_success": 0.192
+  }
+ }
+}

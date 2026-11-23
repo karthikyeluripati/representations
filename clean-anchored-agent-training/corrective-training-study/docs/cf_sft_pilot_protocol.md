@@ -193,3 +193,15 @@ See `cf_pilot_stage1_results.md`. The futility gate passed on all four checks: *
 - **Weaknesses observed (not gate results):** safe escalation 0.125; T1 E3 0.087.
 - **Archive:** `pod_backups/cf_pilot_stage1_20261122.tgz` (sha256 `d1ccf583…`). Cost about $12.9.
 - **Stage 2 is not started.** It needs authorization (protocol estimate ≈ $50, cap $58).
+
+## Result, stage 2 (2026-11-23; appended after inference; nothing above was changed)
+See `cf_pilot_stage2_results.md`. **Decision: NO CLAIM.**
+- **S1 and S2:** pass.
+- **S3:** fail (T1 E3 0.069).
+- **S4:** fail (τ² check rate 0.590 vs CAW-v2 0.846).
+- **S5:** fail (CF − ABL on E2 +0.003).
+- **S6:** does not hold.
+
+**Descriptive finding:** E2 has a contract-free ceiling of about 0.5, through reconciliation with a reverse tool and the visible request_key. CF and ABL both sit at that ceiling. Where only the contract separates the effects, every seed scores ≤ 0.10 and acts the same regardless of effect.
+
+**Archive:** `pod_backups/cf_pilot_stage2_20261123.tgz` (sha256 `ca0024e9…`). Cost $32.77.
